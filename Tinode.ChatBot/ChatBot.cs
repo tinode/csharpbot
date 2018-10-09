@@ -313,11 +313,11 @@ namespace Tinode.ChatBot
         /// <summary>
         /// Chatbot version
         /// </summary>
-        public string AppVersion => "0.15.5";
+        public string AppVersion => "0.15.7";
         /// <summary>
         /// Chatbot library version
         /// </summary>
-        public string LibVersion => "0.15.5";
+        public string LibVersion => "0.15.7";
         /// <summary>
         /// Chatbot current platfrom information
         /// </summary>
