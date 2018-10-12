@@ -34,20 +34,14 @@ namespace Tinode.ChatBot.DemoNet46
         /// </summary>
         public class BotReponse : IBotResponse
         {
-            public string ThinkAndReply(ServerData message)
+            public ChatMessage ThinkAndReply(ServerData message)
             {
                 foreach (var sub in bot.Subscribers)
                 {
                     //Current account friends info
                 }
-                var ret = string.Empty;
-                var content = message.Content.ToStringUtf8();
-                //Parse message to structure object, you can handle image file msg with this
-                var chatMsg = MsgBuilder.Parse(message);
-                //Get formatted text, inlude \n 
-                var formattedText = chatMsg.GetFormattedText();
-                Console.WriteLine($"[*]New Message Text={formattedText}");
-                return chatMsg.ToString();
+                var responseMsg = MsgBuilder.Parse(message);
+                return responseMsg;
             }
 
         }
@@ -135,7 +129,8 @@ namespace Tinode.ChatBot.DemoNet46
         private static void Bot_ServerDataEvent(object sender, ChatBot.ServerDataEventArgs e)
         {
             //Console.WriteLine($"[Data Message] {e.Data.ToString()}");
-            bot.ClientPost(bot.PublishImage("usrVB4kfrzY8eA", e.Data.Content.ToStringUtf8()));
+            //var msg = MsgBuilder.BuildFileMessage("generate.txt", "text/plain", "ZHNmZHMKZmRzZmRzZnNkZgpm5Y+N5YCS5piv56a75byA5oi/6Ze055qE5LiK6K++5LqGCg==");
+            //bot.ClientPost(bot.Publish("usrVB4kfrzY8eA", msg));
         }
 
         private static void Console_CancelKeyPress(object sender, ConsoleCancelEventArgs e)

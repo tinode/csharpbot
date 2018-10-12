@@ -15,6 +15,6 @@ namespace Tinode.ChatBot
         /// </summary>
         /// <param name="message">message to chatbot</param>
         /// <returns>message reply by chatbot</returns>
-        string ThinkAndReply(ServerData message);
+        ChatMessage ThinkAndReply(ServerData message);
     }
 }

@@ -83,6 +83,10 @@ namespace Tinode.ChatBot
         /// <returns></returns>
         public string GetFormattedText()
         {
+            if (Text==null)
+            {
+                return null;
+            }
             var textArray = Text.ToCharArray();
             if (Fmt!=null)
             {
@@ -177,10 +181,28 @@ namespace Tinode.ChatBot
             return BuildImageMessage(imageName, mime, width, height, imageBase64, text);
         }
 
-        public static ChatMessage BuildFileMessage()
+        public static ChatMessage BuildFileMessage(string fileName, string mime, string contentBase64, string text = " ")
         {
             var msg = new ChatMessage();
+            msg.Text = text;
+            msg.Ent = new List<EntMessage>();
+            msg.Fmt = new List<FmtMessage>();
+            msg.Ent.Add(new EntMessage()
+            {
+                Tp = "EX",
+                Data = new EntData()
+                {
+                    Mime = mime,
+                   
+                    Name = fileName,
+                    Val = contentBase64,
 
+                }
+            });
+            msg.Fmt.Add(new FmtMessage()
+            {
+                Len = 1
+            });
             return msg;
         }
 
