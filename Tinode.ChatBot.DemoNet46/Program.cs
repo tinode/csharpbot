@@ -1,6 +1,7 @@
 ﻿using CommandLine;
 using Google.Protobuf;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using Pbx;
 using System;
 using System.Collections.Generic;
@@ -35,12 +36,18 @@ namespace Tinode.ChatBot.DemoNet46
         {
             public string ThinkAndReply(ServerData message)
             {
-                var ret = string.Empty;
                 foreach (var sub in bot.Subscribers)
                 {
-                    ret += $"{sub.Value.UserName}\r\n";
+                    //Current account friends info
                 }
-                return ret;
+                var ret = string.Empty;
+                var content = message.Content.ToStringUtf8();
+                //Parse message to structure object, you can handle image file msg with this
+                var chatMsg = MsgBuilder.Parse(message);
+                //Get formatted text, inlude \n 
+                var formattedText = chatMsg.GetFormattedText();
+                Console.WriteLine($"[*]New Message Text={formattedText}");
+                return chatMsg.ToString();
             }
 
         }
@@ -98,12 +105,37 @@ namespace Tinode.ChatBot.DemoNet46
                                return;
                            }
                        }
+                       bot.ServerDataEvent += Bot_ServerDataEvent;
+                       bot.ServerMetaEvent += Bot_ServerMetaEvent;
+                       bot.ServerPresEvent += Bot_ServerPresEvent;
+                       bot.CtrlMessageEvent += Bot_CtrlMessageEvent;
                        bot.BotResponse = new BotReponse();
                        bot.Start().Wait();
 
                        Console.WriteLine("[Bye Bye] ChatBot Stopped");
                    });
 
+        }
+
+        private static void Bot_CtrlMessageEvent(object sender, ChatBot.CtrlMessageEventArgs e)
+        {
+            //Console.WriteLine($"[Ctrl Message] {e.Code} {e.Id}  {e.Topic}  {e.Text}  {e.Params}  {e.Type}  {e.HasError}");
+        }
+
+        private static void Bot_ServerPresEvent(object sender, ChatBot.ServerPresEventArgs e)
+        {
+            //Console.WriteLine($"[Pres Message] {e.Pres.ToString()}");
+        }
+
+        private static void Bot_ServerMetaEvent(object sender, ChatBot.ServerMetaEventArgs e)
+        {
+            //Console.WriteLine($"[Meta Message] {e.Meta.ToString()}");
+        }
+
+        private static void Bot_ServerDataEvent(object sender, ChatBot.ServerDataEventArgs e)
+        {
+            //Console.WriteLine($"[Data Message] {e.Data.ToString()}");
+            bot.ClientPost(bot.PublishImage("usrVB4kfrzY8eA", e.Data.Content.ToStringUtf8()));
         }
 
         private static void Console_CancelKeyPress(object sender, ConsoleCancelEventArgs e)

@@ -750,6 +750,43 @@ namespace Tinode.ChatBot
             return new ClientMsg() { Pub = new ClientPub() { Id = tid, Topic = topic, NoEcho = true, Content = message } };
         }
 
+        public ClientMsg PublishImage(string topic,string text)
+        {
+            var tid = GetNextTid();
+            var content = new ChatMessage();
+            content.Text = "fdsfdsf ";
+            content.Ent = new List<EntMessage>();
+            content.Fmt = new List<FmtMessage>();
+            content.Ent.Add(new EntMessage()
+            {
+                Tp = "IM",
+                Data = new EntData()
+                {
+                    Mime = "image/jpeg",
+                    Width=32,
+                    Height=32,
+                    Name = "chat_32px_1208020_easyicon.net (1).jpg",
+                    Val = "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/2wBDAQMDAwQDBAgEBAgQCwkLEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBD/wAARCAAgACADASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAACAYJBAcK/8QAKhAAAQMCBQQDAAIDAAAAAAAAAQIDBQQRAAYHEjEIEyFBCRRhMlEWI2L/xAAXAQADAQAAAAAAAAAAAAAAAAAAAwQC/8QAJxEAAgEDAgMJAAAAAAAAAAAAAQIRAAMxIUEEEnETFCIjUVJhgZH/2gAMAwEAAhEDEQA/AKy8j6eZ41KmEwGQsrSU7IKF+xRMKdUB/ZtwP04f/SF8YlLmWFfzh1JRsvGud9bFJAJV9d0pTy66qxIBPAHNr3xvD4pMsZQjunJzM0OxTrm5SVqG5R8AF1Ib29tsnkJsb2/cMivq6ikS2qnjX6wrUUqDSkAoASo3O4jwSAnx7UPVyHgBMZqcsX6VWT1efGHR5bg2M4dN0dLyLwfQxVwClfYc2q8BxpVgbA8g8XvfAAzzpznrTOYMBn7KslBV4G7sVrCm1Ef2L8j9GOjWgq6mrQ4qpjH6IoUkJS6pCisFCVEjao8ElPn2k+rEjv5V8tZQkem3/I5lmnTNRcrToi3yAHT3CQ42DyUlIuR/yMBAfQ5oDFOlVm9PPVXq901yVS/p1KtKo5Ap+3G1bfdpn1DhW30r9FjhV0Py9avv0oW7pXlHel9mnUe7Ui+4Kubb/H8cBbTjOrunedYvOTMVSyS4x0uCmqf4Lukp59EXuD6IBxIKHNEBqDqkzW51ebgIOUkxVVrrA3raAB23WQSfPgqI9k2wvtQiln2+K1btXb/EiwigBo8RIAkmIPoNycUx6/5edYmaZSmdLcob1VD1Ok9ypNtoTY23+T5wVuoXqr1f6k5Gmd1Glm00ceT9WNpGu1TMKPKtvtX6bnGFQ5+gtINa28y5FZoc1QsDLfeokyLIKai6RuG6wIsb2VblINsRzWDUh7VzUeb1EfgqGGXMvJdNFRj/AFtWQlPNhuUdtybC5JOEd4uPdConllZnefbGcaz9VU/CrY5ldgXViIGoIG4ODrj9r//Z",
+                    
+                }
+            });
+            content.Fmt.Add(new FmtMessage()
+            {
+                Len = 1
+            });
+            var contentStr = JsonConvert.SerializeObject(content,new JsonSerializerSettings() {
+                NullValueHandling=NullValueHandling.Ignore
+            });
+          
+
+            var pub = new ClientPub() { Id = tid, Topic = topic, NoEcho = true,  Content = ByteString.CopyFromUtf8(contentStr) };
+            
+            pub.Head.Add("mime",ByteString.CopyFromUtf8("\"text/x-drafty\""));
+            var pubStr = JsonConvert.SerializeObject(pub);
+            return new ClientMsg() { Pub = pub };
+        }
+
+
         /// <summary>
         /// note read
         /// </summary>
