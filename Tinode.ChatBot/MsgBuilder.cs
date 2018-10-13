@@ -6,8 +6,15 @@ using System.Text;
 
 namespace Tinode.ChatBot
 {
+    /// <summary>
+    /// Nullable property for json serialization message base class.
+    /// </summary>
     public class MessageBase
     {
+        /// <summary>
+        /// override to json string
+        /// </summary>
+        /// <returns>json string </returns>
         public override string ToString()
         {
             return JsonConvert.SerializeObject(this, new JsonSerializerSettings()
@@ -17,6 +24,9 @@ namespace Tinode.ChatBot
         }
     }
 
+    /// <summary>
+    /// formatt control message
+    /// </summary>
     public class FmtMessage:MessageBase
     {
         [JsonProperty("at")]
@@ -33,6 +43,9 @@ namespace Tinode.ChatBot
         public int? Key { get; set; }
     }
 
+    /// <summary>
+    /// entity message
+    /// </summary>
     public class EntMessage:MessageBase
     {
         [JsonProperty("tp")]
@@ -42,6 +55,9 @@ namespace Tinode.ChatBot
         
     }
 
+    /// <summary>
+    /// entity data details
+    /// </summary>
     public class EntData:MessageBase
     {
         [JsonProperty("mime")]
@@ -63,24 +79,37 @@ namespace Tinode.ChatBot
 
       
     }
+
+    /// <summary>
+    /// Chat messaage
+    /// </summary>
     public class ChatMessage:MessageBase
     {
+        /// <summary>
+        /// message text part
+        /// </summary>
         [JsonProperty("txt")]
         public string Text { get; set; }
-
+        /// <summary>
+        /// message format information
+        /// </summary>
         [JsonProperty("fmt")]
         public List<FmtMessage> Fmt { get; set; }
-       
+       /// <summary>
+       /// message entity information
+       /// </summary>
         [JsonProperty("ent")]
         public List<EntMessage> Ent { get; set; }
-
+        /// <summary>
+        /// if this is a plain text message
+        /// </summary>
         [JsonIgnore]
         public bool IsPlainText { get;  set; }
 
         /// <summary>
         /// Get original text message, inlude original '\n' 
         /// </summary>
-        /// <returns></returns>
+        /// <returns>original message</returns>
         public string GetFormattedText()
         {
             if (Text==null)
@@ -106,8 +135,16 @@ namespace Tinode.ChatBot
        
     }
 
+    /// <summary>
+    /// Chat message builder
+    /// </summary>
     public class MsgBuilder
     {
+        /// <summary>
+        /// parse a raw ServerData to friendly ChatMessage
+        /// </summary>
+        /// <param name="message">raw messsage</param>
+        /// <returns>parsed chat message</returns>
         public static ChatMessage Parse(ServerData message)
         {
             ChatMessage chatMsg;
@@ -129,6 +166,12 @@ namespace Tinode.ChatBot
             return chatMsg;
         }
 
+        /// <summary>
+        /// try to parse a raw ServerData to friendly ChatMessage
+        /// </summary>
+        /// <param name="message">raw message</param>
+        /// <param name="chatMsg">parsed chat message</param>
+        /// <returns>success:true, else:false</returns>
         public static bool TryParse(ServerData message,out ChatMessage chatMsg)
         {
             try
@@ -143,6 +186,16 @@ namespace Tinode.ChatBot
             }
         }
 
+        /// <summary>
+        /// build a image chat message
+        /// </summary>
+        /// <param name="imageName">image file name</param>
+        /// <param name="mime">mime type.such as image/png</param>
+        /// <param name="width">image width</param>
+        /// <param name="height">image height</param>
+        /// <param name="imageBase64">iamge with base64 encode</param>
+        /// <param name="text">text message with the image</param>
+        /// <returns>image chat message</returns>
         public static ChatMessage BuildImageMessage(string imageName,string mime,int width,int height,string imageBase64,string text=" ")
         {
             var msg = new ChatMessage();
@@ -169,18 +222,14 @@ namespace Tinode.ChatBot
             return msg;
         }
 
-        public static ChatMessage BuildImageMessage(string imageFile, string text = " ")
-        {
-          
-            string mime=string.Empty;
-            int width = 0;
-            int height=0;
-            string imageName = string.Empty;
-            string imageBase64 = string.Empty;
-            //TODO:read image information from file
-            return BuildImageMessage(imageName, mime, width, height, imageBase64, text);
-        }
-
+        /// <summary>
+        /// build a file chat message
+        /// </summary>
+        /// <param name="fileName">file name</param>
+        /// <param name="mime">mime type, such as text/plain</param>
+        /// <param name="contentBase64">file with base64 encode</param>
+        /// <param name="text">text messaage with the file</param>
+        /// <returns>file chat message</returns>
         public static ChatMessage BuildFileMessage(string fileName, string mime, string contentBase64, string text = " ")
         {
             var msg = new ChatMessage();

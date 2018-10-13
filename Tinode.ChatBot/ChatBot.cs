@@ -194,6 +194,19 @@ namespace Tinode.ChatBot
         /// chatbot receive message data event
         /// </summary>
         public event EventHandler<ServerDataEventArgs> ServerDataEvent;
+        /// <summary>
+        /// Login success event
+        /// </summary>
+        public event EventHandler LoginSuccessEvent;
+        /// <summary>
+        /// Login failed event
+        /// </summary>
+        public event EventHandler LoginFailedEvent;
+        /// <summary>
+        /// When chatbot disconnected with the server event
+        /// </summary>
+        public event EventHandler DisconnectedEvent;
+
         void OnServerPresEvent(ServerPresEventArgs e)
         {
             var handler = ServerPresEvent;
@@ -228,6 +241,35 @@ namespace Tinode.ChatBot
             if (handler != null)
             {
                 handler(this, e);
+            }
+        }
+
+        void OnLoginEvent(bool isSuccess)
+        {
+            if (isSuccess)
+            {
+                var handler = LoginSuccessEvent;
+                if (handler!=null)
+                {
+                    handler(this, new EventArgs());
+                }
+            }
+            else
+            {
+                var handler = LoginFailedEvent;
+                if (handler != null)
+                {
+                    handler(this, new EventArgs());
+                }
+            }
+        }
+
+        void OnDisconnected()
+        {
+            var handler = DisconnectedEvent;
+            if (handler!=null)
+            {
+                handler(this, new EventArgs());
             }
         }
 
@@ -392,6 +434,16 @@ namespace Tinode.ChatBot
         }
 
         /// <summary>
+        /// Show log to console
+        /// </summary>
+        /// <param name="title">message title</param>
+        /// <param name="message">message content</param>
+        void Log(string title,string message)
+        {
+            Console.WriteLine($"[{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}] - [{title}] : {message}");
+        }
+
+        /// <summary>
         /// generate the next tid
         /// </summary>
         /// <returns>new tid</returns>
@@ -428,7 +480,6 @@ namespace Tinode.ChatBot
             ClientPost(Hello());
             ClientPost(Login(CookieFile, Schema, Secret));
             ClientPost(Subscribe("me"));
-            
             return stream;
         }
 
@@ -452,7 +503,7 @@ namespace Tinode.ChatBot
         /// <param name="paramaters">paramaters</param>
         public void ExecFuture(string tid,int code,string text, string topic, MapField<string,ByteString> paramaters)
         {
-            Console.WriteLine("Exec" + tid);
+            
             if (onCompletion.ContainsKey(tid))
             {
                 var bundle = onCompletion[tid];
@@ -466,10 +517,20 @@ namespace Tinode.ChatBot
                     {
                         ClientPost(GetSubs("me"));
                     }
+                    else if (type==FutureTypes.Login)
+                    {
+                        OnLoginEvent(true);
+                    }
+                   
+                    Log("Exec Future", $"Tid={tid} Code={code} Topic={topic} Text={text} Params={paramaters}  ...OK");
                 }
                 else
                 {
-                    Console.WriteLine($"Error:{code}, {text}");
+                    if (type == FutureTypes.Login)
+                    {
+                        OnLoginEvent(false);
+                    }
+                    Log("Exec Future", $"Tid={tid} Code={code} Topic={topic} Text={text} Params={paramaters}   ...Failed");
                 }
 
                 OnCtrlMessageEvent(type, tid, code, text, topic, paramaters);
@@ -522,7 +583,7 @@ namespace Tinode.ChatBot
             {
                 return;
             }
-            Console.WriteLine($"Server:{paramaters["build"].ToString(Encoding.ASCII)},{paramaters["ver"].ToString(Encoding.ASCII)}");
+            Log("Server Version",$"Server:{paramaters["build"].ToString(Encoding.ASCII)},{paramaters["ver"].ToString(Encoding.ASCII)}");
         }
 
         /// <summary>
@@ -563,7 +624,7 @@ namespace Tinode.ChatBot
             }
             catch (Exception e)
             {
-                Console.WriteLine($"Failed to save authentication cookie:{e}");
+                Log("On Login",$"Failed to save authentication cookie:{e}");
             }
 
         }
@@ -777,7 +838,7 @@ namespace Tinode.ChatBot
         {
             Task sendBackendTask = new Task(async () =>
             {
-                Console.WriteLine("Message send queue started...");
+                Log("Start Message Queue","Message send queue started...");
                 while (!cancellationTokenSource.IsCancellationRequested)
                 {
                     if (sendMsgQueue.Count > 0)
@@ -789,7 +850,7 @@ namespace Tinode.ChatBot
                         }
                         catch (Exception e)
                         {
-                            Console.WriteLine($"[Error] {e.Message} ,Failed message will be put back to queue...");
+                            Log("Send Message Error",$"{e.Message} ,Failed message will be put back to queue...");
                             sendMsgQueue.Enqueue(msg);
                             Thread.Sleep(1000);
                         }
@@ -801,7 +862,7 @@ namespace Tinode.ChatBot
                         Thread.Sleep(10);
                     }
                 }
-                Console.WriteLine("Detect cancel message,stop sending message...");
+                Log("User Cancel","Detect cancel message,stop sending message...");
             }, cancellationTokenSource.Token);
             sendBackendTask.Start();
 
@@ -822,7 +883,7 @@ namespace Tinode.ChatBot
                 var response = client.ResponseStream.Current;
                 if (response.Ctrl != null)
                 {
-                    Console.WriteLine($"Ctrl:{response.Ctrl.Id},{response.Ctrl.Code},{response.Ctrl.Text},{response.Ctrl.Params}");
+                    Log("Ctrl Message",$"ID={response.Ctrl.Id}  Code={response.Ctrl.Code}  Text={response.Ctrl.Text}  Params={response.Ctrl.Params}");
                     ExecFuture(response.Ctrl.Id, response.Ctrl.Code, response.Ctrl.Text, response.Ctrl.Topic, response.Ctrl.Params);
                 }
                 else if (response.Data != null)
@@ -892,7 +953,8 @@ namespace Tinode.ChatBot
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine($"Connection Closed:{e.Message}");
+                    Log("Connection Broken",$"Connection Closed:{e}");
+                    OnDisconnected();
                     Thread.Sleep(3000);
                     ClientReset();
                     client = InitClient();
@@ -906,7 +968,7 @@ namespace Tinode.ChatBot
         /// </summary>
         public void Stop()
         {
-            Console.WriteLine("[Exit] ChatBot is exiting...Wait a second...");
+            Log("Stopping","ChatBot is exiting...Wait a second...");
             cancellationTokenSource.Cancel();
             server.ShutdownAsync().Wait();
             channel.ShutdownAsync().Wait();
