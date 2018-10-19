@@ -137,7 +137,7 @@ namespace Tinode.ChatBot
         }
 
         /// <summary>
-        /// Chatbot subscribed user information
+        /// Chatbot subscribed user/group information
         /// </summary>
         public class Subscriber
         {
@@ -154,6 +154,10 @@ namespace Tinode.ChatBot
             /// </summary>
             public string PhotoData { get; set; }
             /// <summary>
+            /// subscribed user/group type, if user,this will be "user",else will be "group"
+            /// </summary>
+            public string Type { get; set; }
+            /// <summary>
             /// user photo image type
             /// </summary>
             public string PhotoType { get; set; }
@@ -166,12 +170,14 @@ namespace Tinode.ChatBot
             /// </summary>
             /// <param name="topic">topic</param>
             /// <param name="username"> user name/nick</param>
+            /// <param name="type">subscribed type, user or group?</param>
             /// <param name="photo"> user photo with base64 encode</param>
             /// <param name="photoType">user photo image type</param>
-            public Subscriber(string topic,string username,string photo,string photoType)
+            public Subscriber(string topic,string username,string type,string photo,string photoType)
             {
                 Topic = topic;
                 UserName = username;
+                Type = type;
                 PhotoData = photo;
                 PhotoType = photoType;
             }
@@ -558,6 +564,8 @@ namespace Tinode.ChatBot
             else
             {
                 Subscribers.Add(sub.Topic, sub);
+                //if the first, sub it ahead
+                ClientPost(Subscribe(sub.Topic));
             }
         }
 
@@ -638,17 +646,20 @@ namespace Tinode.ChatBot
                     var topic = sub.Topic;
                     var publicInfo = sub.Public.ToStringUtf8();
                     var subObj = JsonConvert.DeserializeObject<JObject>(publicInfo);
-                    var userName = subObj["fn"].ToString() ;
+                    string userName = topic;
+                    string type = subObj == null ? "group" : "user";
                     string photoData = string.Empty;
                     string photoType = string.Empty;
-                    if (subObj.ContainsKey("photo"))
+                    if (subObj != null)
                     {
-                        photoData = subObj["photo"]["data"].ToString();
-                        photoType = subObj["photo"]["type"].ToString();
+                        userName = subObj["fn"].ToString();
+                        if (subObj.ContainsKey("photo"))
+                        {
+                            photoData = subObj["photo"]["data"].ToString();
+                            photoType = subObj["photo"]["type"].ToString();
+                        }
                     }
-                    
-                    
-                    AddSubscriber(new Subscriber(topic, userName, photoData, photoType)); 
+                    AddSubscriber(new Subscriber(topic, userName, type, photoData, photoType)); 
                 }
             }
         }
@@ -955,7 +966,7 @@ namespace Tinode.ChatBot
                 {
                     Log("Connection Broken",$"Connection Closed:{e}");
                     OnDisconnected();
-                    Thread.Sleep(3000);
+                    Thread.Sleep(2000);
                     ClientReset();
                     client = InitClient();
                 }
