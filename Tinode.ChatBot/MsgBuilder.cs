@@ -427,11 +427,11 @@ namespace Tinode.ChatBot
                 chatMsg = new ChatMessage() { Text = JsonConvert.DeserializeObject<string>(message.Content.ToStringUtf8()) };
                 chatMsg.IsPlainText = true;
             }
-            if (message.FromUserId.StartsWith("usr"))
+            if (message.Topic.StartsWith("usr"))
             {
                 chatMsg.MessageType = "user";
             }
-            else if (message.FromUserId.StartsWith("usr"))
+            else if (message.Topic.StartsWith("grp"))
             {
                 chatMsg.MessageType = "group";
             }
