@@ -93,10 +93,10 @@ builder.AppendText("@tinode\n", isMention: true);
 builder.AppendText("#Tinode\n", isHashTag: true);
 builder.AppendText("\n\nnext is image\n");
 //add image message
-builder.AppendImage("a.png", "image/png", 0, 0, "iamge with base64 value", "this is a image by chatbot");
+builder.AppendImage("a.png", "image/png", 0, 0, "iamge with base64 value");
 builder.AppendText("\n\nnext is file\n");
 //add file message
-builder.AppendFile("a.txt", "text/plain", "file with base64 value", "this is a file by chatbot");
+builder.AppendFile("a.txt", "text/plain", "file with base64 value");
 responseMsg = builder.Message;
 ```
 
