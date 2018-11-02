@@ -54,16 +54,30 @@ namespace Tinode.ChatBot
     /// </summary>
     public class ChatBot
     {
+        /// <summary>
+        /// Uploaded attachment file info
+        /// </summary>
         public class UploadedAttachmentInfo
         {
+            /// <summary>
+            /// File fullname from local before upload
+            /// </summary>
             public string FullFileName { get; set; }
-
+            /// <summary>
+            /// file short name
+            /// </summary>
             public string FileName { get; set; }
-
+            /// <summary>
+            /// mime type, now is "file/[file extention]"
+            /// </summary>
             public string Mime { get; set; }
-
+            /// <summary>
+            /// file size
+            /// </summary>
             public long Size { get; set; }
-
+            /// <summary>
+            /// when uploaded to the server, the relative url to visit the file
+            /// </summary>
             public string RelativeUrl { get; set; }
         }
 
@@ -942,11 +956,10 @@ namespace Tinode.ChatBot
                     request = new RestRequest(redirectUrl, Method.PUT);
                 }
                 
-                //传递参数
                 request.AddHeader("X-Tinode-APIKey", apiKey);
                 request.AddHeader("X-Tinode-Auth", $"Token {token}");
                 request.AddBody("id", GetNextTid());
-                //txtPictures.Text为文件路径
+
                 request.AddFile("file", fullFileName);
                 var cancellationTokenSource = new CancellationTokenSource();
                 var response = await restClient.ExecuteTaskAsync(request,cancellationTokenSource.Token);

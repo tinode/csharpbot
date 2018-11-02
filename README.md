@@ -25,8 +25,6 @@ they are "Tinode.ChatBot.DemoNet46" and "Tinode.ChatBot.DemoNetCore".
 #### you can use VistualStudio2017 to open it : [ChatBot.sln](./ChatBot.sln)
 
 #### if you want define your own bot, Just follow these steps:
-* Add `Tinode.ChatBot`libaray to your project;
-* Add `Google.Protobuf`,`Grpc.Core`,`Newtonsoft.Json` to your project from Nuget;
 * Implement your own `IBotResponse` interface,such as :
 
 ```C#
@@ -40,7 +38,7 @@ they are "Tinode.ChatBot.DemoNet46" and "Tinode.ChatBot.DemoNetCore".
         /// </summary>
         /// <param name="message">message to chatbot</param>
         /// <returns>message reply by chatbot</returns>
-        ChatMessage ThinkAndReply(ServerData message);
+        Task<ChatMessage> ThinkAndReply(ServerData message);
     }
 ```
 
@@ -58,7 +56,9 @@ bot.CtrlMessageEvent += Bot_CtrlMessageEvent; //CtrlMessage Event, every acton w
 bot.LoginSuccessEvent += Bot_LoginSuccessEvent; //LoginSuccess Event, when login success
 bot.LoginFailedEvent += Bot_LoginFailedEvent;  //LoginFailed Event, when login failed
 bot.DisconnectedEvent += Bot_DisconnectedEvent;  //when disconnected with the server, the bot will reconnect automatically.
-bot.BotResponse = new BotReponse();  //your response implement with IBotResponse
+//your should set your chatserver's http base url and api access key to handle larget file upload
+bot.SetHttpApi("your chat server http base url", "your api key");
+bot.BotResponse = new BotReponse(bot);  //your response implement with IBotResponse
 bot.Start().Wait();  //start your bot
 ```
 
@@ -97,6 +97,8 @@ builder.AppendImage("a.png", "image/png", 0, 0, "iamge with base64 value", "this
 builder.AppendText("\n\nnext is file\n");
 //add file message
 builder.AppendFile("a.txt", "text/plain", "file with base64 value", "this is a file by chatbot");
+//add attachment file message
+builder.AppendAttachment(attachmentInfo);
 responseMsg = builder.Message;
 ```
 
@@ -112,13 +114,21 @@ responseMsg = MsgBuilder.BuildFileMessage("a.txt", "text/plain", "file with base
 //Send text
 responseMsg = MsgBuilder.BuildFileMessage("this your text message with line break\n this is new line.");
 
+//Send attachment file
+//upload a test file as attachment first
+var uploadInfo=await bot.Upload("./libgrpc_csharp_ext.x64.so");
+if (uploadInfo!=null)
+{
+    //then build a attachment message with attchment success
+    responseMsg = MsgBuilder.BuildAttachmentMessage(uploadInfo, "This is a larget attachment file");
+}
 ```
 
 
 #### build your chatbot,a complete example:
 
 ```C#
-    class Program
+class Program
     {
         public class CmdOptions
         {
@@ -139,7 +149,12 @@ responseMsg = MsgBuilder.BuildFileMessage("this your text message with line brea
         /// </summary>
         public class BotReponse : IBotResponse
         {
-            public ChatMessage ThinkAndReply(ServerData message)
+            ChatBot bot;
+            public BotReponse(ChatBot bot)
+            {
+                this.bot = bot;
+            }
+            public async Task<ChatMessage> ThinkAndReply(ServerData message)
             {
                 foreach (var sub in bot.Subscribers)
                 {
@@ -187,6 +202,21 @@ responseMsg = MsgBuilder.BuildFileMessage("this your text message with line brea
                         builder.AppendFile("a.txt", "text/plain", "ZHNmZHMKZmRzZmRzZnNkZgpm5Y+N5YCS5piv56a75byA5oi/6Ze055qE5LiK6K++5LqGCg==");
                         responseMsg = builder.Message;
                     }
+                    else if (msg.Text=="attach")
+                    {
+                        //upload a test file as attachment
+                        var uploadInfo=await bot.Upload("./libgrpc_csharp_ext.x64.so");
+                        if (uploadInfo!=null)
+                        {
+                            responseMsg = MsgBuilder.BuildAttachmentMessage(uploadInfo, "This is a larget attachment file");
+                        }
+                        else
+                        {
+                            responseMsg = MsgBuilder.BuildTextMessage("I try to send you a larget attach file, but I am sorry I failed...");
+                        }
+                        
+                    }
+                    
                     else
                     {
                         responseMsg = msg;
@@ -293,7 +323,9 @@ responseMsg = MsgBuilder.BuildFileMessage("this your text message with line brea
                        bot.LoginSuccessEvent += Bot_LoginSuccessEvent;
                        bot.LoginFailedEvent += Bot_LoginFailedEvent;
                        bot.DisconnectedEvent += Bot_DisconnectedEvent;
-                       bot.BotResponse = new BotReponse();
+                       //your should set your chatserver's http base url and api access key to handle larget file upload
+                       bot.SetHttpApi("http://localhost:6660", "AQAAAAABAABtfBKva9nJN3ykjBi0feyL");
+                       bot.BotResponse = new BotReponse(bot);
                        bot.Start().Wait();
 
                        Console.WriteLine("[Bye Bye] ChatBot Stopped");
@@ -345,3 +377,4 @@ responseMsg = MsgBuilder.BuildFileMessage("this your text message with line brea
 
 #### example screenshot
 ![image](./screenshots/1.png)
+![image](./screenshots/2.png)
