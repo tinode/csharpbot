@@ -16,6 +16,8 @@ using Google.Protobuf.Collections;
 using System.Runtime.InteropServices;
 using System.IO;
 using Newtonsoft.Json.Linq;
+using RestSharp;
+using System.Net;
 
 namespace Tinode.ChatBot
 {
@@ -52,6 +54,19 @@ namespace Tinode.ChatBot
     /// </summary>
     public class ChatBot
     {
+        public class UploadedAttachmentInfo
+        {
+            public string FullFileName { get; set; }
+
+            public string FileName { get; set; }
+
+            public string Mime { get; set; }
+
+            public long Size { get; set; }
+
+            public string RelativeUrl { get; set; }
+        }
+
         /// <summary>
         /// Server pres event 
         /// </summary>
@@ -371,6 +386,14 @@ namespace Tinode.ChatBot
         /// </summary>
         public string Platform => $"({RuntimeInformation.OSDescription} {RuntimeInformation.OSArchitecture})";
         /// <summary>
+        /// upload large file endpoint
+        /// </summary>
+        public const string UploadEndpoint = "/v0/file/u";
+        /// <summary>
+        /// download large file endpoint
+        /// </summary>
+        public const string DownloadEndpoint = "/v0/file/s";
+        /// <summary>
         /// Chatbot instance id, this will be used in chat
         /// </summary>
         public string BotUID { get; private set; }
@@ -412,7 +435,9 @@ namespace Tinode.ChatBot
         Queue<ClientMsg> sendMsgQueue;
         Dictionary<string, bool> subscriptions;
         Dictionary<string, Future> onCompletion;
-
+        string token;
+        string apiKey;
+        string apiBaseUrl;
         /// <summary>
         /// Contruction
         /// </summary>
@@ -437,6 +462,17 @@ namespace Tinode.ChatBot
             subscriptions = new Dictionary<string, bool>();
             onCompletion = new Dictionary<string, Future>();
             Subscribers = new Dictionary<string, Subscriber>();
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="apiBaseUrl"></param>
+        /// <param name="apikey">http api operation api key</param>
+        public void SetHttpApi(string apiBaseUrl,string apikey)
+        {
+            this.apiBaseUrl = apiBaseUrl;
+            this.apiKey = apikey;
         }
 
         /// <summary>
@@ -621,6 +657,8 @@ namespace Tinode.ChatBot
                 cookieDics["schema"] = "basic";
                 cookieDics["secret"] = JsonConvert.DeserializeObject<string>(paramaters["token"].ToString(Encoding.UTF8));
             }
+            //save token for upload operation
+            token = cookieDics["secret"];
             try
             {
                 using (FileStream stream = new FileStream(cookieFile, FileMode.Create,FileAccess.Write))
@@ -724,6 +762,7 @@ namespace Tinode.ChatBot
         {
             try
             {
+                token = null;
                 subscriptions.Clear();
                 onCompletion.Clear();
                 Subscribers.Clear();
@@ -830,6 +869,26 @@ namespace Tinode.ChatBot
             return new ClientMsg() { Pub = pub };
         }
 
+        public ClientMsg PublishWithAttachments(string topic, List<string> attachments,ChatMessage msg)
+        {
+            var tid = GetNextTid();
+            
+            StringBuilder builder = new StringBuilder();
+            builder.Append("[");
+            foreach (var attach in attachments)
+            {
+                builder.Append($"\"{attach}\",");
+            }
+            builder.Remove(builder.Length - 1,1);
+            builder.Append("]");
+
+            var pub = new ClientPub() { Id = tid, Topic = topic, NoEcho = true, Content = ByteString.CopyFromUtf8(msg.ToString()) };
+            pub.Head.Add("attachments", ByteString.CopyFromUtf8(builder.ToString()));
+            pub.Head.Add("mime", ByteString.CopyFromUtf8("\"text/x-drafty\""));
+
+            return new ClientMsg() { Pub = pub };
+        }
+
 
         /// <summary>
         /// note read
@@ -840,6 +899,108 @@ namespace Tinode.ChatBot
         public ClientMsg NoteRead(string topic, int seq)
         {
             return new ClientMsg() { Note = new ClientNote() { SeqId = seq, Topic = topic, What = InfoNote.Read } };
+        }
+
+        /// <summary>
+        /// upload large file as attachment
+        /// </summary>
+        /// <param name="fileName">the file will be uploaded</param>
+        /// <param name="redirectUrl">if upload operation should temp changed</param>
+        /// <returns>uploaded information for send message to user or group</returns>
+        public async Task<UploadedAttachmentInfo> Upload(string fileName, string redirectUrl = "")
+        {
+            if (string.IsNullOrEmpty(token))
+            {
+                //not login or login failed, disable upload
+                Log("Upload Attachment Error", $"Not login, upload operation disabled...");
+                return null;
+            }
+            if (string.IsNullOrEmpty(fileName)||!File.Exists(fileName))
+            {
+                Log("Upload Attachment Error", $"can not find file:{fileName}");
+                return null;
+            }
+            try
+            {
+                var fullFileName = Path.GetFullPath(fileName);
+                var fileInfo = new FileInfo(fullFileName);
+
+                UploadedAttachmentInfo attachmentInfo = new UploadedAttachmentInfo();
+                attachmentInfo.FullFileName = fullFileName;
+                attachmentInfo.FileName = fileInfo.Name;
+                attachmentInfo.Size = fileInfo.Length;
+                attachmentInfo.Mime = $"file/{fileInfo.Extension}";
+
+                var restClient = new RestClient(apiBaseUrl) ;
+                RestRequest request;
+                if (string.IsNullOrEmpty(redirectUrl))
+                {
+                    request = new RestRequest(UploadEndpoint, Method.PUT);
+                }
+                else
+                {
+                    request = new RestRequest(redirectUrl, Method.PUT);
+                }
+                
+                //传递参数
+                request.AddHeader("X-Tinode-APIKey", apiKey);
+                request.AddHeader("X-Tinode-Auth", $"Token {token}");
+                request.AddBody("id", GetNextTid());
+                //txtPictures.Text为文件路径
+                request.AddFile("file", fullFileName);
+                var cancellationTokenSource = new CancellationTokenSource();
+                var response = await restClient.ExecuteTaskAsync(request,cancellationTokenSource.Token);
+                if (response.StatusCode >= HttpStatusCode.OK && response.StatusCode < HttpStatusCode.BadRequest)
+                {
+                    if (response.StatusCode == HttpStatusCode.OK)
+                    {
+                        var obj = JsonConvert.DeserializeObject<JToken>(response.Content);
+                        var code = obj["ctrl"]["code"].ToString();
+                        var url = obj["ctrl"]["params"]["url"].ToString();
+                        attachmentInfo.RelativeUrl = url;
+
+                        Log("Upload Attachment Success", $"Upload file success, File={fullFileName}, RefUrl={url}");
+                        return attachmentInfo;
+                    }
+                    else if (response.StatusCode == HttpStatusCode.TemporaryRedirect)
+                    {
+                        var tmpRedirectUrl = string.Empty;
+                        //307,should reupload to the redirect url
+                        foreach (var h in response.Headers)
+                        {
+                            //查找重定向地址
+                            if (h.Name.ToLower() == "location")
+                            {
+                                tmpRedirectUrl = h.Value.ToString();
+                                break;
+                            }
+                        }
+                        Log("Upload Attachment Redirect", $"redirect upload...");
+                        return await Upload(fileName, redirectUrl);
+                    }
+                    else
+                    {
+                        Log("Upload Attachment Error", $"Upload failed, Http Code={response.StatusCode}");
+                        return null;
+                    }
+
+
+                }
+                else
+                {
+                    //Failed
+                    Log("Upload Attachment Error", $"Upload failed, Http Code={response.StatusCode}");
+                    return null;
+                }
+
+
+            }
+            catch (Exception e)
+            {
+                //exception occurs
+                Log("Upload Attachment Exception", $"Upload failed, Exception={e.Message}");
+                return null;
+            }
         }
 
         /// <summary>
@@ -906,7 +1067,7 @@ namespace Tinode.ChatBot
                         Thread.Sleep(50);
                         if (BotResponse != null)
                         {
-                            var reply = BotResponse.ThinkAndReply(response.Data.Clone());
+                            var reply =await BotResponse.ThinkAndReply(response.Data.Clone());
                             //if the response is null, means no need to reply
                             if (reply!=null)
                             {

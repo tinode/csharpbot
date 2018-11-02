@@ -3,6 +3,7 @@ using Pbx;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using static Tinode.ChatBot.ChatBot;
 
 namespace Tinode.ChatBot
 {
@@ -402,7 +403,31 @@ namespace Tinode.ChatBot
             });
         }
 
-        
+        /// <summary>
+        /// append a attachment file to chat message
+        /// </summary>
+        /// <param name="attachmentInfo">attachment file information, you can get it with ChatBot.Upload(...)</param>
+        public void AppendAttachment(UploadedAttachmentInfo attachmentInfo)
+        {
+            Message.Fmt.Add(new FmtMessage()
+            {
+                At=Message.Text.Length,
+                Key=Message.Ent.Count,
+                Len = 1,
+            });
+
+            Message.Ent.Add(new EntMessage()
+            {
+                Tp="EX",
+                Data=new EntData()
+                {
+                    Mime=attachmentInfo.Mime,
+                    Name=attachmentInfo.FileName,
+                    Ref=attachmentInfo.RelativeUrl,
+                    Size=int.Parse(attachmentInfo.Size.ToString()),
+                },
+            });
+        }
         
 
         /// <summary>
@@ -579,6 +604,49 @@ namespace Tinode.ChatBot
             return msg;
         }
 
-        
+        /// <summary>
+        /// build a attachment message
+        /// </summary>
+        /// <param name="attachmentInfo">attachment file information, you can get it with ChatBot.Upload(...)</param>
+        /// <param name="text">text message with the attachment</param>
+        /// <returns>attachment chat message</returns>
+        public static ChatMessage BuildAttachmentMessage(UploadedAttachmentInfo attachmentInfo, string text=" ")
+        {
+            var msg = new ChatMessage();
+            msg.Text = text;
+            msg.Ent = new List<EntMessage>();
+            msg.Fmt = new List<FmtMessage>();
+            msg.Ent.Add(new EntMessage()
+            {
+                Tp = "EX",
+                Data = new EntData()
+                {
+                    Mime = attachmentInfo.Mime,
+                    Name = attachmentInfo.FileName,
+                    Ref = attachmentInfo.RelativeUrl,
+                    Size= int.Parse(attachmentInfo.Size.ToString()),
+
+                }
+            });
+            msg.Fmt.Add(new FmtMessage()
+            {
+                At = text.Length,
+                Len = 1,
+                Key = 0,
+            });
+
+            if (text.Contains("\n"))
+            {
+                for (int i = 0; i < text.Length; i++)
+                {
+                    if (text[i] == '\n')
+                    {
+                        FmtMessage fmt = new FmtMessage() { At = i, Tp = "BR", Len = 1 };
+                        msg.Fmt.Add(fmt);
+                    }
+                }
+            }
+            return msg;
+        }
     }
 }

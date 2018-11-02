@@ -34,7 +34,12 @@ namespace Tinode.ChatBot.DemoNet46
         /// </summary>
         public class BotReponse : IBotResponse
         {
-            public ChatMessage ThinkAndReply(ServerData message)
+            ChatBot bot;
+            public BotReponse(ChatBot bot)
+            {
+                this.bot = bot;
+            }
+            public async Task<ChatMessage> ThinkAndReply(ServerData message)
             {
                 foreach (var sub in bot.Subscribers)
                 {
@@ -82,6 +87,21 @@ namespace Tinode.ChatBot.DemoNet46
                         builder.AppendFile("a.txt", "text/plain", "ZHNmZHMKZmRzZmRzZnNkZgpm5Y+N5YCS5piv56a75byA5oi/6Ze055qE5LiK6K++5LqGCg==");
                         responseMsg = builder.Message;
                     }
+                    else if (msg.Text=="attach")
+                    {
+                        //upload a test file as attachment
+                        var uploadInfo=await bot.Upload("./libgrpc_csharp_ext.x64.so");
+                        if (uploadInfo!=null)
+                        {
+                            responseMsg = MsgBuilder.BuildAttachmentMessage(uploadInfo, "This is a larget attachment file");
+                        }
+                        else
+                        {
+                            responseMsg = MsgBuilder.BuildTextMessage("I try to send you a larget attach file, but I am sorry I failed...");
+                        }
+                        
+                    }
+                    
                     else
                     {
                         responseMsg = msg;
@@ -188,7 +208,9 @@ namespace Tinode.ChatBot.DemoNet46
                        bot.LoginSuccessEvent += Bot_LoginSuccessEvent;
                        bot.LoginFailedEvent += Bot_LoginFailedEvent;
                        bot.DisconnectedEvent += Bot_DisconnectedEvent;
-                       bot.BotResponse = new BotReponse();
+                       //your should set your chatserver's http base url and api access key to handle larget file upload
+                       bot.SetHttpApi("http://localhost:6660", "AQAAAAABAABtfBKva9nJN3ykjBi0feyL");
+                       bot.BotResponse = new BotReponse(bot);
                        bot.Start().Wait();
 
                        Console.WriteLine("[Bye Bye] ChatBot Stopped");

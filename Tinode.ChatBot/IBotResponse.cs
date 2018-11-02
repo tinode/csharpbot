@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Tinode.ChatBot
 {
@@ -15,6 +16,6 @@ namespace Tinode.ChatBot
         /// </summary>
         /// <param name="message">message to chatbot</param>
         /// <returns>message reply by chatbot</returns>
-        ChatMessage ThinkAndReply(ServerData message);
+        Task<ChatMessage> ThinkAndReply(ServerData message);
     }
 }
