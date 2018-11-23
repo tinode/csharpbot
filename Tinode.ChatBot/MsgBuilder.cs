@@ -64,7 +64,7 @@ namespace Tinode.ChatBot
         [JsonProperty("mime")]
         public string Mime { get; set; }
         [JsonProperty("val")]
-        public string Val { get; set; }
+        public dynamic Val { get; set; }
         [JsonProperty("url")]
         public string Url { get; set; }
         [JsonProperty("ref")]
@@ -77,7 +77,8 @@ namespace Tinode.ChatBot
         public string Name { get; set; }
         [JsonProperty("size")]
         public int? Size { get; set; }
-
+        [JsonProperty("act")]
+        public string Act { get; set; }
       
     }
 
@@ -203,10 +204,10 @@ namespace Tinode.ChatBot
         }
 
         /// <summary>
-        /// get files
+        /// get generic attachment
         /// </summary>
-        /// <returns>file data</returns>
-        public List<EntData> GetFiles()
+        /// <returns>generic attachment data</returns>
+        public List<EntData> GetGenericAttachment()
         {
             return GetEntDatas("EX");
         }
@@ -248,8 +249,13 @@ namespace Tinode.ChatBot
         /// <param name="isLink">if text is link</param>
         /// <param name="isMention">if text is mention user, should contains '@', for example: @tinode</param>
         /// <param name="isHashTag">if text is hashtags, should contains '#',for example: #tinode</param>
+        /// <param name="isForm">if text is form</param>
+        /// <param name="isButton">if text is button</param>
+        /// <param name="buttonDataName">button name</param>
+        /// <param name="buttonDataAct">button act</param>
+        /// <param name="buttonDataVal">button val</param>
         public void AppendText(string text,bool isBold=false,bool isItalic=false,bool isDeleted=false
-            ,bool isCode=false,bool isLink=false,bool isMention=false,bool isHashTag=false)
+            ,bool isCode=false,bool isLink=false,bool isMention=false,bool isHashTag=false,bool isForm=false,bool isButton=false,string buttonDataName=null, string buttonDataAct="pub",string buttonDataVal=null)
         {
             int baseLen = Message.Text.Length;
             Message.Text += text;
@@ -323,6 +329,26 @@ namespace Tinode.ChatBot
                 EntMessage ent = new EntMessage() { Tp = "HT", Data = new EntData() { Val = hashTag } };
                 Message.Ent.Add(ent);
             }
+
+            if (isForm)
+            {
+                FmtMessage fmt = new FmtMessage() { At = leftLen, Len = validLen, Tp="FM" };
+                Message.Fmt.Add(fmt);
+            }
+
+            if (isButton)
+            {
+                var btnName = buttonDataName;
+                if (btnName == null)
+                {
+                    buttonDataName = text.Trim().ToLower();
+                }
+                FmtMessage fmt = new FmtMessage() { At = leftLen, Len = validLen, Key = Message.Ent.Count };
+                Message.Fmt.Add(fmt);
+                var btnText = text.Trim();
+                EntMessage ent = new EntMessage() { Tp = "BN", Data = new EntData() {Name=buttonDataName, Act=buttonDataAct, Val = buttonDataVal } };
+                Message.Ent.Add(ent);
+            }
         }
 
         /// <summary>
@@ -336,10 +362,15 @@ namespace Tinode.ChatBot
         /// <param name="isLink">if text is link</param>
         /// <param name="isMention">if text is mention user, should contains '@', for example: @tinode</param>
         /// <param name="isHashTag">if text is hashtags, should contains '#',for example: #tinode</param>
+        /// <param name="isForm">if text is form</param>
+        /// <param name="isButton">if text is button</param>
+        /// <param name="buttonDataName">button name</param>
+        /// <param name="buttonDataAct">button act</param>
+        /// <param name="buttonDataVal">button val</param>
         public void AppendTextLine(string text, bool isBold = false, bool isItalic = false, bool isDeleted = false
-            , bool isCode = false, bool isLink = false, bool isMention = false, bool isHashTag = false)
+            , bool isCode = false, bool isLink = false, bool isMention = false, bool isHashTag = false, bool isForm = false, bool isButton = false, string buttonDataName = null, string buttonDataAct = "pub", string buttonDataVal = null)
         {
-            AppendText($"{text}\n", isBold, isItalic, isDeleted, isCode, isLink, isMention, isHashTag);
+            AppendText($"{text}\n", isBold, isItalic, isDeleted, isCode, isLink, isMention, isHashTag,isForm,isButton,buttonDataName,buttonDataAct,buttonDataVal);
         }
 
 
@@ -428,7 +459,6 @@ namespace Tinode.ChatBot
                 },
             });
         }
-        
 
         /// <summary>
         /// parse a raw ServerData to friendly ChatMessage

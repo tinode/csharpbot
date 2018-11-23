@@ -46,6 +46,7 @@ namespace Tinode.ChatBot.DemoNet46
                     //Current account friends info
                 }
                 ChatMessage responseMsg;
+                var msgText = message.Content.ToStringUtf8();
                 var msg = MsgBuilder.Parse(message);
                 if (msg.IsPlainText)
                 {
@@ -101,7 +102,16 @@ namespace Tinode.ChatBot.DemoNet46
                         }
                         
                     }
-                    
+                    else if (msg.Text=="form")
+                    {
+                        //send a form with button
+                        MsgBuilder builder = new MsgBuilder();
+                        builder.AppendText("What's your gender?", isBold: true, isForm : true);
+                        builder.AppendText("Male", isButton: true, buttonDataName: "male", buttonDataVal: "user click male");
+                        builder.AppendText("Female", isButton: true, buttonDataName: "female", buttonDataVal: "user click female");
+                        builder.AppendText("Not Sure", isButton: true, buttonDataName: "NA", buttonDataVal: "user click NA");
+                        responseMsg = builder.Message;
+                    }
                     else
                     {
                         responseMsg = msg;
@@ -136,7 +146,7 @@ namespace Tinode.ChatBot.DemoNet46
                         Console.WriteLine($"Links:{link.Url}");
                     }
 
-                    var files = msg.GetFiles();
+                    var files = msg.GetGenericAttachment();
                     foreach (var f in files)
                     {
                         Console.WriteLine($"Image:Name={f.Name} Mime={f.Mime}");

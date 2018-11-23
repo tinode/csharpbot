@@ -99,7 +99,17 @@ builder.AppendText("\n\nnext is file\n");
 builder.AppendFile("a.txt", "text/plain", "file with base64 value");
 //add attachment file message
 builder.AppendAttachment(attachmentInfo);
+
+//Send form with button
+MsgBuilder builder = new MsgBuilder();
+builder.AppendText("What's your gender?", isBold: true, isForm: true);
+builder.AppendText("Male", isButton: true, buttonDataName: "male", buttonDataVal: "user click male");
+builder.AppendText("Female", isButton: true, buttonDataName: "female", buttonDataVal: "user click female");
+builder.AppendText("Not Sure", isButton: true, buttonDataName: "NA", buttonDataVal: "user click NA");
+
+
 responseMsg = builder.Message;
+
 ```
 
 you can also build simple message with static methods of `MsgBuilder`:
@@ -161,6 +171,7 @@ class Program
                     //Current account friends info
                 }
                 ChatMessage responseMsg;
+                var msgText = message.Content.ToStringUtf8();
                 var msg = MsgBuilder.Parse(message);
                 if (msg.IsPlainText)
                 {
@@ -174,7 +185,7 @@ class Program
                         //Send file
                         responseMsg = MsgBuilder.BuildFileMessage("a.txt", "text/plain", "ZHNmZHMKZmRzZmRzZnNkZgpm5Y+N5YCS5piv56a75byA5oi/6Ze055qE5LiK6K++5LqGCg==", "this is a file by chatbot");
                     }
-                    else if (msg.Text=="more")
+                    else if (msg.Text == "more")
                     {
                         MsgBuilder builder = new MsgBuilder();
                         //add text with bold
@@ -202,11 +213,11 @@ class Program
                         builder.AppendFile("a.txt", "text/plain", "ZHNmZHMKZmRzZmRzZnNkZgpm5Y+N5YCS5piv56a75byA5oi/6Ze055qE5LiK6K++5LqGCg==");
                         responseMsg = builder.Message;
                     }
-                    else if (msg.Text=="attach")
+                    else if (msg.Text == "attach")
                     {
                         //upload a test file as attachment
-                        var uploadInfo=await bot.Upload("./libgrpc_csharp_ext.x64.so");
-                        if (uploadInfo!=null)
+                        var uploadInfo = await bot.Upload("./libgrpc_csharp_ext.x64.so");
+                        if (uploadInfo != null)
                         {
                             responseMsg = MsgBuilder.BuildAttachmentMessage(uploadInfo, "This is a larget attachment file");
                         }
@@ -214,9 +225,18 @@ class Program
                         {
                             responseMsg = MsgBuilder.BuildTextMessage("I try to send you a larget attach file, but I am sorry I failed...");
                         }
-                        
+
                     }
-                    
+                    else if (msg.Text == "form")
+                    {
+                        //send a form with button
+                        MsgBuilder builder = new MsgBuilder();
+                        builder.AppendText("What's your gender?", isBold: true, isForm: true);
+                        builder.AppendText("Male", isButton: true, buttonDataName: "male", buttonDataVal: "user click male");
+                        builder.AppendText("Female", isButton: true, buttonDataName: "female", buttonDataVal: "user click female");
+                        builder.AppendText("Not Sure", isButton: true, buttonDataName: "NA", buttonDataVal: "user click NA");
+                        responseMsg = builder.Message;
+                    }
                     else
                     {
                         responseMsg = msg;
@@ -251,7 +271,7 @@ class Program
                         Console.WriteLine($"Links:{link.Url}");
                     }
 
-                    var files = msg.GetFiles();
+                    var files = msg.GetGenericAttachment();
                     foreach (var f in files)
                     {
                         Console.WriteLine($"Image:Name={f.Name} Mime={f.Mime}");
@@ -378,3 +398,4 @@ class Program
 #### example screenshot
 ![image](./screenshots/1.png)
 ![image](./screenshots/2.png)
+![image](./screenshots/3.png)
