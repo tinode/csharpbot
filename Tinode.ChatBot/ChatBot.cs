@@ -530,8 +530,17 @@ namespace Tinode.ChatBot
         /// <returns>chatbot client instance</returns>
         public AsyncDuplexStreamingCall<ClientMsg, ServerMsg> InitClient()
         {
-            channel = new Channel(ServerHost, ChannelCredentials.Insecure);
+            //ping / 2s and timeout 2s
+            var options = new List<ChannelOption>
+            {
+                new ChannelOption("grpc.keepalive_time_ms", 2000),
+                new ChannelOption("grpc.keepalive_timeout_ms",2000)
+            };
+
+            channel = new Channel(ServerHost, ChannelCredentials.Insecure,options);
+            
             var stub = new NodeClient(channel);
+            
             var stream = stub.MessageLoop(cancellationToken:cancellationTokenSource.Token);
             ClientPost(Hello());
             ClientPost(Login(CookieFile, Schema, Secret));
