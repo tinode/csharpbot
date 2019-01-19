@@ -168,8 +168,12 @@ namespace Tinode.ChatBot
         /// <summary>
         /// Chatbot subscribed user/group information
         /// </summary>
-        public class Subscriber
+        public class Subscriber:MessageBase
         {
+            /// <summary>
+            /// User Id
+            /// </summary>
+            public string UserId { get; set; }
             /// <summary>
             /// topic
             /// </summary>
@@ -187,6 +191,10 @@ namespace Tinode.ChatBot
             /// </summary>
             public string Type { get; set; }
             /// <summary>
+            /// online status
+            /// </summary>
+            public bool Online { get; set; }
+            /// <summary>
             /// user photo image type
             /// </summary>
             public string PhotoType { get; set; }
@@ -197,18 +205,22 @@ namespace Tinode.ChatBot
             /// <summary>
             /// constructor
             /// </summary>
+            /// <param name="userId">user id</param>
             /// <param name="topic">topic</param>
             /// <param name="username"> user name/nick</param>
             /// <param name="type">subscribed type, user or group?</param>
             /// <param name="photo"> user photo with base64 encode</param>
             /// <param name="photoType">user photo image type</param>
-            public Subscriber(string topic,string username,string type,string photo,string photoType)
+            /// <param name="online">if the subscriber is online now</param>
+            public Subscriber(string userId,string topic,string username,string type,string photo,string photoType,bool online)
             {
+                UserId = userId;
                 Topic = topic;
                 UserName = username;
                 Type = type;
                 PhotoData = photo;
                 PhotoType = photoType;
+                Online = online;
             }
 
         }
@@ -386,15 +398,15 @@ namespace Tinode.ChatBot
         /// <summary>
         /// Chatbot application name
         /// </summary>
-        public string AppName => "CBot";
+        public string AppName => "ChatBot";
         /// <summary>
         /// Chatbot version
         /// </summary>
-        public string AppVersion => "0.15.7";
+        public string AppVersion => "0.15.11";
         /// <summary>
         /// Chatbot library version
         /// </summary>
-        public string LibVersion => "0.15.7";
+        public string LibVersion => "0.15.11";
         /// <summary>
         /// Chatbot current platfrom information
         /// </summary>
@@ -616,6 +628,7 @@ namespace Tinode.ChatBot
 
         public void AddSubscriber(Subscriber sub)
         {
+            Log("Update Subscriber", $"UserId={sub.UserId} Name={sub.UserName} Online={sub.Online} Type={sub.Type}");
             if (Subscribers.ContainsKey(sub.Topic))
             {
                 Subscribers[sub.Topic] = sub;
@@ -704,6 +717,8 @@ namespace Tinode.ChatBot
             {
                 foreach (var sub in meta.Sub)
                 {
+                    var userId = sub.UserId;
+                    var online = sub.Online;
                     var topic = sub.Topic;
                     var publicInfo = sub.Public.ToStringUtf8();
                     var subObj = JsonConvert.DeserializeObject<JObject>(publicInfo);
@@ -720,7 +735,7 @@ namespace Tinode.ChatBot
                             photoType = subObj["photo"]["type"].ToString();
                         }
                     }
-                    AddSubscriber(new Subscriber(topic, userName, type, photoData, photoType)); 
+                    AddSubscriber(new Subscriber(userId,topic, userName, type, photoData, photoType,online)); 
                 }
             }
         }
