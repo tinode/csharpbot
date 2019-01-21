@@ -628,7 +628,8 @@ namespace Tinode.ChatBot
 
         public void AddSubscriber(Subscriber sub)
         {
-            Log("Update Subscriber", $"UserId={sub.UserId} Name={sub.UserName} Online={sub.Online} Type={sub.Type}");
+            Log("Update Subscriber", sub.ToString());
+            //Log("Update Subscriber", $"UserId={sub.UserId} Name={sub.UserName} Online={sub.Online} Type={sub.Type}");
             if (Subscribers.ContainsKey(sub.Topic))
             {
                 Subscribers[sub.Topic] = sub;
@@ -829,11 +830,21 @@ namespace Tinode.ChatBot
             return new ClientMsg() { Hi = new ClientHi() { Id = tid, UserAgent = $"{AppName}/{AppVersion} {Platform}; gRPC-csharp/{AppVersion}", Ver = LibVersion, Lang = "EN" } };
         }
 
-        public ClientMsg GetSubs(string topic="me")
+        public ClientMsg GetSubs(string topic="me",bool getAll=false)
         {
             var tid = GetNextTid();
-            return new ClientMsg() { Get = new ClientGet() { Id = tid, Topic = topic, Query = new GetQuery() { What = "sub" } } };
+            if (getAll)
+            {
+                return new ClientMsg() { Get = new ClientGet() { Id = tid, Topic = topic, Query = new GetQuery() { What = "sub" } } };
+            }
+            else
+            {
+                return new ClientMsg() { Get = new ClientGet() { Id = tid, Topic = topic} };
+            }
+            
         }
+
+
 
         /// <summary>
         /// login in
