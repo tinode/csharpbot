@@ -148,9 +148,9 @@ class Program
             public string Token { get; set; }
             [Option('B', "login-basic", Required = false, HelpText = "login using basic authentication username:password")]
             public string Basic { get; set; }
-            [Option('L', "listen", Required = false, Default = "0.0.0.0:40052", HelpText = "address to listen on for incoming Plugin API calls")]
+            [Option('L', "listen", Required = false, Default = "0.0.0.0:40051", HelpText = "address to listen on for incoming Plugin API calls")]
             public string Listen { get; set; }
-            [Option('S', "server", Required = false, Default = "localhost:6061", HelpText = "address of Tinode server gRPC endpoint")]
+            [Option('S', "server", Required = false, Default = "localhost:16060", HelpText = "address of Tinode server gRPC endpoint")]
             public string Host { get; set; }
         }
 
