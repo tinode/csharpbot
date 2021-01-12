@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Tinode.ChatBot.DemoNetCore": {
+      "commandName": "Project",
+      "commandLineArgs": "-B alice:alice123"
+    }
+  }
+}
