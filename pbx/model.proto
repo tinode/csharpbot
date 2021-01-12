@@ -9,28 +9,28 @@ service Node {
 
 // Plugin interface.
 service Plugin {
-	// This plugin method is called by Tinode server for every message received from the clients. The
-	// method returns a ServerCtrl message. Non-zero ServerCtrl.code indicates that no further
-	// processing is needed. The Tinode server will generate a {ctrl} message from the returned ServerCtrl
-	// and forward it to the client session.
+	// This plugin method is called by Tinode server for every message received from the clients. The 
+	// method returns a ServerCtrl message. Non-zero ServerCtrl.code indicates that no further 
+	// processing is needed. The Tinode server will generate a {ctrl} message from the returned ServerCtrl 
+	// and forward it to the client session. 
 	// ServerCtrl.code equals to 0 instructs the server to continue with default processing of the client message.
   	rpc FireHose(ClientReq) returns (ServerResp) {}
-
-	// An alteranative user and topic discovery mechanism.
+	
+	// An alteranative user and topic discovery mechanism. 
 	// A search request issued on a 'fnd' topic. This method is called to generate an alternative result set.
 	rpc Find(SearchQuery) returns (SearchFound) {}
-
+	
 	// The following methods are for the Tinode server to report individual events.
-
+		
 	// Account created, updated or deleted
 	rpc Account(AccountEvent) returns (Unused) {}
-
+	
 	// Topic created, updated [or deleted -- not supported yet]
 	rpc Topic(TopicEvent) returns (Unused) {}
-
+	
 	// Subscription created, updated or deleted
 	rpc Subscription(SubscriptionEvent) returns (Unused) {}
-
+	
 	// Message published or deleted
 	rpc Message(MessageEvent) returns (Unused) {}
 }
@@ -74,18 +74,6 @@ message SetSub {
 	string mode = 2;
 }
 
-// Credentials such as email or phone number
-message ClientCred {
-	// Credential type, i.e. `email` or `tel`.
-	string method = 1;
-	// Value to verify, i.e. `user@example.com` or `+18003287448`
-	string value = 2;
-	// Verification response
-	string response = 3;
-	// Request parameters, such as preferences.
-	bytes params = 4;
-}
-
 // SetDesc: C2S in set.what == "desc" and sub.init message
 message SetDesc {
 	DefaultAcsMode default_acs = 1;
@@ -95,7 +83,7 @@ message SetDesc {
 
 message GetOpts {
 	// Timestamp in milliseconds since epoch 01/01/1970
-	int64 if_modified_since = 1;
+	int64 if_modified_since = 1; 
 	// Limit search to this user ID
 	string user = 2;
 	// Limit search results to one topic;
@@ -126,13 +114,22 @@ message SetQuery {
 	SetSub sub = 2;
 	// Indexable tags
 	repeated string tags = 3;
-	// Credential being updated.
-	ClientCred cred = 4;
 }
 
 message SeqRange {
 	int32 low = 1;
 	int32 hi = 2;
+}
+
+message Credential {
+	// Credential type, i.e. `email` or `tel`.
+	string method = 1;
+	// Value to verify, i.e. `user@example.com` or `+18003287448`
+	string value = 2;
+	// Verification response
+	string response = 3;
+	// Request parameters, such as preferences.
+	bytes params = 4;
 }
 
 // Client handshake
@@ -142,7 +139,6 @@ message ClientHi {
 	string ver = 3;
 	string device_id = 4;
 	string lang = 5;
-	string platform = 6;
 }
 
 // User creation message {acc}
@@ -161,7 +157,7 @@ message ClientAcc {
 	// User initialization data when creating a new user, otherwise ignored
 	SetDesc desc = 7;
 	// Credentials for verification.
-	repeated ClientCred cred = 8;
+	repeated Credential cred = 8;
 	// Authentication token used for resetting a password.
 	bytes token = 9;
 }
@@ -174,7 +170,7 @@ message ClientLogin  {
 	// Shared secret
 	bytes secret = 3;
 	// Credentials for verification.
-	repeated ClientCred cred = 4;
+	repeated Credential cred = 4;
 }
 
 // Subscription request {sub} message
@@ -229,18 +225,14 @@ message ClientDel {
 		MSG = 0;
 		TOPIC = 1;
 		SUB = 2;
-		USER = 3;
-		CRED = 4;
 	}
 	What what = 3;
 	// Delete messages by id or range of ids
 	repeated SeqRange del_seq = 4;
 	// User ID of the subscription to delete
 	string user_id = 5;
-	// Credential to delete.
-	ClientCred cred = 6; 
 	// Request to hard-delete messages for all users, if such option is available.
-	bool hard = 7;
+	bool hard = 6;
 }
 
 enum InfoNote {
@@ -248,7 +240,7 @@ enum InfoNote {
 	RECV = 1;
 	KP = 2;
 }
-
+	
 // ClientNote is a client-generated notification for topic subscribers
 message ClientNote {
 	string topic = 1;
@@ -278,16 +270,6 @@ message ClientMsg {
 
 // ************************
 // Server response messages
-
-// Credentials
-message ServerCred {
-	// Credential type, i.e. `email` or `tel`.
-	string method = 1;
-	// Value to verify, i.e. `user@example.com` or `+18003287448`
-	string value = 2;
-	// Indicator that the credential is validated
-	bool done = 3;
-}
 
 // Topic description, S2C in Meta message
 message TopicDesc {
@@ -323,7 +305,7 @@ message TopicSub {
 	string user_id = 9;
 
 	// 'me' topic only
-
+	
 	// Topic name of this subscription
 	string topic = 10;
 	int64 touched_at = 11;
@@ -359,8 +341,6 @@ message ServerData {
 	string topic = 1;
 	// ID of the user who originated the message as {pub}, could be empty if sent by the system
 	string from_user_id = 2;
-	// Timestamp when the message was sent.
-	int64 timestamp = 7;
 	// Timestamp when the message was deleted or 0. Milliseconds since the epoch 01/01/1970
 	int64 deleted_at = 3;
 	int32 seq_id = 4;
@@ -384,7 +364,6 @@ message ServerPres {
 		READ = 9;
 		RECV = 10;
 		DEL = 11;
-		TAGS = 12;
 	}
 	What what = 3;
 	string user_agent = 4;
@@ -404,8 +383,6 @@ message ServerMeta {
 	TopicDesc desc = 3;
 	repeated TopicSub sub = 4;
 	DelValues del = 5;
-	repeated string tags = 6;
-	repeated ServerCred cred = 7;
 }
 
 // {info} message: server-side copy of ClientNote with From added
@@ -437,7 +414,7 @@ enum RespCode {
 	DROP = 1;
 	// Send the the provided response to the client.
 	RESPOND = 2;
-	// Replace client's original request with the provided request then continue with
+	// Replace client's original request with the provided request then continue with 
 	// processing.
 	REPLACE = 3;
 }
@@ -456,7 +433,7 @@ message Session {
 	string remote_addr = 4;
 	string user_agent = 5;
 	string device_id = 6;
-	string language = 7;
+	string language = 7;	
 }
 
 message ClientReq {
@@ -494,7 +471,7 @@ message TopicEvent {
 }
 
 message AccountEvent {
-	Crud action = 1;
+	Crud action = 1;	
 	string user_id = 2;
 
 	DefaultAcsMode default_acs = 3;
@@ -508,13 +485,13 @@ message SubscriptionEvent {
 	Crud action = 1;
 	string topic = 2;
 	string user_id = 3;
-
+	
 	int32 del_id = 4;
 	int32 read_id = 5;
 	int32 recv_id = 6;
 
 	AccessMode mode = 7;
-
+	
 	bytes private = 8;
 }
 

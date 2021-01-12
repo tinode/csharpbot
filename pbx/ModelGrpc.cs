@@ -176,10 +176,10 @@ namespace Pbx {
     public abstract partial class PluginBase
     {
       /// <summary>
-      /// This plugin method is called by Tinode server for every message received from the clients. The
-      /// method returns a ServerCtrl message. Non-zero ServerCtrl.code indicates that no further
-      /// processing is needed. The Tinode server will generate a {ctrl} message from the returned ServerCtrl
-      /// and forward it to the client session.
+      /// This plugin method is called by Tinode server for every message received from the clients. The 
+      /// method returns a ServerCtrl message. Non-zero ServerCtrl.code indicates that no further 
+      /// processing is needed. The Tinode server will generate a {ctrl} message from the returned ServerCtrl 
+      /// and forward it to the client session. 
       /// ServerCtrl.code equals to 0 instructs the server to continue with default processing of the client message.
       /// </summary>
       /// <param name="request">The request received from the client.</param>
@@ -191,7 +191,7 @@ namespace Pbx {
       }
 
       /// <summary>
-      /// An alteranative user and topic discovery mechanism.
+      /// An alteranative user and topic discovery mechanism. 
       /// A search request issued on a 'fnd' topic. This method is called to generate an alternative result set.
       /// </summary>
       /// <param name="request">The request received from the client.</param>
@@ -272,10 +272,10 @@ namespace Pbx {
       }
 
       /// <summary>
-      /// This plugin method is called by Tinode server for every message received from the clients. The
-      /// method returns a ServerCtrl message. Non-zero ServerCtrl.code indicates that no further
-      /// processing is needed. The Tinode server will generate a {ctrl} message from the returned ServerCtrl
-      /// and forward it to the client session.
+      /// This plugin method is called by Tinode server for every message received from the clients. The 
+      /// method returns a ServerCtrl message. Non-zero ServerCtrl.code indicates that no further 
+      /// processing is needed. The Tinode server will generate a {ctrl} message from the returned ServerCtrl 
+      /// and forward it to the client session. 
       /// ServerCtrl.code equals to 0 instructs the server to continue with default processing of the client message.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
@@ -288,10 +288,10 @@ namespace Pbx {
         return FireHose(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// This plugin method is called by Tinode server for every message received from the clients. The
-      /// method returns a ServerCtrl message. Non-zero ServerCtrl.code indicates that no further
-      /// processing is needed. The Tinode server will generate a {ctrl} message from the returned ServerCtrl
-      /// and forward it to the client session.
+      /// This plugin method is called by Tinode server for every message received from the clients. The 
+      /// method returns a ServerCtrl message. Non-zero ServerCtrl.code indicates that no further 
+      /// processing is needed. The Tinode server will generate a {ctrl} message from the returned ServerCtrl 
+      /// and forward it to the client session. 
       /// ServerCtrl.code equals to 0 instructs the server to continue with default processing of the client message.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
@@ -302,10 +302,10 @@ namespace Pbx {
         return CallInvoker.BlockingUnaryCall(__Method_FireHose, null, options, request);
       }
       /// <summary>
-      /// This plugin method is called by Tinode server for every message received from the clients. The
-      /// method returns a ServerCtrl message. Non-zero ServerCtrl.code indicates that no further
-      /// processing is needed. The Tinode server will generate a {ctrl} message from the returned ServerCtrl
-      /// and forward it to the client session.
+      /// This plugin method is called by Tinode server for every message received from the clients. The 
+      /// method returns a ServerCtrl message. Non-zero ServerCtrl.code indicates that no further 
+      /// processing is needed. The Tinode server will generate a {ctrl} message from the returned ServerCtrl 
+      /// and forward it to the client session. 
       /// ServerCtrl.code equals to 0 instructs the server to continue with default processing of the client message.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
@@ -318,10 +318,10 @@ namespace Pbx {
         return FireHoseAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// This plugin method is called by Tinode server for every message received from the clients. The
-      /// method returns a ServerCtrl message. Non-zero ServerCtrl.code indicates that no further
-      /// processing is needed. The Tinode server will generate a {ctrl} message from the returned ServerCtrl
-      /// and forward it to the client session.
+      /// This plugin method is called by Tinode server for every message received from the clients. The 
+      /// method returns a ServerCtrl message. Non-zero ServerCtrl.code indicates that no further 
+      /// processing is needed. The Tinode server will generate a {ctrl} message from the returned ServerCtrl 
+      /// and forward it to the client session. 
       /// ServerCtrl.code equals to 0 instructs the server to continue with default processing of the client message.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
@@ -332,7 +332,7 @@ namespace Pbx {
         return CallInvoker.AsyncUnaryCall(__Method_FireHose, null, options, request);
       }
       /// <summary>
-      /// An alteranative user and topic discovery mechanism.
+      /// An alteranative user and topic discovery mechanism. 
       /// A search request issued on a 'fnd' topic. This method is called to generate an alternative result set.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
@@ -345,7 +345,7 @@ namespace Pbx {
         return Find(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// An alteranative user and topic discovery mechanism.
+      /// An alteranative user and topic discovery mechanism. 
       /// A search request issued on a 'fnd' topic. This method is called to generate an alternative result set.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
@@ -356,7 +356,7 @@ namespace Pbx {
         return CallInvoker.BlockingUnaryCall(__Method_Find, null, options, request);
       }
       /// <summary>
-      /// An alteranative user and topic discovery mechanism.
+      /// An alteranative user and topic discovery mechanism. 
       /// A search request issued on a 'fnd' topic. This method is called to generate an alternative result set.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
@@ -369,7 +369,7 @@ namespace Pbx {
         return FindAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// An alteranative user and topic discovery mechanism.
+      /// An alteranative user and topic discovery mechanism. 
       /// A search request issued on a 'fnd' topic. This method is called to generate an alternative result set.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
