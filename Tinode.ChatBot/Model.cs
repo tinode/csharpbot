@@ -27,123 +27,133 @@ namespace Pbx {
             "Cgttb2RlbC5wcm90bxIDcGJ4IggKBlVudXNlZCIsCg5EZWZhdWx0QWNzTW9k",
             "ZRIMCgRhdXRoGAEgASgJEgwKBGFub24YAiABKAkiKQoKQWNjZXNzTW9kZRIM",
             "CgR3YW50GAEgASgJEg0KBWdpdmVuGAIgASgJIicKBlNldFN1YhIPCgd1c2Vy",
-            "X2lkGAEgASgJEgwKBG1vZGUYAiABKAkiVAoHU2V0RGVzYxIoCgtkZWZhdWx0",
-            "X2FjcxgBIAEoCzITLnBieC5EZWZhdWx0QWNzTW9kZRIOCgZwdWJsaWMYAiAB",
-            "KAwSDwoHcHJpdmF0ZRgDIAEoDCJ1CgdHZXRPcHRzEhkKEWlmX21vZGlmaWVk",
-            "X3NpbmNlGAEgASgDEgwKBHVzZXIYAiABKAkSDQoFdG9waWMYAyABKAkSEAoI",
-            "c2luY2VfaWQYBCABKAUSEQoJYmVmb3JlX2lkGAUgASgFEg0KBWxpbWl0GAYg",
-            "ASgFImsKCEdldFF1ZXJ5EgwKBHdoYXQYASABKAkSGgoEZGVzYxgCIAEoCzIM",
-            "LnBieC5HZXRPcHRzEhkKA3N1YhgDIAEoCzIMLnBieC5HZXRPcHRzEhoKBGRh",
-            "dGEYBCABKAsyDC5wYnguR2V0T3B0cyJOCghTZXRRdWVyeRIaCgRkZXNjGAEg",
-            "ASgLMgwucGJ4LlNldERlc2MSGAoDc3ViGAIgASgLMgsucGJ4LlNldFN1YhIM",
-            "CgR0YWdzGAMgAygJIiMKCFNlcVJhbmdlEgsKA2xvdxgBIAEoBRIKCgJoaRgC",
-            "IAEoBSJNCgpDcmVkZW50aWFsEg4KBm1ldGhvZBgBIAEoCRINCgV2YWx1ZRgC",
-            "IAEoCRIQCghyZXNwb25zZRgDIAEoCRIOCgZwYXJhbXMYBCABKAwiWAoIQ2xp",
-            "ZW50SGkSCgoCaWQYASABKAkSEgoKdXNlcl9hZ2VudBgCIAEoCRILCgN2ZXIY",
-            "AyABKAkSEQoJZGV2aWNlX2lkGAQgASgJEgwKBGxhbmcYBSABKAkirwEKCUNs",
-            "aWVudEFjYxIKCgJpZBgBIAEoCRIPCgd1c2VyX2lkGAIgASgJEg4KBnNjaGVt",
-            "ZRgDIAEoCRIOCgZzZWNyZXQYBCABKAwSDQoFbG9naW4YBSABKAgSDAoEdGFn",
-            "cxgGIAMoCRIaCgRkZXNjGAcgASgLMgwucGJ4LlNldERlc2MSHQoEY3JlZBgI",
-            "IAMoCzIPLnBieC5DcmVkZW50aWFsEg0KBXRva2VuGAkgASgMIlgKC0NsaWVu",
-            "dExvZ2luEgoKAmlkGAEgASgJEg4KBnNjaGVtZRgCIAEoCRIOCgZzZWNyZXQY",
-            "AyABKAwSHQoEY3JlZBgEIAMoCzIPLnBieC5DcmVkZW50aWFsImoKCUNsaWVu",
-            "dFN1YhIKCgJpZBgBIAEoCRINCgV0b3BpYxgCIAEoCRIgCglzZXRfcXVlcnkY",
-            "AyABKAsyDS5wYnguU2V0UXVlcnkSIAoJZ2V0X3F1ZXJ5GAQgASgLMg0ucGJ4",
-            "LkdldFF1ZXJ5IjcKC0NsaWVudExlYXZlEgoKAmlkGAEgASgJEg0KBXRvcGlj",
-            "GAIgASgJEg0KBXVuc3ViGAMgASgIIp0BCglDbGllbnRQdWISCgoCaWQYASAB",
-            "KAkSDQoFdG9waWMYAiABKAkSDwoHbm9fZWNobxgDIAEoCBImCgRoZWFkGAQg",
-            "AygLMhgucGJ4LkNsaWVudFB1Yi5IZWFkRW50cnkSDwoHY29udGVudBgFIAEo",
-            "DBorCglIZWFkRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgMOgI4",
-            "ASJECglDbGllbnRHZXQSCgoCaWQYASABKAkSDQoFdG9waWMYAiABKAkSHAoF",
-            "cXVlcnkYAyABKAsyDS5wYnguR2V0UXVlcnkiRAoJQ2xpZW50U2V0EgoKAmlk",
-            "GAEgASgJEg0KBXRvcGljGAIgASgJEhwKBXF1ZXJ5GAMgASgLMg0ucGJ4LlNl",
-            "dFF1ZXJ5Iq0BCglDbGllbnREZWwSCgoCaWQYASABKAkSDQoFdG9waWMYAiAB",
-            "KAkSIQoEd2hhdBgDIAEoDjITLnBieC5DbGllbnREZWwuV2hhdBIeCgdkZWxf",
-            "c2VxGAQgAygLMg0ucGJ4LlNlcVJhbmdlEg8KB3VzZXJfaWQYBSABKAkSDAoE",
-            "aGFyZBgGIAEoCCIjCgRXaGF0EgcKA01TRxAAEgkKBVRPUElDEAESBwoDU1VC",
-            "EAIiSAoKQ2xpZW50Tm90ZRINCgV0b3BpYxgBIAEoCRIbCgR3aGF0GAIgASgO",
-            "Mg0ucGJ4LkluZm9Ob3RlEg4KBnNlcV9pZBgDIAEoBSKOAwoJQ2xpZW50TXNn",
-            "EhsKAmhpGAEgASgLMg0ucGJ4LkNsaWVudEhpSAASHQoDYWNjGAIgASgLMg4u",
-            "cGJ4LkNsaWVudEFjY0gAEiEKBWxvZ2luGAMgASgLMhAucGJ4LkNsaWVudExv",
-            "Z2luSAASHQoDc3ViGAQgASgLMg4ucGJ4LkNsaWVudFN1YkgAEiEKBWxlYXZl",
-            "GAUgASgLMhAucGJ4LkNsaWVudExlYXZlSAASHQoDcHViGAYgASgLMg4ucGJ4",
-            "LkNsaWVudFB1YkgAEh0KA2dldBgHIAEoCzIOLnBieC5DbGllbnRHZXRIABId",
-            "CgNzZXQYCCABKAsyDi5wYnguQ2xpZW50U2V0SAASHQoDZGVsGAkgASgLMg4u",
-            "cGJ4LkNsaWVudERlbEgAEh8KBG5vdGUYCiABKAsyDy5wYnguQ2xpZW50Tm90",
-            "ZUgAEhQKDG9uX2JlaGFsZl9vZhgLIAEoCRIiCgphdXRoX2xldmVsGAwgASgO",
-            "Mg4ucGJ4LkF1dGhMZXZlbEIJCgdNZXNzYWdlIu0BCglUb3BpY0Rlc2MSEgoK",
-            "Y3JlYXRlZF9hdBgBIAEoAxISCgp1cGRhdGVkX2F0GAIgASgDEhIKCnRvdWNo",
-            "ZWRfYXQYAyABKAMSIwoGZGVmYWNzGAQgASgLMhMucGJ4LkRlZmF1bHRBY3NN",
-            "b2RlEhwKA2FjcxgFIAEoCzIPLnBieC5BY2Nlc3NNb2RlEg4KBnNlcV9pZBgG",
-            "IAEoBRIPCgdyZWFkX2lkGAcgASgFEg8KB3JlY3ZfaWQYCCABKAUSDgoGZGVs",
-            "X2lkGAkgASgFEg4KBnB1YmxpYxgKIAEoDBIPCgdwcml2YXRlGAsgASgMIq0C",
-            "CghUb3BpY1N1YhISCgp1cGRhdGVkX2F0GAEgASgDEhIKCmRlbGV0ZWRfYXQY",
-            "AiABKAMSDgoGb25saW5lGAMgASgIEhwKA2FjcxgEIAEoCzIPLnBieC5BY2Nl",
-            "c3NNb2RlEg8KB3JlYWRfaWQYBSABKAUSDwoHcmVjdl9pZBgGIAEoBRIOCgZw",
-            "dWJsaWMYByABKAwSDwoHcHJpdmF0ZRgIIAEoDBIPCgd1c2VyX2lkGAkgASgJ",
-            "Eg0KBXRvcGljGAogASgJEhIKCnRvdWNoZWRfYXQYCyABKAMSDgoGc2VxX2lk",
-            "GAwgASgFEg4KBmRlbF9pZBgNIAEoBRIWCg5sYXN0X3NlZW5fdGltZRgOIAEo",
-            "AxIcChRsYXN0X3NlZW5fdXNlcl9hZ2VudBgPIAEoCSI7CglEZWxWYWx1ZXMS",
-            "DgoGZGVsX2lkGAEgASgFEh4KB2RlbF9zZXEYAiADKAsyDS5wYnguU2VxUmFu",
-            "Z2UinwEKClNlcnZlckN0cmwSCgoCaWQYASABKAkSDQoFdG9waWMYAiABKAkS",
-            "DAoEY29kZRgDIAEoBRIMCgR0ZXh0GAQgASgJEisKBnBhcmFtcxgFIAMoCzIb",
-            "LnBieC5TZXJ2ZXJDdHJsLlBhcmFtc0VudHJ5Gi0KC1BhcmFtc0VudHJ5EgsK",
-            "A2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoDDoCOAEivAEKClNlcnZlckRhdGES",
-            "DQoFdG9waWMYASABKAkSFAoMZnJvbV91c2VyX2lkGAIgASgJEhIKCmRlbGV0",
-            "ZWRfYXQYAyABKAMSDgoGc2VxX2lkGAQgASgFEicKBGhlYWQYBSADKAsyGS5w",
-            "YnguU2VydmVyRGF0YS5IZWFkRW50cnkSDwoHY29udGVudBgGIAEoDBorCglI",
-            "ZWFkRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgMOgI4ASLaAgoK",
-            "U2VydmVyUHJlcxINCgV0b3BpYxgBIAEoCRILCgNzcmMYAiABKAkSIgoEd2hh",
-            "dBgDIAEoDjIULnBieC5TZXJ2ZXJQcmVzLldoYXQSEgoKdXNlcl9hZ2VudBgE",
-            "IAEoCRIOCgZzZXFfaWQYBSABKAUSDgoGZGVsX2lkGAYgASgFEh4KB2RlbF9z",
-            "ZXEYByADKAsyDS5wYnguU2VxUmFuZ2USFgoOdGFyZ2V0X3VzZXJfaWQYCCAB",
-            "KAkSFQoNYWN0b3JfdXNlcl9pZBgJIAEoCRIcCgNhY3MYCiABKAsyDy5wYngu",
-            "QWNjZXNzTW9kZSJrCgRXaGF0EgYKAk9OEAASBwoDT0ZGEAESBgoCVUEQAxIH",
-            "CgNVUEQQBBIICgRHT05FEAUSBwoDQUNTEAYSCAoEVEVSTRAHEgcKA01TRxAI",
-            "EggKBFJFQUQQCRIICgRSRUNWEAoSBwoDREVMEAsifgoKU2VydmVyTWV0YRIK",
-            "CgJpZBgBIAEoCRINCgV0b3BpYxgCIAEoCRIcCgRkZXNjGAMgASgLMg4ucGJ4",
-            "LlRvcGljRGVzYxIaCgNzdWIYBCADKAsyDS5wYnguVG9waWNTdWISGwoDZGVs",
-            "GAUgASgLMg4ucGJ4LkRlbFZhbHVlcyJeCgpTZXJ2ZXJJbmZvEg0KBXRvcGlj",
-            "GAEgASgJEhQKDGZyb21fdXNlcl9pZBgCIAEoCRIbCgR3aGF0GAMgASgOMg0u",
-            "cGJ4LkluZm9Ob3RlEg4KBnNlcV9pZBgEIAEoBSLKAQoJU2VydmVyTXNnEh8K",
-            "BGN0cmwYASABKAsyDy5wYnguU2VydmVyQ3RybEgAEh8KBGRhdGEYAiABKAsy",
-            "Dy5wYnguU2VydmVyRGF0YUgAEh8KBHByZXMYAyABKAsyDy5wYnguU2VydmVy",
-            "UHJlc0gAEh8KBG1ldGEYBCABKAsyDy5wYnguU2VydmVyTWV0YUgAEh8KBGlu",
-            "Zm8YBSABKAsyDy5wYnguU2VydmVySW5mb0gAEg0KBXRvcGljGAYgASgJQgkK",
-            "B01lc3NhZ2UiagoKU2VydmVyUmVzcBIdCgZzdGF0dXMYASABKA4yDS5wYngu",
-            "UmVzcENvZGUSHgoGc3J2bXNnGAIgASgLMg4ucGJ4LlNlcnZlck1zZxIdCgVj",
-            "bG1zZxgDIAEoCzIOLnBieC5DbGllbnRNc2cioAEKB1Nlc3Npb24SEgoKc2Vz",
-            "c2lvbl9pZBgBIAEoCRIPCgd1c2VyX2lkGAIgASgJEiIKCmF1dGhfbGV2ZWwY",
-            "AyABKA4yDi5wYnguQXV0aExldmVsEhMKC3JlbW90ZV9hZGRyGAQgASgJEhIK",
-            "CnVzZXJfYWdlbnQYBSABKAkSEQoJZGV2aWNlX2lkGAYgASgJEhAKCGxhbmd1",
-            "YWdlGAcgASgJIkQKCUNsaWVudFJlcRIbCgNtc2cYASABKAsyDi5wYnguQ2xp",
-            "ZW50TXNnEhoKBHNlc3MYAiABKAsyDC5wYnguU2Vzc2lvbiItCgtTZWFyY2hR",
-            "dWVyeRIPCgd1c2VyX2lkGAEgASgJEg0KBXF1ZXJ5GAIgASgJIloKC1NlYXJj",
-            "aEZvdW5kEh0KBnN0YXR1cxgBIAEoDjINLnBieC5SZXNwQ29kZRINCgVxdWVy",
-            "eRgCIAEoCRIdCgZyZXN1bHQYAyADKAsyDS5wYnguVG9waWNTdWIiUwoKVG9w",
-            "aWNFdmVudBIZCgZhY3Rpb24YASABKA4yCS5wYnguQ3J1ZBIMCgRuYW1lGAIg",
-            "ASgJEhwKBGRlc2MYAyABKAsyDi5wYnguVG9waWNEZXNjIoIBCgxBY2NvdW50",
-            "RXZlbnQSGQoGYWN0aW9uGAEgASgOMgkucGJ4LkNydWQSDwoHdXNlcl9pZBgC",
-            "IAEoCRIoCgtkZWZhdWx0X2FjcxgDIAEoCzITLnBieC5EZWZhdWx0QWNzTW9k",
-            "ZRIOCgZwdWJsaWMYBCABKAwSDAoEdGFncxgIIAMoCSKwAQoRU3Vic2NyaXB0",
-            "aW9uRXZlbnQSGQoGYWN0aW9uGAEgASgOMgkucGJ4LkNydWQSDQoFdG9waWMY",
-            "AiABKAkSDwoHdXNlcl9pZBgDIAEoCRIOCgZkZWxfaWQYBCABKAUSDwoHcmVh",
-            "ZF9pZBgFIAEoBRIPCgdyZWN2X2lkGAYgASgFEh0KBG1vZGUYByABKAsyDy5w",
-            "YnguQWNjZXNzTW9kZRIPCgdwcml2YXRlGAggASgMIkcKDE1lc3NhZ2VFdmVu",
-            "dBIZCgZhY3Rpb24YASABKA4yCS5wYnguQ3J1ZBIcCgNtc2cYAiABKAsyDy5w",
-            "YnguU2VydmVyRGF0YSozCglBdXRoTGV2ZWwSCAoETk9ORRAAEggKBEFOT04Q",
-            "ChIICgRBVVRIEBQSCAoEUk9PVBAeKiYKCEluZm9Ob3RlEggKBFJFQUQQABII",
-            "CgRSRUNWEAESBgoCS1AQAio8CghSZXNwQ29kZRIMCghDT05USU5VRRAAEggK",
-            "BERST1AQARILCgdSRVNQT05EEAISCwoHUkVQTEFDRRADKioKBENydWQSCgoG",
-            "Q1JFQVRFEAASCgoGVVBEQVRFEAESCgoGREVMRVRFEAIyOwoETm9kZRIzCgtN",
-            "ZXNzYWdlTG9vcBIOLnBieC5DbGllbnRNc2caDi5wYnguU2VydmVyTXNnIgAo",
-            "ATABMp8CCgZQbHVnaW4SLQoIRmlyZUhvc2USDi5wYnguQ2xpZW50UmVxGg8u",
-            "cGJ4LlNlcnZlclJlc3AiABIsCgRGaW5kEhAucGJ4LlNlYXJjaFF1ZXJ5GhAu",
-            "cGJ4LlNlYXJjaEZvdW5kIgASKwoHQWNjb3VudBIRLnBieC5BY2NvdW50RXZl",
-            "bnQaCy5wYnguVW51c2VkIgASJwoFVG9waWMSDy5wYnguVG9waWNFdmVudBoL",
-            "LnBieC5VbnVzZWQiABI1CgxTdWJzY3JpcHRpb24SFi5wYnguU3Vic2NyaXB0",
-            "aW9uRXZlbnQaCy5wYnguVW51c2VkIgASKwoHTWVzc2FnZRIRLnBieC5NZXNz",
-            "YWdlRXZlbnQaCy5wYnguVW51c2VkIgBiBnByb3RvMw=="));
+            "X2lkGAEgASgJEgwKBG1vZGUYAiABKAkimQEKCkNsaWVudENyZWQSDgoGbWV0",
+            "aG9kGAEgASgJEg0KBXZhbHVlGAIgASgJEhAKCHJlc3BvbnNlGAMgASgJEisK",
+            "BnBhcmFtcxgEIAMoCzIbLnBieC5DbGllbnRDcmVkLlBhcmFtc0VudHJ5Gi0K",
+            "C1BhcmFtc0VudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoDDoCOAEi",
+            "VAoHU2V0RGVzYxIoCgtkZWZhdWx0X2FjcxgBIAEoCzITLnBieC5EZWZhdWx0",
+            "QWNzTW9kZRIOCgZwdWJsaWMYAiABKAwSDwoHcHJpdmF0ZRgDIAEoDCJ1CgdH",
+            "ZXRPcHRzEhkKEWlmX21vZGlmaWVkX3NpbmNlGAEgASgDEgwKBHVzZXIYAiAB",
+            "KAkSDQoFdG9waWMYAyABKAkSEAoIc2luY2VfaWQYBCABKAUSEQoJYmVmb3Jl",
+            "X2lkGAUgASgFEg0KBWxpbWl0GAYgASgFImsKCEdldFF1ZXJ5EgwKBHdoYXQY",
+            "ASABKAkSGgoEZGVzYxgCIAEoCzIMLnBieC5HZXRPcHRzEhkKA3N1YhgDIAEo",
+            "CzIMLnBieC5HZXRPcHRzEhoKBGRhdGEYBCABKAsyDC5wYnguR2V0T3B0cyJt",
+            "CghTZXRRdWVyeRIaCgRkZXNjGAEgASgLMgwucGJ4LlNldERlc2MSGAoDc3Vi",
+            "GAIgASgLMgsucGJ4LlNldFN1YhIMCgR0YWdzGAMgAygJEh0KBGNyZWQYBCAB",
+            "KAsyDy5wYnguQ2xpZW50Q3JlZCIjCghTZXFSYW5nZRILCgNsb3cYASABKAUS",
+            "CgoCaGkYAiABKAUifgoIQ2xpZW50SGkSCgoCaWQYASABKAkSEgoKdXNlcl9h",
+            "Z2VudBgCIAEoCRILCgN2ZXIYAyABKAkSEQoJZGV2aWNlX2lkGAQgASgJEgwK",
+            "BGxhbmcYBSABKAkSEAoIcGxhdGZvcm0YBiABKAkSEgoKYmFja2dyb3VuZBgH",
+            "IAEoCCK+AQoJQ2xpZW50QWNjEgoKAmlkGAEgASgJEg8KB3VzZXJfaWQYAiAB",
+            "KAkSDgoGc2NoZW1lGAMgASgJEg4KBnNlY3JldBgEIAEoDBINCgVsb2dpbhgF",
+            "IAEoCBIMCgR0YWdzGAYgAygJEhoKBGRlc2MYByABKAsyDC5wYnguU2V0RGVz",
+            "YxIdCgRjcmVkGAggAygLMg8ucGJ4LkNsaWVudENyZWQSDQoFdG9rZW4YCSAB",
+            "KAwSDQoFc3RhdGUYCiABKAkiWAoLQ2xpZW50TG9naW4SCgoCaWQYASABKAkS",
+            "DgoGc2NoZW1lGAIgASgJEg4KBnNlY3JldBgDIAEoDBIdCgRjcmVkGAQgAygL",
+            "Mg8ucGJ4LkNsaWVudENyZWQiagoJQ2xpZW50U3ViEgoKAmlkGAEgASgJEg0K",
+            "BXRvcGljGAIgASgJEiAKCXNldF9xdWVyeRgDIAEoCzINLnBieC5TZXRRdWVy",
+            "eRIgCglnZXRfcXVlcnkYBCABKAsyDS5wYnguR2V0UXVlcnkiNwoLQ2xpZW50",
+            "TGVhdmUSCgoCaWQYASABKAkSDQoFdG9waWMYAiABKAkSDQoFdW5zdWIYAyAB",
+            "KAginQEKCUNsaWVudFB1YhIKCgJpZBgBIAEoCRINCgV0b3BpYxgCIAEoCRIP",
+            "Cgdub19lY2hvGAMgASgIEiYKBGhlYWQYBCADKAsyGC5wYnguQ2xpZW50UHVi",
+            "LkhlYWRFbnRyeRIPCgdjb250ZW50GAUgASgMGisKCUhlYWRFbnRyeRILCgNr",
+            "ZXkYASABKAkSDQoFdmFsdWUYAiABKAw6AjgBIkQKCUNsaWVudEdldBIKCgJp",
+            "ZBgBIAEoCRINCgV0b3BpYxgCIAEoCRIcCgVxdWVyeRgDIAEoCzINLnBieC5H",
+            "ZXRRdWVyeSJECglDbGllbnRTZXQSCgoCaWQYASABKAkSDQoFdG9waWMYAiAB",
+            "KAkSHAoFcXVlcnkYAyABKAsyDS5wYnguU2V0UXVlcnki4AEKCUNsaWVudERl",
+            "bBIKCgJpZBgBIAEoCRINCgV0b3BpYxgCIAEoCRIhCgR3aGF0GAMgASgOMhMu",
+            "cGJ4LkNsaWVudERlbC5XaGF0Eh4KB2RlbF9zZXEYBCADKAsyDS5wYnguU2Vx",
+            "UmFuZ2USDwoHdXNlcl9pZBgFIAEoCRIdCgRjcmVkGAYgASgLMg8ucGJ4LkNs",
+            "aWVudENyZWQSDAoEaGFyZBgHIAEoCCI3CgRXaGF0EgcKA01TRxAAEgkKBVRP",
+            "UElDEAESBwoDU1VCEAISCAoEVVNFUhADEggKBENSRUQQBCJICgpDbGllbnRO",
+            "b3RlEg0KBXRvcGljGAEgASgJEhsKBHdoYXQYAiABKA4yDS5wYnguSW5mb05v",
+            "dGUSDgoGc2VxX2lkGAMgASgFIo4DCglDbGllbnRNc2cSGwoCaGkYASABKAsy",
+            "DS5wYnguQ2xpZW50SGlIABIdCgNhY2MYAiABKAsyDi5wYnguQ2xpZW50QWNj",
+            "SAASIQoFbG9naW4YAyABKAsyEC5wYnguQ2xpZW50TG9naW5IABIdCgNzdWIY",
+            "BCABKAsyDi5wYnguQ2xpZW50U3ViSAASIQoFbGVhdmUYBSABKAsyEC5wYngu",
+            "Q2xpZW50TGVhdmVIABIdCgNwdWIYBiABKAsyDi5wYnguQ2xpZW50UHViSAAS",
+            "HQoDZ2V0GAcgASgLMg4ucGJ4LkNsaWVudEdldEgAEh0KA3NldBgIIAEoCzIO",
+            "LnBieC5DbGllbnRTZXRIABIdCgNkZWwYCSABKAsyDi5wYnguQ2xpZW50RGVs",
+            "SAASHwoEbm90ZRgKIAEoCzIPLnBieC5DbGllbnROb3RlSAASFAoMb25fYmVo",
+            "YWxmX29mGAsgASgJEiIKCmF1dGhfbGV2ZWwYDCABKA4yDi5wYnguQXV0aExl",
+            "dmVsQgkKB01lc3NhZ2UiOQoKU2VydmVyQ3JlZBIOCgZtZXRob2QYASABKAkS",
+            "DQoFdmFsdWUYAiABKAkSDAoEZG9uZRgDIAEoCCLEAgoJVG9waWNEZXNjEhIK",
+            "CmNyZWF0ZWRfYXQYASABKAMSEgoKdXBkYXRlZF9hdBgCIAEoAxISCgp0b3Vj",
+            "aGVkX2F0GAMgASgDEiMKBmRlZmFjcxgEIAEoCzITLnBieC5EZWZhdWx0QWNz",
+            "TW9kZRIcCgNhY3MYBSABKAsyDy5wYnguQWNjZXNzTW9kZRIOCgZzZXFfaWQY",
+            "BiABKAUSDwoHcmVhZF9pZBgHIAEoBRIPCgdyZWN2X2lkGAggASgFEg4KBmRl",
+            "bF9pZBgJIAEoBRIOCgZwdWJsaWMYCiABKAwSDwoHcHJpdmF0ZRgLIAEoDBIN",
+            "CgVzdGF0ZRgMIAEoCRIQCghzdGF0ZV9hdBgNIAEoAxIWCg5sYXN0X3NlZW5f",
+            "dGltZRgPIAEoAxIcChRsYXN0X3NlZW5fdXNlcl9hZ2VudBgQIAEoCSKtAgoI",
+            "VG9waWNTdWISEgoKdXBkYXRlZF9hdBgBIAEoAxISCgpkZWxldGVkX2F0GAIg",
+            "ASgDEg4KBm9ubGluZRgDIAEoCBIcCgNhY3MYBCABKAsyDy5wYnguQWNjZXNz",
+            "TW9kZRIPCgdyZWFkX2lkGAUgASgFEg8KB3JlY3ZfaWQYBiABKAUSDgoGcHVi",
+            "bGljGAcgASgMEg8KB3ByaXZhdGUYCCABKAwSDwoHdXNlcl9pZBgJIAEoCRIN",
+            "CgV0b3BpYxgKIAEoCRISCgp0b3VjaGVkX2F0GAsgASgDEg4KBnNlcV9pZBgM",
+            "IAEoBRIOCgZkZWxfaWQYDSABKAUSFgoObGFzdF9zZWVuX3RpbWUYDiABKAMS",
+            "HAoUbGFzdF9zZWVuX3VzZXJfYWdlbnQYDyABKAkiOwoJRGVsVmFsdWVzEg4K",
+            "BmRlbF9pZBgBIAEoBRIeCgdkZWxfc2VxGAIgAygLMg0ucGJ4LlNlcVJhbmdl",
+            "Ip8BCgpTZXJ2ZXJDdHJsEgoKAmlkGAEgASgJEg0KBXRvcGljGAIgASgJEgwK",
+            "BGNvZGUYAyABKAUSDAoEdGV4dBgEIAEoCRIrCgZwYXJhbXMYBSADKAsyGy5w",
+            "YnguU2VydmVyQ3RybC5QYXJhbXNFbnRyeRotCgtQYXJhbXNFbnRyeRILCgNr",
+            "ZXkYASABKAkSDQoFdmFsdWUYAiABKAw6AjgBIs8BCgpTZXJ2ZXJEYXRhEg0K",
+            "BXRvcGljGAEgASgJEhQKDGZyb21fdXNlcl9pZBgCIAEoCRIRCgl0aW1lc3Rh",
+            "bXAYByABKAMSEgoKZGVsZXRlZF9hdBgDIAEoAxIOCgZzZXFfaWQYBCABKAUS",
+            "JwoEaGVhZBgFIAMoCzIZLnBieC5TZXJ2ZXJEYXRhLkhlYWRFbnRyeRIPCgdj",
+            "b250ZW50GAYgASgMGisKCUhlYWRFbnRyeRILCgNrZXkYASABKAkSDQoFdmFs",
+            "dWUYAiABKAw6AjgBIuQCCgpTZXJ2ZXJQcmVzEg0KBXRvcGljGAEgASgJEgsK",
+            "A3NyYxgCIAEoCRIiCgR3aGF0GAMgASgOMhQucGJ4LlNlcnZlclByZXMuV2hh",
+            "dBISCgp1c2VyX2FnZW50GAQgASgJEg4KBnNlcV9pZBgFIAEoBRIOCgZkZWxf",
+            "aWQYBiABKAUSHgoHZGVsX3NlcRgHIAMoCzINLnBieC5TZXFSYW5nZRIWCg50",
+            "YXJnZXRfdXNlcl9pZBgIIAEoCRIVCg1hY3Rvcl91c2VyX2lkGAkgASgJEhwK",
+            "A2FjcxgKIAEoCzIPLnBieC5BY2Nlc3NNb2RlInUKBFdoYXQSBgoCT04QABIH",
+            "CgNPRkYQARIGCgJVQRADEgcKA1VQRBAEEggKBEdPTkUQBRIHCgNBQ1MQBhII",
+            "CgRURVJNEAcSBwoDTVNHEAgSCAoEUkVBRBAJEggKBFJFQ1YQChIHCgNERUwQ",
+            "CxIICgRUQUdTEAwiqwEKClNlcnZlck1ldGESCgoCaWQYASABKAkSDQoFdG9w",
+            "aWMYAiABKAkSHAoEZGVzYxgDIAEoCzIOLnBieC5Ub3BpY0Rlc2MSGgoDc3Vi",
+            "GAQgAygLMg0ucGJ4LlRvcGljU3ViEhsKA2RlbBgFIAEoCzIOLnBieC5EZWxW",
+            "YWx1ZXMSDAoEdGFncxgGIAMoCRIdCgRjcmVkGAcgAygLMg8ucGJ4LlNlcnZl",
+            "ckNyZWQiawoKU2VydmVySW5mbxINCgV0b3BpYxgBIAEoCRIUCgxmcm9tX3Vz",
+            "ZXJfaWQYAiABKAkSGwoEd2hhdBgDIAEoDjINLnBieC5JbmZvTm90ZRIOCgZz",
+            "ZXFfaWQYBCABKAUSCwoDc3JjGAUgASgJIsoBCglTZXJ2ZXJNc2cSHwoEY3Ry",
+            "bBgBIAEoCzIPLnBieC5TZXJ2ZXJDdHJsSAASHwoEZGF0YRgCIAEoCzIPLnBi",
+            "eC5TZXJ2ZXJEYXRhSAASHwoEcHJlcxgDIAEoCzIPLnBieC5TZXJ2ZXJQcmVz",
+            "SAASHwoEbWV0YRgEIAEoCzIPLnBieC5TZXJ2ZXJNZXRhSAASHwoEaW5mbxgF",
+            "IAEoCzIPLnBieC5TZXJ2ZXJJbmZvSAASDQoFdG9waWMYBiABKAlCCQoHTWVz",
+            "c2FnZSJqCgpTZXJ2ZXJSZXNwEh0KBnN0YXR1cxgBIAEoDjINLnBieC5SZXNw",
+            "Q29kZRIeCgZzcnZtc2cYAiABKAsyDi5wYnguU2VydmVyTXNnEh0KBWNsbXNn",
+            "GAMgASgLMg4ucGJ4LkNsaWVudE1zZyKgAQoHU2Vzc2lvbhISCgpzZXNzaW9u",
+            "X2lkGAEgASgJEg8KB3VzZXJfaWQYAiABKAkSIgoKYXV0aF9sZXZlbBgDIAEo",
+            "DjIOLnBieC5BdXRoTGV2ZWwSEwoLcmVtb3RlX2FkZHIYBCABKAkSEgoKdXNl",
+            "cl9hZ2VudBgFIAEoCRIRCglkZXZpY2VfaWQYBiABKAkSEAoIbGFuZ3VhZ2UY",
+            "ByABKAkiRAoJQ2xpZW50UmVxEhsKA21zZxgBIAEoCzIOLnBieC5DbGllbnRN",
+            "c2cSGgoEc2VzcxgCIAEoCzIMLnBieC5TZXNzaW9uIi0KC1NlYXJjaFF1ZXJ5",
+            "Eg8KB3VzZXJfaWQYASABKAkSDQoFcXVlcnkYAiABKAkiWgoLU2VhcmNoRm91",
+            "bmQSHQoGc3RhdHVzGAEgASgOMg0ucGJ4LlJlc3BDb2RlEg0KBXF1ZXJ5GAIg",
+            "ASgJEh0KBnJlc3VsdBgDIAMoCzINLnBieC5Ub3BpY1N1YiJTCgpUb3BpY0V2",
+            "ZW50EhkKBmFjdGlvbhgBIAEoDjIJLnBieC5DcnVkEgwKBG5hbWUYAiABKAkS",
+            "HAoEZGVzYxgDIAEoCzIOLnBieC5Ub3BpY0Rlc2MiggEKDEFjY291bnRFdmVu",
+            "dBIZCgZhY3Rpb24YASABKA4yCS5wYnguQ3J1ZBIPCgd1c2VyX2lkGAIgASgJ",
+            "EigKC2RlZmF1bHRfYWNzGAMgASgLMhMucGJ4LkRlZmF1bHRBY3NNb2RlEg4K",
+            "BnB1YmxpYxgEIAEoDBIMCgR0YWdzGAggAygJIrABChFTdWJzY3JpcHRpb25F",
+            "dmVudBIZCgZhY3Rpb24YASABKA4yCS5wYnguQ3J1ZBINCgV0b3BpYxgCIAEo",
+            "CRIPCgd1c2VyX2lkGAMgASgJEg4KBmRlbF9pZBgEIAEoBRIPCgdyZWFkX2lk",
+            "GAUgASgFEg8KB3JlY3ZfaWQYBiABKAUSHQoEbW9kZRgHIAEoCzIPLnBieC5B",
+            "Y2Nlc3NNb2RlEg8KB3ByaXZhdGUYCCABKAwiRwoMTWVzc2FnZUV2ZW50EhkK",
+            "BmFjdGlvbhgBIAEoDjIJLnBieC5DcnVkEhwKA21zZxgCIAEoCzIPLnBieC5T",
+            "ZXJ2ZXJEYXRhKjMKCUF1dGhMZXZlbBIICgROT05FEAASCAoEQU5PThAKEggK",
+            "BEFVVEgQFBIICgRST09UEB4qJgoISW5mb05vdGUSCAoEUkVBRBAAEggKBFJF",
+            "Q1YQARIGCgJLUBACKjwKCFJlc3BDb2RlEgwKCENPTlRJTlVFEAASCAoERFJP",
+            "UBABEgsKB1JFU1BPTkQQAhILCgdSRVBMQUNFEAMqKgoEQ3J1ZBIKCgZDUkVB",
+            "VEUQABIKCgZVUERBVEUQARIKCgZERUxFVEUQAjI7CgROb2RlEjMKC01lc3Nh",
+            "Z2VMb29wEg4ucGJ4LkNsaWVudE1zZxoOLnBieC5TZXJ2ZXJNc2ciACgBMAEy",
+            "nwIKBlBsdWdpbhItCghGaXJlSG9zZRIOLnBieC5DbGllbnRSZXEaDy5wYngu",
+            "U2VydmVyUmVzcCIAEiwKBEZpbmQSEC5wYnguU2VhcmNoUXVlcnkaEC5wYngu",
+            "U2VhcmNoRm91bmQiABIrCgdBY2NvdW50EhEucGJ4LkFjY291bnRFdmVudBoL",
+            "LnBieC5VbnVzZWQiABInCgVUb3BpYxIPLnBieC5Ub3BpY0V2ZW50GgsucGJ4",
+            "LlVudXNlZCIAEjUKDFN1YnNjcmlwdGlvbhIWLnBieC5TdWJzY3JpcHRpb25F",
+            "dmVudBoLLnBieC5VbnVzZWQiABIrCgdNZXNzYWdlEhEucGJ4Lk1lc3NhZ2VF",
+            "dmVudBoLLnBieC5VbnVzZWQiAGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Pbx.AuthLevel), typeof(global::Pbx.InfoNote), typeof(global::Pbx.RespCode), typeof(global::Pbx.Crud), }, new pbr::GeneratedClrTypeInfo[] {
@@ -151,31 +161,32 @@ namespace Pbx {
             new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.DefaultAcsMode), global::Pbx.DefaultAcsMode.Parser, new[]{ "Auth", "Anon" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.AccessMode), global::Pbx.AccessMode.Parser, new[]{ "Want", "Given" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.SetSub), global::Pbx.SetSub.Parser, new[]{ "UserId", "Mode" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientCred), global::Pbx.ClientCred.Parser, new[]{ "Method", "Value", "Response", "Params" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.SetDesc), global::Pbx.SetDesc.Parser, new[]{ "DefaultAcs", "Public", "Private" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.GetOpts), global::Pbx.GetOpts.Parser, new[]{ "IfModifiedSince", "User", "Topic", "SinceId", "BeforeId", "Limit" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.GetQuery), global::Pbx.GetQuery.Parser, new[]{ "What", "Desc", "Sub", "Data" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.SetQuery), global::Pbx.SetQuery.Parser, new[]{ "Desc", "Sub", "Tags" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.SetQuery), global::Pbx.SetQuery.Parser, new[]{ "Desc", "Sub", "Tags", "Cred" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.SeqRange), global::Pbx.SeqRange.Parser, new[]{ "Low", "Hi" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.Credential), global::Pbx.Credential.Parser, new[]{ "Method", "Value", "Response", "Params" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientHi), global::Pbx.ClientHi.Parser, new[]{ "Id", "UserAgent", "Ver", "DeviceId", "Lang" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientAcc), global::Pbx.ClientAcc.Parser, new[]{ "Id", "UserId", "Scheme", "Secret", "Login", "Tags", "Desc", "Cred", "Token" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientHi), global::Pbx.ClientHi.Parser, new[]{ "Id", "UserAgent", "Ver", "DeviceId", "Lang", "Platform", "Background" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientAcc), global::Pbx.ClientAcc.Parser, new[]{ "Id", "UserId", "Scheme", "Secret", "Login", "Tags", "Desc", "Cred", "Token", "State" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientLogin), global::Pbx.ClientLogin.Parser, new[]{ "Id", "Scheme", "Secret", "Cred" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientSub), global::Pbx.ClientSub.Parser, new[]{ "Id", "Topic", "SetQuery", "GetQuery" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientLeave), global::Pbx.ClientLeave.Parser, new[]{ "Id", "Topic", "Unsub" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientPub), global::Pbx.ClientPub.Parser, new[]{ "Id", "Topic", "NoEcho", "Head", "Content" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientGet), global::Pbx.ClientGet.Parser, new[]{ "Id", "Topic", "Query" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientSet), global::Pbx.ClientSet.Parser, new[]{ "Id", "Topic", "Query" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientDel), global::Pbx.ClientDel.Parser, new[]{ "Id", "Topic", "What", "DelSeq", "UserId", "Hard" }, null, new[]{ typeof(global::Pbx.ClientDel.Types.What) }, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientDel), global::Pbx.ClientDel.Parser, new[]{ "Id", "Topic", "What", "DelSeq", "UserId", "Cred", "Hard" }, null, new[]{ typeof(global::Pbx.ClientDel.Types.What) }, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientNote), global::Pbx.ClientNote.Parser, new[]{ "Topic", "What", "SeqId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientMsg), global::Pbx.ClientMsg.Parser, new[]{ "Hi", "Acc", "Login", "Sub", "Leave", "Pub", "Get", "Set", "Del", "Note", "OnBehalfOf", "AuthLevel" }, new[]{ "Message" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.TopicDesc), global::Pbx.TopicDesc.Parser, new[]{ "CreatedAt", "UpdatedAt", "TouchedAt", "Defacs", "Acs", "SeqId", "ReadId", "RecvId", "DelId", "Public", "Private" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ServerCred), global::Pbx.ServerCred.Parser, new[]{ "Method", "Value", "Done" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.TopicDesc), global::Pbx.TopicDesc.Parser, new[]{ "CreatedAt", "UpdatedAt", "TouchedAt", "Defacs", "Acs", "SeqId", "ReadId", "RecvId", "DelId", "Public", "Private", "State", "StateAt", "LastSeenTime", "LastSeenUserAgent" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.TopicSub), global::Pbx.TopicSub.Parser, new[]{ "UpdatedAt", "DeletedAt", "Online", "Acs", "ReadId", "RecvId", "Public", "Private", "UserId", "Topic", "TouchedAt", "SeqId", "DelId", "LastSeenTime", "LastSeenUserAgent" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.DelValues), global::Pbx.DelValues.Parser, new[]{ "DelId", "DelSeq" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ServerCtrl), global::Pbx.ServerCtrl.Parser, new[]{ "Id", "Topic", "Code", "Text", "Params" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ServerData), global::Pbx.ServerData.Parser, new[]{ "Topic", "FromUserId", "DeletedAt", "SeqId", "Head", "Content" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ServerData), global::Pbx.ServerData.Parser, new[]{ "Topic", "FromUserId", "Timestamp", "DeletedAt", "SeqId", "Head", "Content" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ServerPres), global::Pbx.ServerPres.Parser, new[]{ "Topic", "Src", "What", "UserAgent", "SeqId", "DelId", "DelSeq", "TargetUserId", "ActorUserId", "Acs" }, null, new[]{ typeof(global::Pbx.ServerPres.Types.What) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ServerMeta), global::Pbx.ServerMeta.Parser, new[]{ "Id", "Topic", "Desc", "Sub", "Del" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ServerInfo), global::Pbx.ServerInfo.Parser, new[]{ "Topic", "FromUserId", "What", "SeqId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ServerMeta), global::Pbx.ServerMeta.Parser, new[]{ "Id", "Topic", "Desc", "Sub", "Del", "Tags", "Cred" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ServerInfo), global::Pbx.ServerInfo.Parser, new[]{ "Topic", "FromUserId", "What", "SeqId", "Src" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ServerMsg), global::Pbx.ServerMsg.Parser, new[]{ "Ctrl", "Data", "Pres", "Meta", "Info", "Topic" }, new[]{ "Message" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ServerResp), global::Pbx.ServerResp.Parser, new[]{ "Status", "Srvmsg", "Clmsg" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.Session), global::Pbx.Session.Parser, new[]{ "SessionId", "UserId", "AuthLevel", "RemoteAddr", "UserAgent", "DeviceId", "Language" }, null, null, null),
@@ -225,7 +236,7 @@ namespace Pbx {
     /// </summary>
     [pbr::OriginalName("RESPOND")] Respond = 2,
     /// <summary>
-    /// Replace client's original request with the provided request then continue with 
+    /// Replace client's original request with the provided request then continue with
     /// processing.
     /// </summary>
     [pbr::OriginalName("REPLACE")] Replace = 3,
@@ -837,6 +848,226 @@ namespace Pbx {
   }
 
   /// <summary>
+  /// Credentials such as email or phone number
+  /// </summary>
+  public sealed partial class ClientCred : pb::IMessage<ClientCred> {
+    private static readonly pb::MessageParser<ClientCred> _parser = new pb::MessageParser<ClientCred>(() => new ClientCred());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ClientCred> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[4]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ClientCred() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ClientCred(ClientCred other) : this() {
+      method_ = other.method_;
+      value_ = other.value_;
+      response_ = other.response_;
+      params_ = other.params_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ClientCred Clone() {
+      return new ClientCred(this);
+    }
+
+    /// <summary>Field number for the "method" field.</summary>
+    public const int MethodFieldNumber = 1;
+    private string method_ = "";
+    /// <summary>
+    /// Credential type, i.e. `email` or `tel`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Method {
+      get { return method_; }
+      set {
+        method_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "value" field.</summary>
+    public const int ValueFieldNumber = 2;
+    private string value_ = "";
+    /// <summary>
+    /// Value to verify, i.e. `user@example.com` or `+18003287448`
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Value {
+      get { return value_; }
+      set {
+        value_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "response" field.</summary>
+    public const int ResponseFieldNumber = 3;
+    private string response_ = "";
+    /// <summary>
+    /// Verification response
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Response {
+      get { return response_; }
+      set {
+        response_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "params" field.</summary>
+    public const int ParamsFieldNumber = 4;
+    private static readonly pbc::MapField<string, pb::ByteString>.Codec _map_params_codec
+        = new pbc::MapField<string, pb::ByteString>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForBytes(18), 34);
+    private readonly pbc::MapField<string, pb::ByteString> params_ = new pbc::MapField<string, pb::ByteString>();
+    /// <summary>
+    /// Request parameters, such as preferences or country code.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::MapField<string, pb::ByteString> Params {
+      get { return params_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ClientCred);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ClientCred other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Method != other.Method) return false;
+      if (Value != other.Value) return false;
+      if (Response != other.Response) return false;
+      if (!Params.Equals(other.Params)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Method.Length != 0) hash ^= Method.GetHashCode();
+      if (Value.Length != 0) hash ^= Value.GetHashCode();
+      if (Response.Length != 0) hash ^= Response.GetHashCode();
+      hash ^= Params.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Method.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Method);
+      }
+      if (Value.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Value);
+      }
+      if (Response.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Response);
+      }
+      params_.WriteTo(output, _map_params_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Method.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Method);
+      }
+      if (Value.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Value);
+      }
+      if (Response.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Response);
+      }
+      size += params_.CalculateSize(_map_params_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ClientCred other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Method.Length != 0) {
+        Method = other.Method;
+      }
+      if (other.Value.Length != 0) {
+        Value = other.Value;
+      }
+      if (other.Response.Length != 0) {
+        Response = other.Response;
+      }
+      params_.Add(other.params_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Method = input.ReadString();
+            break;
+          }
+          case 18: {
+            Value = input.ReadString();
+            break;
+          }
+          case 26: {
+            Response = input.ReadString();
+            break;
+          }
+          case 34: {
+            params_.AddEntriesFrom(input, _map_params_codec);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
   /// SetDesc: C2S in set.what == "desc" and sub.init message
   /// </summary>
   public sealed partial class SetDesc : pb::IMessage<SetDesc> {
@@ -847,7 +1078,7 @@ namespace Pbx {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1038,7 +1269,7 @@ namespace Pbx {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1325,7 +1556,7 @@ namespace Pbx {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1565,7 +1796,7 @@ namespace Pbx {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1585,6 +1816,7 @@ namespace Pbx {
       desc_ = other.desc_ != null ? other.desc_.Clone() : null;
       sub_ = other.sub_ != null ? other.sub_.Clone() : null;
       tags_ = other.tags_.Clone();
+      cred_ = other.cred_ != null ? other.cred_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1634,6 +1866,20 @@ namespace Pbx {
       get { return tags_; }
     }
 
+    /// <summary>Field number for the "cred" field.</summary>
+    public const int CredFieldNumber = 4;
+    private global::Pbx.ClientCred cred_;
+    /// <summary>
+    /// Credential being updated.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Pbx.ClientCred Cred {
+      get { return cred_; }
+      set {
+        cred_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as SetQuery);
@@ -1650,6 +1896,7 @@ namespace Pbx {
       if (!object.Equals(Desc, other.Desc)) return false;
       if (!object.Equals(Sub, other.Sub)) return false;
       if(!tags_.Equals(other.tags_)) return false;
+      if (!object.Equals(Cred, other.Cred)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1659,6 +1906,7 @@ namespace Pbx {
       if (desc_ != null) hash ^= Desc.GetHashCode();
       if (sub_ != null) hash ^= Sub.GetHashCode();
       hash ^= tags_.GetHashCode();
+      if (cred_ != null) hash ^= Cred.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1681,6 +1929,10 @@ namespace Pbx {
         output.WriteMessage(Sub);
       }
       tags_.WriteTo(output, _repeated_tags_codec);
+      if (cred_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Cred);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1696,6 +1948,9 @@ namespace Pbx {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Sub);
       }
       size += tags_.CalculateSize(_repeated_tags_codec);
+      if (cred_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Cred);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1720,6 +1975,12 @@ namespace Pbx {
         Sub.MergeFrom(other.Sub);
       }
       tags_.Add(other.tags_);
+      if (other.cred_ != null) {
+        if (cred_ == null) {
+          cred_ = new global::Pbx.ClientCred();
+        }
+        Cred.MergeFrom(other.Cred);
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1749,6 +2010,13 @@ namespace Pbx {
             tags_.AddEntriesFrom(input, _repeated_tags_codec);
             break;
           }
+          case 34: {
+            if (cred_ == null) {
+              cred_ = new global::Pbx.ClientCred();
+            }
+            input.ReadMessage(cred_);
+            break;
+          }
         }
       }
     }
@@ -1763,7 +2031,7 @@ namespace Pbx {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1912,231 +2180,6 @@ namespace Pbx {
 
   }
 
-  public sealed partial class Credential : pb::IMessage<Credential> {
-    private static readonly pb::MessageParser<Credential> _parser = new pb::MessageParser<Credential>(() => new Credential());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<Credential> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[9]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public Credential() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public Credential(Credential other) : this() {
-      method_ = other.method_;
-      value_ = other.value_;
-      response_ = other.response_;
-      params_ = other.params_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public Credential Clone() {
-      return new Credential(this);
-    }
-
-    /// <summary>Field number for the "method" field.</summary>
-    public const int MethodFieldNumber = 1;
-    private string method_ = "";
-    /// <summary>
-    /// Credential type, i.e. `email` or `tel`.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Method {
-      get { return method_; }
-      set {
-        method_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private string value_ = "";
-    /// <summary>
-    /// Value to verify, i.e. `user@example.com` or `+18003287448`
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Value {
-      get { return value_; }
-      set {
-        value_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "response" field.</summary>
-    public const int ResponseFieldNumber = 3;
-    private string response_ = "";
-    /// <summary>
-    /// Verification response
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Response {
-      get { return response_; }
-      set {
-        response_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "params" field.</summary>
-    public const int ParamsFieldNumber = 4;
-    private pb::ByteString params_ = pb::ByteString.Empty;
-    /// <summary>
-    /// Request parameters, such as preferences.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pb::ByteString Params {
-      get { return params_; }
-      set {
-        params_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as Credential);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(Credential other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Method != other.Method) return false;
-      if (Value != other.Value) return false;
-      if (Response != other.Response) return false;
-      if (Params != other.Params) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Method.Length != 0) hash ^= Method.GetHashCode();
-      if (Value.Length != 0) hash ^= Value.GetHashCode();
-      if (Response.Length != 0) hash ^= Response.GetHashCode();
-      if (Params.Length != 0) hash ^= Params.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Method.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Method);
-      }
-      if (Value.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(Value);
-      }
-      if (Response.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(Response);
-      }
-      if (Params.Length != 0) {
-        output.WriteRawTag(34);
-        output.WriteBytes(Params);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Method.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Method);
-      }
-      if (Value.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Value);
-      }
-      if (Response.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Response);
-      }
-      if (Params.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeBytesSize(Params);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(Credential other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Method.Length != 0) {
-        Method = other.Method;
-      }
-      if (other.Value.Length != 0) {
-        Value = other.Value;
-      }
-      if (other.Response.Length != 0) {
-        Response = other.Response;
-      }
-      if (other.Params.Length != 0) {
-        Params = other.Params;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Method = input.ReadString();
-            break;
-          }
-          case 18: {
-            Value = input.ReadString();
-            break;
-          }
-          case 26: {
-            Response = input.ReadString();
-            break;
-          }
-          case 34: {
-            Params = input.ReadBytes();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
   /// <summary>
   /// Client handshake
   /// </summary>
@@ -2170,6 +2213,8 @@ namespace Pbx {
       ver_ = other.ver_;
       deviceId_ = other.deviceId_;
       lang_ = other.lang_;
+      platform_ = other.platform_;
+      background_ = other.background_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2233,6 +2278,28 @@ namespace Pbx {
       }
     }
 
+    /// <summary>Field number for the "platform" field.</summary>
+    public const int PlatformFieldNumber = 6;
+    private string platform_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Platform {
+      get { return platform_; }
+      set {
+        platform_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "background" field.</summary>
+    public const int BackgroundFieldNumber = 7;
+    private bool background_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Background {
+      get { return background_; }
+      set {
+        background_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as ClientHi);
@@ -2251,6 +2318,8 @@ namespace Pbx {
       if (Ver != other.Ver) return false;
       if (DeviceId != other.DeviceId) return false;
       if (Lang != other.Lang) return false;
+      if (Platform != other.Platform) return false;
+      if (Background != other.Background) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2262,6 +2331,8 @@ namespace Pbx {
       if (Ver.Length != 0) hash ^= Ver.GetHashCode();
       if (DeviceId.Length != 0) hash ^= DeviceId.GetHashCode();
       if (Lang.Length != 0) hash ^= Lang.GetHashCode();
+      if (Platform.Length != 0) hash ^= Platform.GetHashCode();
+      if (Background != false) hash ^= Background.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2295,6 +2366,14 @@ namespace Pbx {
         output.WriteRawTag(42);
         output.WriteString(Lang);
       }
+      if (Platform.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(Platform);
+      }
+      if (Background != false) {
+        output.WriteRawTag(56);
+        output.WriteBool(Background);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2317,6 +2396,12 @@ namespace Pbx {
       }
       if (Lang.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Lang);
+      }
+      if (Platform.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Platform);
+      }
+      if (Background != false) {
+        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2343,6 +2428,12 @@ namespace Pbx {
       }
       if (other.Lang.Length != 0) {
         Lang = other.Lang;
+      }
+      if (other.Platform.Length != 0) {
+        Platform = other.Platform;
+      }
+      if (other.Background != false) {
+        Background = other.Background;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2373,6 +2464,14 @@ namespace Pbx {
           }
           case 42: {
             Lang = input.ReadString();
+            break;
+          }
+          case 50: {
+            Platform = input.ReadString();
+            break;
+          }
+          case 56: {
+            Background = input.ReadBool();
             break;
           }
         }
@@ -2418,6 +2517,7 @@ namespace Pbx {
       desc_ = other.desc_ != null ? other.desc_.Clone() : null;
       cred_ = other.cred_.Clone();
       token_ = other.token_;
+      state_ = other.state_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2522,14 +2622,14 @@ namespace Pbx {
 
     /// <summary>Field number for the "cred" field.</summary>
     public const int CredFieldNumber = 8;
-    private static readonly pb::FieldCodec<global::Pbx.Credential> _repeated_cred_codec
-        = pb::FieldCodec.ForMessage(66, global::Pbx.Credential.Parser);
-    private readonly pbc::RepeatedField<global::Pbx.Credential> cred_ = new pbc::RepeatedField<global::Pbx.Credential>();
+    private static readonly pb::FieldCodec<global::Pbx.ClientCred> _repeated_cred_codec
+        = pb::FieldCodec.ForMessage(66, global::Pbx.ClientCred.Parser);
+    private readonly pbc::RepeatedField<global::Pbx.ClientCred> cred_ = new pbc::RepeatedField<global::Pbx.ClientCred>();
     /// <summary>
     /// Credentials for verification.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Pbx.Credential> Cred {
+    public pbc::RepeatedField<global::Pbx.ClientCred> Cred {
       get { return cred_; }
     }
 
@@ -2544,6 +2644,20 @@ namespace Pbx {
       get { return token_; }
       set {
         token_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "state" field.</summary>
+    public const int StateFieldNumber = 10;
+    private string state_ = "";
+    /// <summary>
+    /// Account state: normal ("ok"), suspended
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string State {
+      get { return state_; }
+      set {
+        state_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -2569,6 +2683,7 @@ namespace Pbx {
       if (!object.Equals(Desc, other.Desc)) return false;
       if(!cred_.Equals(other.cred_)) return false;
       if (Token != other.Token) return false;
+      if (State != other.State) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2584,6 +2699,7 @@ namespace Pbx {
       if (desc_ != null) hash ^= Desc.GetHashCode();
       hash ^= cred_.GetHashCode();
       if (Token.Length != 0) hash ^= Token.GetHashCode();
+      if (State.Length != 0) hash ^= State.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2627,6 +2743,10 @@ namespace Pbx {
         output.WriteRawTag(74);
         output.WriteBytes(Token);
       }
+      if (State.Length != 0) {
+        output.WriteRawTag(82);
+        output.WriteString(State);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2657,6 +2777,9 @@ namespace Pbx {
       size += cred_.CalculateSize(_repeated_cred_codec);
       if (Token.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeBytesSize(Token);
+      }
+      if (State.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(State);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2694,6 +2817,9 @@ namespace Pbx {
       cred_.Add(other.cred_);
       if (other.Token.Length != 0) {
         Token = other.Token;
+      }
+      if (other.State.Length != 0) {
+        State = other.State;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2743,6 +2869,10 @@ namespace Pbx {
           }
           case 74: {
             Token = input.ReadBytes();
+            break;
+          }
+          case 82: {
+            State = input.ReadString();
             break;
           }
         }
@@ -2832,14 +2962,14 @@ namespace Pbx {
 
     /// <summary>Field number for the "cred" field.</summary>
     public const int CredFieldNumber = 4;
-    private static readonly pb::FieldCodec<global::Pbx.Credential> _repeated_cred_codec
-        = pb::FieldCodec.ForMessage(34, global::Pbx.Credential.Parser);
-    private readonly pbc::RepeatedField<global::Pbx.Credential> cred_ = new pbc::RepeatedField<global::Pbx.Credential>();
+    private static readonly pb::FieldCodec<global::Pbx.ClientCred> _repeated_cred_codec
+        = pb::FieldCodec.ForMessage(34, global::Pbx.ClientCred.Parser);
+    private readonly pbc::RepeatedField<global::Pbx.ClientCred> cred_ = new pbc::RepeatedField<global::Pbx.ClientCred>();
     /// <summary>
     /// Credentials for verification.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Pbx.Credential> Cred {
+    public pbc::RepeatedField<global::Pbx.ClientCred> Cred {
       get { return cred_; }
     }
 
@@ -4047,6 +4177,7 @@ namespace Pbx {
       what_ = other.what_;
       delSeq_ = other.delSeq_.Clone();
       userId_ = other.userId_;
+      cred_ = other.cred_ != null ? other.cred_.Clone() : null;
       hard_ = other.hard_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -4116,8 +4247,22 @@ namespace Pbx {
       }
     }
 
+    /// <summary>Field number for the "cred" field.</summary>
+    public const int CredFieldNumber = 6;
+    private global::Pbx.ClientCred cred_;
+    /// <summary>
+    /// Credential to delete.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Pbx.ClientCred Cred {
+      get { return cred_; }
+      set {
+        cred_ = value;
+      }
+    }
+
     /// <summary>Field number for the "hard" field.</summary>
-    public const int HardFieldNumber = 6;
+    public const int HardFieldNumber = 7;
     private bool hard_;
     /// <summary>
     /// Request to hard-delete messages for all users, if such option is available.
@@ -4148,6 +4293,7 @@ namespace Pbx {
       if (What != other.What) return false;
       if(!delSeq_.Equals(other.delSeq_)) return false;
       if (UserId != other.UserId) return false;
+      if (!object.Equals(Cred, other.Cred)) return false;
       if (Hard != other.Hard) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -4160,6 +4306,7 @@ namespace Pbx {
       if (What != 0) hash ^= What.GetHashCode();
       hash ^= delSeq_.GetHashCode();
       if (UserId.Length != 0) hash ^= UserId.GetHashCode();
+      if (cred_ != null) hash ^= Cred.GetHashCode();
       if (Hard != false) hash ^= Hard.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -4191,8 +4338,12 @@ namespace Pbx {
         output.WriteRawTag(42);
         output.WriteString(UserId);
       }
+      if (cred_ != null) {
+        output.WriteRawTag(50);
+        output.WriteMessage(Cred);
+      }
       if (Hard != false) {
-        output.WriteRawTag(48);
+        output.WriteRawTag(56);
         output.WriteBool(Hard);
       }
       if (_unknownFields != null) {
@@ -4215,6 +4366,9 @@ namespace Pbx {
       size += delSeq_.CalculateSize(_repeated_delSeq_codec);
       if (UserId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(UserId);
+      }
+      if (cred_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Cred);
       }
       if (Hard != false) {
         size += 1 + 1;
@@ -4242,6 +4396,12 @@ namespace Pbx {
       delSeq_.Add(other.delSeq_);
       if (other.UserId.Length != 0) {
         UserId = other.UserId;
+      }
+      if (other.cred_ != null) {
+        if (cred_ == null) {
+          cred_ = new global::Pbx.ClientCred();
+        }
+        Cred.MergeFrom(other.Cred);
       }
       if (other.Hard != false) {
         Hard = other.Hard;
@@ -4277,7 +4437,14 @@ namespace Pbx {
             UserId = input.ReadString();
             break;
           }
-          case 48: {
+          case 50: {
+            if (cred_ == null) {
+              cred_ = new global::Pbx.ClientCred();
+            }
+            input.ReadMessage(cred_);
+            break;
+          }
+          case 56: {
             Hard = input.ReadBool();
             break;
           }
@@ -4297,6 +4464,8 @@ namespace Pbx {
         [pbr::OriginalName("MSG")] Msg = 0,
         [pbr::OriginalName("TOPIC")] Topic = 1,
         [pbr::OriginalName("SUB")] Sub = 2,
+        [pbr::OriginalName("USER")] User = 3,
+        [pbr::OriginalName("CRED")] Cred = 4,
       }
 
     }
@@ -5074,6 +5243,203 @@ namespace Pbx {
   }
 
   /// <summary>
+  /// Credentials
+  /// </summary>
+  public sealed partial class ServerCred : pb::IMessage<ServerCred> {
+    private static readonly pb::MessageParser<ServerCred> _parser = new pb::MessageParser<ServerCred>(() => new ServerCred());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ServerCred> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[21]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ServerCred() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ServerCred(ServerCred other) : this() {
+      method_ = other.method_;
+      value_ = other.value_;
+      done_ = other.done_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ServerCred Clone() {
+      return new ServerCred(this);
+    }
+
+    /// <summary>Field number for the "method" field.</summary>
+    public const int MethodFieldNumber = 1;
+    private string method_ = "";
+    /// <summary>
+    /// Credential type, i.e. `email` or `tel`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Method {
+      get { return method_; }
+      set {
+        method_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "value" field.</summary>
+    public const int ValueFieldNumber = 2;
+    private string value_ = "";
+    /// <summary>
+    /// Value to verify, i.e. `user@example.com` or `+18003287448`
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Value {
+      get { return value_; }
+      set {
+        value_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "done" field.</summary>
+    public const int DoneFieldNumber = 3;
+    private bool done_;
+    /// <summary>
+    /// Indicator that the credential is validated
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Done {
+      get { return done_; }
+      set {
+        done_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ServerCred);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ServerCred other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Method != other.Method) return false;
+      if (Value != other.Value) return false;
+      if (Done != other.Done) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Method.Length != 0) hash ^= Method.GetHashCode();
+      if (Value.Length != 0) hash ^= Value.GetHashCode();
+      if (Done != false) hash ^= Done.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Method.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Method);
+      }
+      if (Value.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Value);
+      }
+      if (Done != false) {
+        output.WriteRawTag(24);
+        output.WriteBool(Done);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Method.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Method);
+      }
+      if (Value.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Value);
+      }
+      if (Done != false) {
+        size += 1 + 1;
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ServerCred other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Method.Length != 0) {
+        Method = other.Method;
+      }
+      if (other.Value.Length != 0) {
+        Value = other.Value;
+      }
+      if (other.Done != false) {
+        Done = other.Done;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Method = input.ReadString();
+            break;
+          }
+          case 18: {
+            Value = input.ReadString();
+            break;
+          }
+          case 24: {
+            Done = input.ReadBool();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
   /// Topic description, S2C in Meta message
   /// </summary>
   public sealed partial class TopicDesc : pb::IMessage<TopicDesc> {
@@ -5084,7 +5450,7 @@ namespace Pbx {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[21]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[22]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5112,6 +5478,10 @@ namespace Pbx {
       delId_ = other.delId_;
       public_ = other.public_;
       private_ = other.private_;
+      state_ = other.state_;
+      stateAt_ = other.stateAt_;
+      lastSeenTime_ = other.lastSeenTime_;
+      lastSeenUserAgent_ = other.lastSeenUserAgent_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -5241,6 +5611,53 @@ namespace Pbx {
       }
     }
 
+    /// <summary>Field number for the "state" field.</summary>
+    public const int StateFieldNumber = 12;
+    private string state_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string State {
+      get { return state_; }
+      set {
+        state_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "state_at" field.</summary>
+    public const int StateAtFieldNumber = 13;
+    private long stateAt_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long StateAt {
+      get { return stateAt_; }
+      set {
+        stateAt_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "last_seen_time" field.</summary>
+    public const int LastSeenTimeFieldNumber = 15;
+    private long lastSeenTime_;
+    /// <summary>
+    /// P2P only: other user's last online timestamp &amp; user agent
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long LastSeenTime {
+      get { return lastSeenTime_; }
+      set {
+        lastSeenTime_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "last_seen_user_agent" field.</summary>
+    public const int LastSeenUserAgentFieldNumber = 16;
+    private string lastSeenUserAgent_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string LastSeenUserAgent {
+      get { return lastSeenUserAgent_; }
+      set {
+        lastSeenUserAgent_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as TopicDesc);
@@ -5265,6 +5682,10 @@ namespace Pbx {
       if (DelId != other.DelId) return false;
       if (Public != other.Public) return false;
       if (Private != other.Private) return false;
+      if (State != other.State) return false;
+      if (StateAt != other.StateAt) return false;
+      if (LastSeenTime != other.LastSeenTime) return false;
+      if (LastSeenUserAgent != other.LastSeenUserAgent) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -5282,6 +5703,10 @@ namespace Pbx {
       if (DelId != 0) hash ^= DelId.GetHashCode();
       if (Public.Length != 0) hash ^= Public.GetHashCode();
       if (Private.Length != 0) hash ^= Private.GetHashCode();
+      if (State.Length != 0) hash ^= State.GetHashCode();
+      if (StateAt != 0L) hash ^= StateAt.GetHashCode();
+      if (LastSeenTime != 0L) hash ^= LastSeenTime.GetHashCode();
+      if (LastSeenUserAgent.Length != 0) hash ^= LastSeenUserAgent.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -5339,6 +5764,22 @@ namespace Pbx {
         output.WriteRawTag(90);
         output.WriteBytes(Private);
       }
+      if (State.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(State);
+      }
+      if (StateAt != 0L) {
+        output.WriteRawTag(104);
+        output.WriteInt64(StateAt);
+      }
+      if (LastSeenTime != 0L) {
+        output.WriteRawTag(120);
+        output.WriteInt64(LastSeenTime);
+      }
+      if (LastSeenUserAgent.Length != 0) {
+        output.WriteRawTag(130, 1);
+        output.WriteString(LastSeenUserAgent);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -5379,6 +5820,18 @@ namespace Pbx {
       }
       if (Private.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeBytesSize(Private);
+      }
+      if (State.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(State);
+      }
+      if (StateAt != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(StateAt);
+      }
+      if (LastSeenTime != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(LastSeenTime);
+      }
+      if (LastSeenUserAgent.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(LastSeenUserAgent);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -5429,6 +5882,18 @@ namespace Pbx {
       }
       if (other.Private.Length != 0) {
         Private = other.Private;
+      }
+      if (other.State.Length != 0) {
+        State = other.State;
+      }
+      if (other.StateAt != 0L) {
+        StateAt = other.StateAt;
+      }
+      if (other.LastSeenTime != 0L) {
+        LastSeenTime = other.LastSeenTime;
+      }
+      if (other.LastSeenUserAgent.Length != 0) {
+        LastSeenUserAgent = other.LastSeenUserAgent;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -5491,6 +5956,22 @@ namespace Pbx {
             Private = input.ReadBytes();
             break;
           }
+          case 98: {
+            State = input.ReadString();
+            break;
+          }
+          case 104: {
+            StateAt = input.ReadInt64();
+            break;
+          }
+          case 120: {
+            LastSeenTime = input.ReadInt64();
+            break;
+          }
+          case 130: {
+            LastSeenUserAgent = input.ReadString();
+            break;
+          }
         }
       }
     }
@@ -5508,7 +5989,7 @@ namespace Pbx {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[22]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[23]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6050,7 +6531,7 @@ namespace Pbx {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[23]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[24]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6202,7 +6683,7 @@ namespace Pbx {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[24]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[25]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6438,7 +6919,7 @@ namespace Pbx {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[25]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[26]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6457,6 +6938,7 @@ namespace Pbx {
     public ServerData(ServerData other) : this() {
       topic_ = other.topic_;
       fromUserId_ = other.fromUserId_;
+      timestamp_ = other.timestamp_;
       deletedAt_ = other.deletedAt_;
       seqId_ = other.seqId_;
       head_ = other.head_.Clone();
@@ -6491,6 +6973,20 @@ namespace Pbx {
       get { return fromUserId_; }
       set {
         fromUserId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "timestamp" field.</summary>
+    public const int TimestampFieldNumber = 7;
+    private long timestamp_;
+    /// <summary>
+    /// Timestamp when the message was sent.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long Timestamp {
+      get { return timestamp_; }
+      set {
+        timestamp_ = value;
       }
     }
 
@@ -6555,6 +7051,7 @@ namespace Pbx {
       }
       if (Topic != other.Topic) return false;
       if (FromUserId != other.FromUserId) return false;
+      if (Timestamp != other.Timestamp) return false;
       if (DeletedAt != other.DeletedAt) return false;
       if (SeqId != other.SeqId) return false;
       if (!Head.Equals(other.Head)) return false;
@@ -6567,6 +7064,7 @@ namespace Pbx {
       int hash = 1;
       if (Topic.Length != 0) hash ^= Topic.GetHashCode();
       if (FromUserId.Length != 0) hash ^= FromUserId.GetHashCode();
+      if (Timestamp != 0L) hash ^= Timestamp.GetHashCode();
       if (DeletedAt != 0L) hash ^= DeletedAt.GetHashCode();
       if (SeqId != 0) hash ^= SeqId.GetHashCode();
       hash ^= Head.GetHashCode();
@@ -6605,6 +7103,10 @@ namespace Pbx {
         output.WriteRawTag(50);
         output.WriteBytes(Content);
       }
+      if (Timestamp != 0L) {
+        output.WriteRawTag(56);
+        output.WriteInt64(Timestamp);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -6618,6 +7120,9 @@ namespace Pbx {
       }
       if (FromUserId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(FromUserId);
+      }
+      if (Timestamp != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Timestamp);
       }
       if (DeletedAt != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(DeletedAt);
@@ -6645,6 +7150,9 @@ namespace Pbx {
       }
       if (other.FromUserId.Length != 0) {
         FromUserId = other.FromUserId;
+      }
+      if (other.Timestamp != 0L) {
+        Timestamp = other.Timestamp;
       }
       if (other.DeletedAt != 0L) {
         DeletedAt = other.DeletedAt;
@@ -6691,6 +7199,10 @@ namespace Pbx {
             Content = input.ReadBytes();
             break;
           }
+          case 56: {
+            Timestamp = input.ReadInt64();
+            break;
+          }
         }
       }
     }
@@ -6708,7 +7220,7 @@ namespace Pbx {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[26]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[27]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7093,6 +7605,7 @@ namespace Pbx {
         [pbr::OriginalName("READ")] Read = 9,
         [pbr::OriginalName("RECV")] Recv = 10,
         [pbr::OriginalName("DEL")] Del = 11,
+        [pbr::OriginalName("TAGS")] Tags = 12,
       }
 
     }
@@ -7111,7 +7624,7 @@ namespace Pbx {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[27]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[28]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7133,6 +7646,8 @@ namespace Pbx {
       desc_ = other.desc_ != null ? other.desc_.Clone() : null;
       sub_ = other.sub_.Clone();
       del_ = other.del_ != null ? other.del_.Clone() : null;
+      tags_ = other.tags_.Clone();
+      cred_ = other.cred_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -7195,6 +7710,26 @@ namespace Pbx {
       }
     }
 
+    /// <summary>Field number for the "tags" field.</summary>
+    public const int TagsFieldNumber = 6;
+    private static readonly pb::FieldCodec<string> _repeated_tags_codec
+        = pb::FieldCodec.ForString(50);
+    private readonly pbc::RepeatedField<string> tags_ = new pbc::RepeatedField<string>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> Tags {
+      get { return tags_; }
+    }
+
+    /// <summary>Field number for the "cred" field.</summary>
+    public const int CredFieldNumber = 7;
+    private static readonly pb::FieldCodec<global::Pbx.ServerCred> _repeated_cred_codec
+        = pb::FieldCodec.ForMessage(58, global::Pbx.ServerCred.Parser);
+    private readonly pbc::RepeatedField<global::Pbx.ServerCred> cred_ = new pbc::RepeatedField<global::Pbx.ServerCred>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Pbx.ServerCred> Cred {
+      get { return cred_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as ServerMeta);
@@ -7213,6 +7748,8 @@ namespace Pbx {
       if (!object.Equals(Desc, other.Desc)) return false;
       if(!sub_.Equals(other.sub_)) return false;
       if (!object.Equals(Del, other.Del)) return false;
+      if(!tags_.Equals(other.tags_)) return false;
+      if(!cred_.Equals(other.cred_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -7224,6 +7761,8 @@ namespace Pbx {
       if (desc_ != null) hash ^= Desc.GetHashCode();
       hash ^= sub_.GetHashCode();
       if (del_ != null) hash ^= Del.GetHashCode();
+      hash ^= tags_.GetHashCode();
+      hash ^= cred_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -7254,6 +7793,8 @@ namespace Pbx {
         output.WriteRawTag(42);
         output.WriteMessage(Del);
       }
+      tags_.WriteTo(output, _repeated_tags_codec);
+      cred_.WriteTo(output, _repeated_cred_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -7275,6 +7816,8 @@ namespace Pbx {
       if (del_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Del);
       }
+      size += tags_.CalculateSize(_repeated_tags_codec);
+      size += cred_.CalculateSize(_repeated_cred_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -7305,6 +7848,8 @@ namespace Pbx {
         }
         Del.MergeFrom(other.Del);
       }
+      tags_.Add(other.tags_);
+      cred_.Add(other.cred_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -7342,6 +7887,14 @@ namespace Pbx {
             input.ReadMessage(del_);
             break;
           }
+          case 50: {
+            tags_.AddEntriesFrom(input, _repeated_tags_codec);
+            break;
+          }
+          case 58: {
+            cred_.AddEntriesFrom(input, _repeated_cred_codec);
+            break;
+          }
         }
       }
     }
@@ -7349,7 +7902,7 @@ namespace Pbx {
   }
 
   /// <summary>
-  /// {info} message: server-side copy of ClientNote with From added
+  /// {info} message: server-side copy of ClientNote with From and optional Src added.
   /// </summary>
   public sealed partial class ServerInfo : pb::IMessage<ServerInfo> {
     private static readonly pb::MessageParser<ServerInfo> _parser = new pb::MessageParser<ServerInfo>(() => new ServerInfo());
@@ -7359,7 +7912,7 @@ namespace Pbx {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[28]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[29]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7380,6 +7933,7 @@ namespace Pbx {
       fromUserId_ = other.fromUserId_;
       what_ = other.what_;
       seqId_ = other.seqId_;
+      src_ = other.src_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -7432,6 +7986,17 @@ namespace Pbx {
       }
     }
 
+    /// <summary>Field number for the "src" field.</summary>
+    public const int SrcFieldNumber = 5;
+    private string src_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Src {
+      get { return src_; }
+      set {
+        src_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as ServerInfo);
@@ -7449,6 +8014,7 @@ namespace Pbx {
       if (FromUserId != other.FromUserId) return false;
       if (What != other.What) return false;
       if (SeqId != other.SeqId) return false;
+      if (Src != other.Src) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -7459,6 +8025,7 @@ namespace Pbx {
       if (FromUserId.Length != 0) hash ^= FromUserId.GetHashCode();
       if (What != 0) hash ^= What.GetHashCode();
       if (SeqId != 0) hash ^= SeqId.GetHashCode();
+      if (Src.Length != 0) hash ^= Src.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -7488,6 +8055,10 @@ namespace Pbx {
         output.WriteRawTag(32);
         output.WriteInt32(SeqId);
       }
+      if (Src.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(Src);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -7507,6 +8078,9 @@ namespace Pbx {
       }
       if (SeqId != 0) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(SeqId);
+      }
+      if (Src.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Src);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -7530,6 +8104,9 @@ namespace Pbx {
       }
       if (other.SeqId != 0) {
         SeqId = other.SeqId;
+      }
+      if (other.Src.Length != 0) {
+        Src = other.Src;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -7558,6 +8135,10 @@ namespace Pbx {
             SeqId = input.ReadInt32();
             break;
           }
+          case 42: {
+            Src = input.ReadString();
+            break;
+          }
         }
       }
     }
@@ -7575,7 +8156,7 @@ namespace Pbx {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[29]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[30]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7927,7 +8508,7 @@ namespace Pbx {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[30]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[31]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8127,7 +8708,7 @@ namespace Pbx {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[31]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[32]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8424,7 +9005,7 @@ namespace Pbx {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[32]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[33]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8593,7 +9174,7 @@ namespace Pbx {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[33]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[34]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8750,7 +9331,7 @@ namespace Pbx {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[34]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[35]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8933,7 +9514,7 @@ namespace Pbx {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[35]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[36]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9124,7 +9705,7 @@ namespace Pbx {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[36]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[37]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9366,7 +9947,7 @@ namespace Pbx {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[37]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[38]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9697,7 +10278,7 @@ namespace Pbx {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[38]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[39]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <Version>0.16.10</Version>
+    <Version>0.17.10</Version>
     <Description>This is a rudimentary chatbot for Tinode using gRPC API. It's written in .Net standard as a demonstration that the API is language-independent.</Description>
     <Copyright>Tinode</Copyright>
     <PackageLicenseUrl></PackageLicenseUrl>
@@ -17,8 +17,8 @@
     <RepositoryType>github.com</RepositoryType>
     <PackageReleaseNotes>Build your own chatbot easy with .net or .net core.</PackageReleaseNotes>
     <NeutralLanguage>en-US</NeutralLanguage>
-    <AssemblyVersion>0.16.10.0</AssemblyVersion>
-    <FileVersion>0.16.10.0</FileVersion>
+    <AssemblyVersion>0.17.10.0</AssemblyVersion>
+    <FileVersion>0.17.10.0</FileVersion>
     <PackageIcon>logo192.png</PackageIcon>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
   </PropertyGroup>
