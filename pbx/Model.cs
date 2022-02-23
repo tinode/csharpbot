@@ -31,172 +31,177 @@ namespace Pbx {
             "aG9kGAEgASgJEg0KBXZhbHVlGAIgASgJEhAKCHJlc3BvbnNlGAMgASgJEisK",
             "BnBhcmFtcxgEIAMoCzIbLnBieC5DbGllbnRDcmVkLlBhcmFtc0VudHJ5Gi0K",
             "C1BhcmFtc0VudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoDDoCOAEi",
-            "VAoHU2V0RGVzYxIoCgtkZWZhdWx0X2FjcxgBIAEoCzITLnBieC5EZWZhdWx0",
-            "QWNzTW9kZRIOCgZwdWJsaWMYAiABKAwSDwoHcHJpdmF0ZRgDIAEoDCJ1CgdH",
-            "ZXRPcHRzEhkKEWlmX21vZGlmaWVkX3NpbmNlGAEgASgDEgwKBHVzZXIYAiAB",
-            "KAkSDQoFdG9waWMYAyABKAkSEAoIc2luY2VfaWQYBCABKAUSEQoJYmVmb3Jl",
-            "X2lkGAUgASgFEg0KBWxpbWl0GAYgASgFImsKCEdldFF1ZXJ5EgwKBHdoYXQY",
-            "ASABKAkSGgoEZGVzYxgCIAEoCzIMLnBieC5HZXRPcHRzEhkKA3N1YhgDIAEo",
-            "CzIMLnBieC5HZXRPcHRzEhoKBGRhdGEYBCABKAsyDC5wYnguR2V0T3B0cyJt",
-            "CghTZXRRdWVyeRIaCgRkZXNjGAEgASgLMgwucGJ4LlNldERlc2MSGAoDc3Vi",
-            "GAIgASgLMgsucGJ4LlNldFN1YhIMCgR0YWdzGAMgAygJEh0KBGNyZWQYBCAB",
-            "KAsyDy5wYnguQ2xpZW50Q3JlZCIjCghTZXFSYW5nZRILCgNsb3cYASABKAUS",
-            "CgoCaGkYAiABKAUifgoIQ2xpZW50SGkSCgoCaWQYASABKAkSEgoKdXNlcl9h",
-            "Z2VudBgCIAEoCRILCgN2ZXIYAyABKAkSEQoJZGV2aWNlX2lkGAQgASgJEgwK",
-            "BGxhbmcYBSABKAkSEAoIcGxhdGZvcm0YBiABKAkSEgoKYmFja2dyb3VuZBgH",
-            "IAEoCCK+AQoJQ2xpZW50QWNjEgoKAmlkGAEgASgJEg8KB3VzZXJfaWQYAiAB",
-            "KAkSDgoGc2NoZW1lGAMgASgJEg4KBnNlY3JldBgEIAEoDBINCgVsb2dpbhgF",
-            "IAEoCBIMCgR0YWdzGAYgAygJEhoKBGRlc2MYByABKAsyDC5wYnguU2V0RGVz",
-            "YxIdCgRjcmVkGAggAygLMg8ucGJ4LkNsaWVudENyZWQSDQoFdG9rZW4YCSAB",
-            "KAwSDQoFc3RhdGUYCiABKAkiWAoLQ2xpZW50TG9naW4SCgoCaWQYASABKAkS",
-            "DgoGc2NoZW1lGAIgASgJEg4KBnNlY3JldBgDIAEoDBIdCgRjcmVkGAQgAygL",
-            "Mg8ucGJ4LkNsaWVudENyZWQiagoJQ2xpZW50U3ViEgoKAmlkGAEgASgJEg0K",
-            "BXRvcGljGAIgASgJEiAKCXNldF9xdWVyeRgDIAEoCzINLnBieC5TZXRRdWVy",
-            "eRIgCglnZXRfcXVlcnkYBCABKAsyDS5wYnguR2V0UXVlcnkiNwoLQ2xpZW50",
-            "TGVhdmUSCgoCaWQYASABKAkSDQoFdG9waWMYAiABKAkSDQoFdW5zdWIYAyAB",
-            "KAginQEKCUNsaWVudFB1YhIKCgJpZBgBIAEoCRINCgV0b3BpYxgCIAEoCRIP",
-            "Cgdub19lY2hvGAMgASgIEiYKBGhlYWQYBCADKAsyGC5wYnguQ2xpZW50UHVi",
-            "LkhlYWRFbnRyeRIPCgdjb250ZW50GAUgASgMGisKCUhlYWRFbnRyeRILCgNr",
-            "ZXkYASABKAkSDQoFdmFsdWUYAiABKAw6AjgBIkQKCUNsaWVudEdldBIKCgJp",
-            "ZBgBIAEoCRINCgV0b3BpYxgCIAEoCRIcCgVxdWVyeRgDIAEoCzINLnBieC5H",
-            "ZXRRdWVyeSJECglDbGllbnRTZXQSCgoCaWQYASABKAkSDQoFdG9waWMYAiAB",
-            "KAkSHAoFcXVlcnkYAyABKAsyDS5wYnguU2V0UXVlcnki4AEKCUNsaWVudERl",
-            "bBIKCgJpZBgBIAEoCRINCgV0b3BpYxgCIAEoCRIhCgR3aGF0GAMgASgOMhMu",
-            "cGJ4LkNsaWVudERlbC5XaGF0Eh4KB2RlbF9zZXEYBCADKAsyDS5wYnguU2Vx",
-            "UmFuZ2USDwoHdXNlcl9pZBgFIAEoCRIdCgRjcmVkGAYgASgLMg8ucGJ4LkNs",
-            "aWVudENyZWQSDAoEaGFyZBgHIAEoCCI3CgRXaGF0EgcKA01TRxAAEgkKBVRP",
-            "UElDEAESBwoDU1VCEAISCAoEVVNFUhADEggKBENSRUQQBCJICgpDbGllbnRO",
-            "b3RlEg0KBXRvcGljGAEgASgJEhsKBHdoYXQYAiABKA4yDS5wYnguSW5mb05v",
-            "dGUSDgoGc2VxX2lkGAMgASgFIo4DCglDbGllbnRNc2cSGwoCaGkYASABKAsy",
-            "DS5wYnguQ2xpZW50SGlIABIdCgNhY2MYAiABKAsyDi5wYnguQ2xpZW50QWNj",
-            "SAASIQoFbG9naW4YAyABKAsyEC5wYnguQ2xpZW50TG9naW5IABIdCgNzdWIY",
-            "BCABKAsyDi5wYnguQ2xpZW50U3ViSAASIQoFbGVhdmUYBSABKAsyEC5wYngu",
-            "Q2xpZW50TGVhdmVIABIdCgNwdWIYBiABKAsyDi5wYnguQ2xpZW50UHViSAAS",
-            "HQoDZ2V0GAcgASgLMg4ucGJ4LkNsaWVudEdldEgAEh0KA3NldBgIIAEoCzIO",
-            "LnBieC5DbGllbnRTZXRIABIdCgNkZWwYCSABKAsyDi5wYnguQ2xpZW50RGVs",
-            "SAASHwoEbm90ZRgKIAEoCzIPLnBieC5DbGllbnROb3RlSAASFAoMb25fYmVo",
-            "YWxmX29mGAsgASgJEiIKCmF1dGhfbGV2ZWwYDCABKA4yDi5wYnguQXV0aExl",
-            "dmVsQgkKB01lc3NhZ2UiOQoKU2VydmVyQ3JlZBIOCgZtZXRob2QYASABKAkS",
-            "DQoFdmFsdWUYAiABKAkSDAoEZG9uZRgDIAEoCCLEAgoJVG9waWNEZXNjEhIK",
-            "CmNyZWF0ZWRfYXQYASABKAMSEgoKdXBkYXRlZF9hdBgCIAEoAxISCgp0b3Vj",
-            "aGVkX2F0GAMgASgDEiMKBmRlZmFjcxgEIAEoCzITLnBieC5EZWZhdWx0QWNz",
-            "TW9kZRIcCgNhY3MYBSABKAsyDy5wYnguQWNjZXNzTW9kZRIOCgZzZXFfaWQY",
-            "BiABKAUSDwoHcmVhZF9pZBgHIAEoBRIPCgdyZWN2X2lkGAggASgFEg4KBmRl",
-            "bF9pZBgJIAEoBRIOCgZwdWJsaWMYCiABKAwSDwoHcHJpdmF0ZRgLIAEoDBIN",
-            "CgVzdGF0ZRgMIAEoCRIQCghzdGF0ZV9hdBgNIAEoAxIWCg5sYXN0X3NlZW5f",
-            "dGltZRgPIAEoAxIcChRsYXN0X3NlZW5fdXNlcl9hZ2VudBgQIAEoCSKtAgoI",
-            "VG9waWNTdWISEgoKdXBkYXRlZF9hdBgBIAEoAxISCgpkZWxldGVkX2F0GAIg",
-            "ASgDEg4KBm9ubGluZRgDIAEoCBIcCgNhY3MYBCABKAsyDy5wYnguQWNjZXNz",
-            "TW9kZRIPCgdyZWFkX2lkGAUgASgFEg8KB3JlY3ZfaWQYBiABKAUSDgoGcHVi",
-            "bGljGAcgASgMEg8KB3ByaXZhdGUYCCABKAwSDwoHdXNlcl9pZBgJIAEoCRIN",
-            "CgV0b3BpYxgKIAEoCRISCgp0b3VjaGVkX2F0GAsgASgDEg4KBnNlcV9pZBgM",
-            "IAEoBRIOCgZkZWxfaWQYDSABKAUSFgoObGFzdF9zZWVuX3RpbWUYDiABKAMS",
-            "HAoUbGFzdF9zZWVuX3VzZXJfYWdlbnQYDyABKAkiOwoJRGVsVmFsdWVzEg4K",
-            "BmRlbF9pZBgBIAEoBRIeCgdkZWxfc2VxGAIgAygLMg0ucGJ4LlNlcVJhbmdl",
-            "Ip8BCgpTZXJ2ZXJDdHJsEgoKAmlkGAEgASgJEg0KBXRvcGljGAIgASgJEgwK",
-            "BGNvZGUYAyABKAUSDAoEdGV4dBgEIAEoCRIrCgZwYXJhbXMYBSADKAsyGy5w",
-            "YnguU2VydmVyQ3RybC5QYXJhbXNFbnRyeRotCgtQYXJhbXNFbnRyeRILCgNr",
-            "ZXkYASABKAkSDQoFdmFsdWUYAiABKAw6AjgBIs8BCgpTZXJ2ZXJEYXRhEg0K",
-            "BXRvcGljGAEgASgJEhQKDGZyb21fdXNlcl9pZBgCIAEoCRIRCgl0aW1lc3Rh",
-            "bXAYByABKAMSEgoKZGVsZXRlZF9hdBgDIAEoAxIOCgZzZXFfaWQYBCABKAUS",
-            "JwoEaGVhZBgFIAMoCzIZLnBieC5TZXJ2ZXJEYXRhLkhlYWRFbnRyeRIPCgdj",
-            "b250ZW50GAYgASgMGisKCUhlYWRFbnRyeRILCgNrZXkYASABKAkSDQoFdmFs",
-            "dWUYAiABKAw6AjgBIuQCCgpTZXJ2ZXJQcmVzEg0KBXRvcGljGAEgASgJEgsK",
-            "A3NyYxgCIAEoCRIiCgR3aGF0GAMgASgOMhQucGJ4LlNlcnZlclByZXMuV2hh",
-            "dBISCgp1c2VyX2FnZW50GAQgASgJEg4KBnNlcV9pZBgFIAEoBRIOCgZkZWxf",
-            "aWQYBiABKAUSHgoHZGVsX3NlcRgHIAMoCzINLnBieC5TZXFSYW5nZRIWCg50",
-            "YXJnZXRfdXNlcl9pZBgIIAEoCRIVCg1hY3Rvcl91c2VyX2lkGAkgASgJEhwK",
-            "A2FjcxgKIAEoCzIPLnBieC5BY2Nlc3NNb2RlInUKBFdoYXQSBgoCT04QABIH",
-            "CgNPRkYQARIGCgJVQRADEgcKA1VQRBAEEggKBEdPTkUQBRIHCgNBQ1MQBhII",
-            "CgRURVJNEAcSBwoDTVNHEAgSCAoEUkVBRBAJEggKBFJFQ1YQChIHCgNERUwQ",
-            "CxIICgRUQUdTEAwiqwEKClNlcnZlck1ldGESCgoCaWQYASABKAkSDQoFdG9w",
-            "aWMYAiABKAkSHAoEZGVzYxgDIAEoCzIOLnBieC5Ub3BpY0Rlc2MSGgoDc3Vi",
-            "GAQgAygLMg0ucGJ4LlRvcGljU3ViEhsKA2RlbBgFIAEoCzIOLnBieC5EZWxW",
-            "YWx1ZXMSDAoEdGFncxgGIAMoCRIdCgRjcmVkGAcgAygLMg8ucGJ4LlNlcnZl",
-            "ckNyZWQiawoKU2VydmVySW5mbxINCgV0b3BpYxgBIAEoCRIUCgxmcm9tX3Vz",
-            "ZXJfaWQYAiABKAkSGwoEd2hhdBgDIAEoDjINLnBieC5JbmZvTm90ZRIOCgZz",
-            "ZXFfaWQYBCABKAUSCwoDc3JjGAUgASgJIsoBCglTZXJ2ZXJNc2cSHwoEY3Ry",
-            "bBgBIAEoCzIPLnBieC5TZXJ2ZXJDdHJsSAASHwoEZGF0YRgCIAEoCzIPLnBi",
-            "eC5TZXJ2ZXJEYXRhSAASHwoEcHJlcxgDIAEoCzIPLnBieC5TZXJ2ZXJQcmVz",
-            "SAASHwoEbWV0YRgEIAEoCzIPLnBieC5TZXJ2ZXJNZXRhSAASHwoEaW5mbxgF",
-            "IAEoCzIPLnBieC5TZXJ2ZXJJbmZvSAASDQoFdG9waWMYBiABKAlCCQoHTWVz",
-            "c2FnZSJqCgpTZXJ2ZXJSZXNwEh0KBnN0YXR1cxgBIAEoDjINLnBieC5SZXNw",
-            "Q29kZRIeCgZzcnZtc2cYAiABKAsyDi5wYnguU2VydmVyTXNnEh0KBWNsbXNn",
-            "GAMgASgLMg4ucGJ4LkNsaWVudE1zZyKgAQoHU2Vzc2lvbhISCgpzZXNzaW9u",
-            "X2lkGAEgASgJEg8KB3VzZXJfaWQYAiABKAkSIgoKYXV0aF9sZXZlbBgDIAEo",
-            "DjIOLnBieC5BdXRoTGV2ZWwSEwoLcmVtb3RlX2FkZHIYBCABKAkSEgoKdXNl",
-            "cl9hZ2VudBgFIAEoCRIRCglkZXZpY2VfaWQYBiABKAkSEAoIbGFuZ3VhZ2UY",
-            "ByABKAkiRAoJQ2xpZW50UmVxEhsKA21zZxgBIAEoCzIOLnBieC5DbGllbnRN",
-            "c2cSGgoEc2VzcxgCIAEoCzIMLnBieC5TZXNzaW9uIi0KC1NlYXJjaFF1ZXJ5",
-            "Eg8KB3VzZXJfaWQYASABKAkSDQoFcXVlcnkYAiABKAkiWgoLU2VhcmNoRm91",
-            "bmQSHQoGc3RhdHVzGAEgASgOMg0ucGJ4LlJlc3BDb2RlEg0KBXF1ZXJ5GAIg",
-            "ASgJEh0KBnJlc3VsdBgDIAMoCzINLnBieC5Ub3BpY1N1YiJTCgpUb3BpY0V2",
-            "ZW50EhkKBmFjdGlvbhgBIAEoDjIJLnBieC5DcnVkEgwKBG5hbWUYAiABKAkS",
-            "HAoEZGVzYxgDIAEoCzIOLnBieC5Ub3BpY0Rlc2MiggEKDEFjY291bnRFdmVu",
-            "dBIZCgZhY3Rpb24YASABKA4yCS5wYnguQ3J1ZBIPCgd1c2VyX2lkGAIgASgJ",
-            "EigKC2RlZmF1bHRfYWNzGAMgASgLMhMucGJ4LkRlZmF1bHRBY3NNb2RlEg4K",
-            "BnB1YmxpYxgEIAEoDBIMCgR0YWdzGAggAygJIrABChFTdWJzY3JpcHRpb25F",
-            "dmVudBIZCgZhY3Rpb24YASABKA4yCS5wYnguQ3J1ZBINCgV0b3BpYxgCIAEo",
-            "CRIPCgd1c2VyX2lkGAMgASgJEg4KBmRlbF9pZBgEIAEoBRIPCgdyZWFkX2lk",
-            "GAUgASgFEg8KB3JlY3ZfaWQYBiABKAUSHQoEbW9kZRgHIAEoCzIPLnBieC5B",
-            "Y2Nlc3NNb2RlEg8KB3ByaXZhdGUYCCABKAwiRwoMTWVzc2FnZUV2ZW50EhkK",
-            "BmFjdGlvbhgBIAEoDjIJLnBieC5DcnVkEhwKA21zZxgCIAEoCzIPLnBieC5T",
-            "ZXJ2ZXJEYXRhKjMKCUF1dGhMZXZlbBIICgROT05FEAASCAoEQU5PThAKEggK",
-            "BEFVVEgQFBIICgRST09UEB4qJgoISW5mb05vdGUSCAoEUkVBRBAAEggKBFJF",
-            "Q1YQARIGCgJLUBACKjwKCFJlc3BDb2RlEgwKCENPTlRJTlVFEAASCAoERFJP",
-            "UBABEgsKB1JFU1BPTkQQAhILCgdSRVBMQUNFEAMqKgoEQ3J1ZBIKCgZDUkVB",
-            "VEUQABIKCgZVUERBVEUQARIKCgZERUxFVEUQAjI7CgROb2RlEjMKC01lc3Nh",
-            "Z2VMb29wEg4ucGJ4LkNsaWVudE1zZxoOLnBieC5TZXJ2ZXJNc2ciACgBMAEy",
-            "nwIKBlBsdWdpbhItCghGaXJlSG9zZRIOLnBieC5DbGllbnRSZXEaDy5wYngu",
-            "U2VydmVyUmVzcCIAEiwKBEZpbmQSEC5wYnguU2VhcmNoUXVlcnkaEC5wYngu",
-            "U2VhcmNoRm91bmQiABIrCgdBY2NvdW50EhEucGJ4LkFjY291bnRFdmVudBoL",
-            "LnBieC5VbnVzZWQiABInCgVUb3BpYxIPLnBieC5Ub3BpY0V2ZW50GgsucGJ4",
-            "LlVudXNlZCIAEjUKDFN1YnNjcmlwdGlvbhIWLnBieC5TdWJzY3JpcHRpb25F",
-            "dmVudBoLLnBieC5VbnVzZWQiABIrCgdNZXNzYWdlEhEucGJ4Lk1lc3NhZ2VF",
-            "dmVudBoLLnBieC5VbnVzZWQiAGIGcHJvdG8z"));
+            "ZQoHU2V0RGVzYxIoCgtkZWZhdWx0X2FjcxgBIAEoCzITLnBieC5EZWZhdWx0",
+            "QWNzTW9kZRIOCgZwdWJsaWMYAiABKAwSDwoHcHJpdmF0ZRgDIAEoDBIPCgd0",
+            "cnVzdGVkGAQgASgMInUKB0dldE9wdHMSGQoRaWZfbW9kaWZpZWRfc2luY2UY",
+            "ASABKAMSDAoEdXNlchgCIAEoCRINCgV0b3BpYxgDIAEoCRIQCghzaW5jZV9p",
+            "ZBgEIAEoBRIRCgliZWZvcmVfaWQYBSABKAUSDQoFbGltaXQYBiABKAUiawoI",
+            "R2V0UXVlcnkSDAoEd2hhdBgBIAEoCRIaCgRkZXNjGAIgASgLMgwucGJ4Lkdl",
+            "dE9wdHMSGQoDc3ViGAMgASgLMgwucGJ4LkdldE9wdHMSGgoEZGF0YRgEIAEo",
+            "CzIMLnBieC5HZXRPcHRzIm0KCFNldFF1ZXJ5EhoKBGRlc2MYASABKAsyDC5w",
+            "YnguU2V0RGVzYxIYCgNzdWIYAiABKAsyCy5wYnguU2V0U3ViEgwKBHRhZ3MY",
+            "AyADKAkSHQoEY3JlZBgEIAEoCzIPLnBieC5DbGllbnRDcmVkIiMKCFNlcVJh",
+            "bmdlEgsKA2xvdxgBIAEoBRIKCgJoaRgCIAEoBSJ+CghDbGllbnRIaRIKCgJp",
+            "ZBgBIAEoCRISCgp1c2VyX2FnZW50GAIgASgJEgsKA3ZlchgDIAEoCRIRCglk",
+            "ZXZpY2VfaWQYBCABKAkSDAoEbGFuZxgFIAEoCRIQCghwbGF0Zm9ybRgGIAEo",
+            "CRISCgpiYWNrZ3JvdW5kGAcgASgIIr4BCglDbGllbnRBY2MSCgoCaWQYASAB",
+            "KAkSDwoHdXNlcl9pZBgCIAEoCRIOCgZzY2hlbWUYAyABKAkSDgoGc2VjcmV0",
+            "GAQgASgMEg0KBWxvZ2luGAUgASgIEgwKBHRhZ3MYBiADKAkSGgoEZGVzYxgH",
+            "IAEoCzIMLnBieC5TZXREZXNjEh0KBGNyZWQYCCADKAsyDy5wYnguQ2xpZW50",
+            "Q3JlZBINCgV0b2tlbhgJIAEoDBINCgVzdGF0ZRgKIAEoCSJYCgtDbGllbnRM",
+            "b2dpbhIKCgJpZBgBIAEoCRIOCgZzY2hlbWUYAiABKAkSDgoGc2VjcmV0GAMg",
+            "ASgMEh0KBGNyZWQYBCADKAsyDy5wYnguQ2xpZW50Q3JlZCJqCglDbGllbnRT",
+            "dWISCgoCaWQYASABKAkSDQoFdG9waWMYAiABKAkSIAoJc2V0X3F1ZXJ5GAMg",
+            "ASgLMg0ucGJ4LlNldFF1ZXJ5EiAKCWdldF9xdWVyeRgEIAEoCzINLnBieC5H",
+            "ZXRRdWVyeSI3CgtDbGllbnRMZWF2ZRIKCgJpZBgBIAEoCRINCgV0b3BpYxgC",
+            "IAEoCRINCgV1bnN1YhgDIAEoCCKdAQoJQ2xpZW50UHViEgoKAmlkGAEgASgJ",
+            "Eg0KBXRvcGljGAIgASgJEg8KB25vX2VjaG8YAyABKAgSJgoEaGVhZBgEIAMo",
+            "CzIYLnBieC5DbGllbnRQdWIuSGVhZEVudHJ5Eg8KB2NvbnRlbnQYBSABKAwa",
+            "KwoJSGVhZEVudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoDDoCOAEi",
+            "RAoJQ2xpZW50R2V0EgoKAmlkGAEgASgJEg0KBXRvcGljGAIgASgJEhwKBXF1",
+            "ZXJ5GAMgASgLMg0ucGJ4LkdldFF1ZXJ5IkQKCUNsaWVudFNldBIKCgJpZBgB",
+            "IAEoCRINCgV0b3BpYxgCIAEoCRIcCgVxdWVyeRgDIAEoCzINLnBieC5TZXRR",
+            "dWVyeSLgAQoJQ2xpZW50RGVsEgoKAmlkGAEgASgJEg0KBXRvcGljGAIgASgJ",
+            "EiEKBHdoYXQYAyABKA4yEy5wYnguQ2xpZW50RGVsLldoYXQSHgoHZGVsX3Nl",
+            "cRgEIAMoCzINLnBieC5TZXFSYW5nZRIPCgd1c2VyX2lkGAUgASgJEh0KBGNy",
+            "ZWQYBiABKAsyDy5wYnguQ2xpZW50Q3JlZBIMCgRoYXJkGAcgASgIIjcKBFdo",
+            "YXQSBwoDTVNHEAASCQoFVE9QSUMQARIHCgNTVUIQAhIICgRVU0VSEAMSCAoE",
+            "Q1JFRBAEIkgKCkNsaWVudE5vdGUSDQoFdG9waWMYASABKAkSGwoEd2hhdBgC",
+            "IAEoDjINLnBieC5JbmZvTm90ZRIOCgZzZXFfaWQYAyABKAUiXAoLQ2xpZW50",
+            "RXh0cmESEwoLYXR0YWNobWVudHMYASADKAkSFAoMb25fYmVoYWxmX29mGAIg",
+            "ASgJEiIKCmF1dGhfbGV2ZWwYAyABKA4yDi5wYnguQXV0aExldmVsIvUCCglD",
+            "bGllbnRNc2cSGwoCaGkYASABKAsyDS5wYnguQ2xpZW50SGlIABIdCgNhY2MY",
+            "AiABKAsyDi5wYnguQ2xpZW50QWNjSAASIQoFbG9naW4YAyABKAsyEC5wYngu",
+            "Q2xpZW50TG9naW5IABIdCgNzdWIYBCABKAsyDi5wYnguQ2xpZW50U3ViSAAS",
+            "IQoFbGVhdmUYBSABKAsyEC5wYnguQ2xpZW50TGVhdmVIABIdCgNwdWIYBiAB",
+            "KAsyDi5wYnguQ2xpZW50UHViSAASHQoDZ2V0GAcgASgLMg4ucGJ4LkNsaWVu",
+            "dEdldEgAEh0KA3NldBgIIAEoCzIOLnBieC5DbGllbnRTZXRIABIdCgNkZWwY",
+            "CSABKAsyDi5wYnguQ2xpZW50RGVsSAASHwoEbm90ZRgKIAEoCzIPLnBieC5D",
+            "bGllbnROb3RlSAASHwoFZXh0cmEYDSABKAsyEC5wYnguQ2xpZW50RXh0cmFC",
+            "CQoHTWVzc2FnZSI5CgpTZXJ2ZXJDcmVkEg4KBm1ldGhvZBgBIAEoCRINCgV2",
+            "YWx1ZRgCIAEoCRIMCgRkb25lGAMgASgIIuYCCglUb3BpY0Rlc2MSEgoKY3Jl",
+            "YXRlZF9hdBgBIAEoAxISCgp1cGRhdGVkX2F0GAIgASgDEhIKCnRvdWNoZWRf",
+            "YXQYAyABKAMSIwoGZGVmYWNzGAQgASgLMhMucGJ4LkRlZmF1bHRBY3NNb2Rl",
+            "EhwKA2FjcxgFIAEoCzIPLnBieC5BY2Nlc3NNb2RlEg4KBnNlcV9pZBgGIAEo",
+            "BRIPCgdyZWFkX2lkGAcgASgFEg8KB3JlY3ZfaWQYCCABKAUSDgoGZGVsX2lk",
+            "GAkgASgFEg4KBnB1YmxpYxgKIAEoDBIPCgdwcml2YXRlGAsgASgMEg0KBXN0",
+            "YXRlGAwgASgJEhAKCHN0YXRlX2F0GA0gASgDEg8KB3RydXN0ZWQYDiABKAwS",
+            "DwoHaXNfY2hhbhgRIAEoCBIWCg5sYXN0X3NlZW5fdGltZRgPIAEoAxIcChRs",
+            "YXN0X3NlZW5fdXNlcl9hZ2VudBgQIAEoCSK+AgoIVG9waWNTdWISEgoKdXBk",
+            "YXRlZF9hdBgBIAEoAxISCgpkZWxldGVkX2F0GAIgASgDEg4KBm9ubGluZRgD",
+            "IAEoCBIcCgNhY3MYBCABKAsyDy5wYnguQWNjZXNzTW9kZRIPCgdyZWFkX2lk",
+            "GAUgASgFEg8KB3JlY3ZfaWQYBiABKAUSDgoGcHVibGljGAcgASgMEg8KB3Ry",
+            "dXN0ZWQYECABKAwSDwoHcHJpdmF0ZRgIIAEoDBIPCgd1c2VyX2lkGAkgASgJ",
+            "Eg0KBXRvcGljGAogASgJEhIKCnRvdWNoZWRfYXQYCyABKAMSDgoGc2VxX2lk",
+            "GAwgASgFEg4KBmRlbF9pZBgNIAEoBRIWCg5sYXN0X3NlZW5fdGltZRgOIAEo",
+            "AxIcChRsYXN0X3NlZW5fdXNlcl9hZ2VudBgPIAEoCSI7CglEZWxWYWx1ZXMS",
+            "DgoGZGVsX2lkGAEgASgFEh4KB2RlbF9zZXEYAiADKAsyDS5wYnguU2VxUmFu",
+            "Z2UinwEKClNlcnZlckN0cmwSCgoCaWQYASABKAkSDQoFdG9waWMYAiABKAkS",
+            "DAoEY29kZRgDIAEoBRIMCgR0ZXh0GAQgASgJEisKBnBhcmFtcxgFIAMoCzIb",
+            "LnBieC5TZXJ2ZXJDdHJsLlBhcmFtc0VudHJ5Gi0KC1BhcmFtc0VudHJ5EgsK",
+            "A2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoDDoCOAEizwEKClNlcnZlckRhdGES",
+            "DQoFdG9waWMYASABKAkSFAoMZnJvbV91c2VyX2lkGAIgASgJEhEKCXRpbWVz",
+            "dGFtcBgHIAEoAxISCgpkZWxldGVkX2F0GAMgASgDEg4KBnNlcV9pZBgEIAEo",
+            "BRInCgRoZWFkGAUgAygLMhkucGJ4LlNlcnZlckRhdGEuSGVhZEVudHJ5Eg8K",
+            "B2NvbnRlbnQYBiABKAwaKwoJSGVhZEVudHJ5EgsKA2tleRgBIAEoCRINCgV2",
+            "YWx1ZRgCIAEoDDoCOAEi5AIKClNlcnZlclByZXMSDQoFdG9waWMYASABKAkS",
+            "CwoDc3JjGAIgASgJEiIKBHdoYXQYAyABKA4yFC5wYnguU2VydmVyUHJlcy5X",
+            "aGF0EhIKCnVzZXJfYWdlbnQYBCABKAkSDgoGc2VxX2lkGAUgASgFEg4KBmRl",
+            "bF9pZBgGIAEoBRIeCgdkZWxfc2VxGAcgAygLMg0ucGJ4LlNlcVJhbmdlEhYK",
+            "DnRhcmdldF91c2VyX2lkGAggASgJEhUKDWFjdG9yX3VzZXJfaWQYCSABKAkS",
+            "HAoDYWNzGAogASgLMg8ucGJ4LkFjY2Vzc01vZGUidQoEV2hhdBIGCgJPThAA",
+            "EgcKA09GRhABEgYKAlVBEAMSBwoDVVBEEAQSCAoER09ORRAFEgcKA0FDUxAG",
+            "EggKBFRFUk0QBxIHCgNNU0cQCBIICgRSRUFEEAkSCAoEUkVDVhAKEgcKA0RF",
+            "TBALEggKBFRBR1MQDCKrAQoKU2VydmVyTWV0YRIKCgJpZBgBIAEoCRINCgV0",
+            "b3BpYxgCIAEoCRIcCgRkZXNjGAMgASgLMg4ucGJ4LlRvcGljRGVzYxIaCgNz",
+            "dWIYBCADKAsyDS5wYnguVG9waWNTdWISGwoDZGVsGAUgASgLMg4ucGJ4LkRl",
+            "bFZhbHVlcxIMCgR0YWdzGAYgAygJEh0KBGNyZWQYByADKAsyDy5wYnguU2Vy",
+            "dmVyQ3JlZCJrCgpTZXJ2ZXJJbmZvEg0KBXRvcGljGAEgASgJEhQKDGZyb21f",
+            "dXNlcl9pZBgCIAEoCRIbCgR3aGF0GAMgASgOMg0ucGJ4LkluZm9Ob3RlEg4K",
+            "BnNlcV9pZBgEIAEoBRILCgNzcmMYBSABKAkiygEKCVNlcnZlck1zZxIfCgRj",
+            "dHJsGAEgASgLMg8ucGJ4LlNlcnZlckN0cmxIABIfCgRkYXRhGAIgASgLMg8u",
+            "cGJ4LlNlcnZlckRhdGFIABIfCgRwcmVzGAMgASgLMg8ucGJ4LlNlcnZlclBy",
+            "ZXNIABIfCgRtZXRhGAQgASgLMg8ucGJ4LlNlcnZlck1ldGFIABIfCgRpbmZv",
+            "GAUgASgLMg8ucGJ4LlNlcnZlckluZm9IABINCgV0b3BpYxgGIAEoCUIJCgdN",
+            "ZXNzYWdlImoKClNlcnZlclJlc3ASHQoGc3RhdHVzGAEgASgOMg0ucGJ4LlJl",
+            "c3BDb2RlEh4KBnNydm1zZxgCIAEoCzIOLnBieC5TZXJ2ZXJNc2cSHQoFY2xt",
+            "c2cYAyABKAsyDi5wYnguQ2xpZW50TXNnIqABCgdTZXNzaW9uEhIKCnNlc3Np",
+            "b25faWQYASABKAkSDwoHdXNlcl9pZBgCIAEoCRIiCgphdXRoX2xldmVsGAMg",
+            "ASgOMg4ucGJ4LkF1dGhMZXZlbBITCgtyZW1vdGVfYWRkchgEIAEoCRISCgp1",
+            "c2VyX2FnZW50GAUgASgJEhEKCWRldmljZV9pZBgGIAEoCRIQCghsYW5ndWFn",
+            "ZRgHIAEoCSJECglDbGllbnRSZXESGwoDbXNnGAEgASgLMg4ucGJ4LkNsaWVu",
+            "dE1zZxIaCgRzZXNzGAIgASgLMgwucGJ4LlNlc3Npb24iLQoLU2VhcmNoUXVl",
+            "cnkSDwoHdXNlcl9pZBgBIAEoCRINCgVxdWVyeRgCIAEoCSJaCgtTZWFyY2hG",
+            "b3VuZBIdCgZzdGF0dXMYASABKA4yDS5wYnguUmVzcENvZGUSDQoFcXVlcnkY",
+            "AiABKAkSHQoGcmVzdWx0GAMgAygLMg0ucGJ4LlRvcGljU3ViIlMKClRvcGlj",
+            "RXZlbnQSGQoGYWN0aW9uGAEgASgOMgkucGJ4LkNydWQSDAoEbmFtZRgCIAEo",
+            "CRIcCgRkZXNjGAMgASgLMg4ucGJ4LlRvcGljRGVzYyKCAQoMQWNjb3VudEV2",
+            "ZW50EhkKBmFjdGlvbhgBIAEoDjIJLnBieC5DcnVkEg8KB3VzZXJfaWQYAiAB",
+            "KAkSKAoLZGVmYXVsdF9hY3MYAyABKAsyEy5wYnguRGVmYXVsdEFjc01vZGUS",
+            "DgoGcHVibGljGAQgASgMEgwKBHRhZ3MYCCADKAkisAEKEVN1YnNjcmlwdGlv",
+            "bkV2ZW50EhkKBmFjdGlvbhgBIAEoDjIJLnBieC5DcnVkEg0KBXRvcGljGAIg",
+            "ASgJEg8KB3VzZXJfaWQYAyABKAkSDgoGZGVsX2lkGAQgASgFEg8KB3JlYWRf",
+            "aWQYBSABKAUSDwoHcmVjdl9pZBgGIAEoBRIdCgRtb2RlGAcgASgLMg8ucGJ4",
+            "LkFjY2Vzc01vZGUSDwoHcHJpdmF0ZRgIIAEoDCJHCgxNZXNzYWdlRXZlbnQS",
+            "GQoGYWN0aW9uGAEgASgOMgkucGJ4LkNydWQSHAoDbXNnGAIgASgLMg8ucGJ4",
+            "LlNlcnZlckRhdGEqMwoJQXV0aExldmVsEggKBE5PTkUQABIICgRBTk9OEAoS",
+            "CAoEQVVUSBAUEggKBFJPT1QQHiomCghJbmZvTm90ZRIICgRSRUFEEAASCAoE",
+            "UkVDVhABEgYKAktQEAIqPAoIUmVzcENvZGUSDAoIQ09OVElOVUUQABIICgRE",
+            "Uk9QEAESCwoHUkVTUE9ORBACEgsKB1JFUExBQ0UQAyoqCgRDcnVkEgoKBkNS",
+            "RUFURRAAEgoKBlVQREFURRABEgoKBkRFTEVURRACMjsKBE5vZGUSMwoLTWVz",
+            "c2FnZUxvb3ASDi5wYnguQ2xpZW50TXNnGg4ucGJ4LlNlcnZlck1zZyIAKAEw",
+            "ATKfAgoGUGx1Z2luEi0KCEZpcmVIb3NlEg4ucGJ4LkNsaWVudFJlcRoPLnBi",
+            "eC5TZXJ2ZXJSZXNwIgASLAoERmluZBIQLnBieC5TZWFyY2hRdWVyeRoQLnBi",
+            "eC5TZWFyY2hGb3VuZCIAEisKB0FjY291bnQSES5wYnguQWNjb3VudEV2ZW50",
+            "GgsucGJ4LlVudXNlZCIAEicKBVRvcGljEg8ucGJ4LlRvcGljRXZlbnQaCy5w",
+            "YnguVW51c2VkIgASNQoMU3Vic2NyaXB0aW9uEhYucGJ4LlN1YnNjcmlwdGlv",
+            "bkV2ZW50GgsucGJ4LlVudXNlZCIAEisKB01lc3NhZ2USES5wYnguTWVzc2Fn",
+            "ZUV2ZW50GgsucGJ4LlVudXNlZCIAQhxaGmdpdGh1Yi5jb20vdGlub2RlL2No",
+            "YXQvcGJ4YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Pbx.AuthLevel), typeof(global::Pbx.InfoNote), typeof(global::Pbx.RespCode), typeof(global::Pbx.Crud), }, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.Unused), global::Pbx.Unused.Parser, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.DefaultAcsMode), global::Pbx.DefaultAcsMode.Parser, new[]{ "Auth", "Anon" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.AccessMode), global::Pbx.AccessMode.Parser, new[]{ "Want", "Given" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.SetSub), global::Pbx.SetSub.Parser, new[]{ "UserId", "Mode" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientCred), global::Pbx.ClientCred.Parser, new[]{ "Method", "Value", "Response", "Params" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.SetDesc), global::Pbx.SetDesc.Parser, new[]{ "DefaultAcs", "Public", "Private" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.GetOpts), global::Pbx.GetOpts.Parser, new[]{ "IfModifiedSince", "User", "Topic", "SinceId", "BeforeId", "Limit" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.GetQuery), global::Pbx.GetQuery.Parser, new[]{ "What", "Desc", "Sub", "Data" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.SetQuery), global::Pbx.SetQuery.Parser, new[]{ "Desc", "Sub", "Tags", "Cred" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.SeqRange), global::Pbx.SeqRange.Parser, new[]{ "Low", "Hi" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientHi), global::Pbx.ClientHi.Parser, new[]{ "Id", "UserAgent", "Ver", "DeviceId", "Lang", "Platform", "Background" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientAcc), global::Pbx.ClientAcc.Parser, new[]{ "Id", "UserId", "Scheme", "Secret", "Login", "Tags", "Desc", "Cred", "Token", "State" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientLogin), global::Pbx.ClientLogin.Parser, new[]{ "Id", "Scheme", "Secret", "Cred" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientSub), global::Pbx.ClientSub.Parser, new[]{ "Id", "Topic", "SetQuery", "GetQuery" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientLeave), global::Pbx.ClientLeave.Parser, new[]{ "Id", "Topic", "Unsub" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientPub), global::Pbx.ClientPub.Parser, new[]{ "Id", "Topic", "NoEcho", "Head", "Content" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientGet), global::Pbx.ClientGet.Parser, new[]{ "Id", "Topic", "Query" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientSet), global::Pbx.ClientSet.Parser, new[]{ "Id", "Topic", "Query" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientDel), global::Pbx.ClientDel.Parser, new[]{ "Id", "Topic", "What", "DelSeq", "UserId", "Cred", "Hard" }, null, new[]{ typeof(global::Pbx.ClientDel.Types.What) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientNote), global::Pbx.ClientNote.Parser, new[]{ "Topic", "What", "SeqId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientMsg), global::Pbx.ClientMsg.Parser, new[]{ "Hi", "Acc", "Login", "Sub", "Leave", "Pub", "Get", "Set", "Del", "Note", "OnBehalfOf", "AuthLevel" }, new[]{ "Message" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ServerCred), global::Pbx.ServerCred.Parser, new[]{ "Method", "Value", "Done" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.TopicDesc), global::Pbx.TopicDesc.Parser, new[]{ "CreatedAt", "UpdatedAt", "TouchedAt", "Defacs", "Acs", "SeqId", "ReadId", "RecvId", "DelId", "Public", "Private", "State", "StateAt", "LastSeenTime", "LastSeenUserAgent" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.TopicSub), global::Pbx.TopicSub.Parser, new[]{ "UpdatedAt", "DeletedAt", "Online", "Acs", "ReadId", "RecvId", "Public", "Private", "UserId", "Topic", "TouchedAt", "SeqId", "DelId", "LastSeenTime", "LastSeenUserAgent" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.DelValues), global::Pbx.DelValues.Parser, new[]{ "DelId", "DelSeq" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ServerCtrl), global::Pbx.ServerCtrl.Parser, new[]{ "Id", "Topic", "Code", "Text", "Params" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ServerData), global::Pbx.ServerData.Parser, new[]{ "Topic", "FromUserId", "Timestamp", "DeletedAt", "SeqId", "Head", "Content" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ServerPres), global::Pbx.ServerPres.Parser, new[]{ "Topic", "Src", "What", "UserAgent", "SeqId", "DelId", "DelSeq", "TargetUserId", "ActorUserId", "Acs" }, null, new[]{ typeof(global::Pbx.ServerPres.Types.What) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ServerMeta), global::Pbx.ServerMeta.Parser, new[]{ "Id", "Topic", "Desc", "Sub", "Del", "Tags", "Cred" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ServerInfo), global::Pbx.ServerInfo.Parser, new[]{ "Topic", "FromUserId", "What", "SeqId", "Src" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ServerMsg), global::Pbx.ServerMsg.Parser, new[]{ "Ctrl", "Data", "Pres", "Meta", "Info", "Topic" }, new[]{ "Message" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ServerResp), global::Pbx.ServerResp.Parser, new[]{ "Status", "Srvmsg", "Clmsg" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.Session), global::Pbx.Session.Parser, new[]{ "SessionId", "UserId", "AuthLevel", "RemoteAddr", "UserAgent", "DeviceId", "Language" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientReq), global::Pbx.ClientReq.Parser, new[]{ "Msg", "Sess" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.SearchQuery), global::Pbx.SearchQuery.Parser, new[]{ "UserId", "Query" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.SearchFound), global::Pbx.SearchFound.Parser, new[]{ "Status", "Query", "Result" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.TopicEvent), global::Pbx.TopicEvent.Parser, new[]{ "Action", "Name", "Desc" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.AccountEvent), global::Pbx.AccountEvent.Parser, new[]{ "Action", "UserId", "DefaultAcs", "Public", "Tags" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.SubscriptionEvent), global::Pbx.SubscriptionEvent.Parser, new[]{ "Action", "Topic", "UserId", "DelId", "ReadId", "RecvId", "Mode", "Private" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.MessageEvent), global::Pbx.MessageEvent.Parser, new[]{ "Action", "Msg" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Pbx.AuthLevel), typeof(global::Pbx.InfoNote), typeof(global::Pbx.RespCode), typeof(global::Pbx.Crud), }, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.Unused), global::Pbx.Unused.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.DefaultAcsMode), global::Pbx.DefaultAcsMode.Parser, new[]{ "Auth", "Anon" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.AccessMode), global::Pbx.AccessMode.Parser, new[]{ "Want", "Given" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.SetSub), global::Pbx.SetSub.Parser, new[]{ "UserId", "Mode" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientCred), global::Pbx.ClientCred.Parser, new[]{ "Method", "Value", "Response", "Params" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.SetDesc), global::Pbx.SetDesc.Parser, new[]{ "DefaultAcs", "Public", "Private", "Trusted" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.GetOpts), global::Pbx.GetOpts.Parser, new[]{ "IfModifiedSince", "User", "Topic", "SinceId", "BeforeId", "Limit" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.GetQuery), global::Pbx.GetQuery.Parser, new[]{ "What", "Desc", "Sub", "Data" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.SetQuery), global::Pbx.SetQuery.Parser, new[]{ "Desc", "Sub", "Tags", "Cred" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.SeqRange), global::Pbx.SeqRange.Parser, new[]{ "Low", "Hi" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientHi), global::Pbx.ClientHi.Parser, new[]{ "Id", "UserAgent", "Ver", "DeviceId", "Lang", "Platform", "Background" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientAcc), global::Pbx.ClientAcc.Parser, new[]{ "Id", "UserId", "Scheme", "Secret", "Login", "Tags", "Desc", "Cred", "Token", "State" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientLogin), global::Pbx.ClientLogin.Parser, new[]{ "Id", "Scheme", "Secret", "Cred" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientSub), global::Pbx.ClientSub.Parser, new[]{ "Id", "Topic", "SetQuery", "GetQuery" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientLeave), global::Pbx.ClientLeave.Parser, new[]{ "Id", "Topic", "Unsub" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientPub), global::Pbx.ClientPub.Parser, new[]{ "Id", "Topic", "NoEcho", "Head", "Content" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientGet), global::Pbx.ClientGet.Parser, new[]{ "Id", "Topic", "Query" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientSet), global::Pbx.ClientSet.Parser, new[]{ "Id", "Topic", "Query" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientDel), global::Pbx.ClientDel.Parser, new[]{ "Id", "Topic", "What", "DelSeq", "UserId", "Cred", "Hard" }, null, new[]{ typeof(global::Pbx.ClientDel.Types.What) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientNote), global::Pbx.ClientNote.Parser, new[]{ "Topic", "What", "SeqId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientExtra), global::Pbx.ClientExtra.Parser, new[]{ "Attachments", "OnBehalfOf", "AuthLevel" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientMsg), global::Pbx.ClientMsg.Parser, new[]{ "Hi", "Acc", "Login", "Sub", "Leave", "Pub", "Get", "Set", "Del", "Note", "Extra" }, new[]{ "Message" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ServerCred), global::Pbx.ServerCred.Parser, new[]{ "Method", "Value", "Done" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.TopicDesc), global::Pbx.TopicDesc.Parser, new[]{ "CreatedAt", "UpdatedAt", "TouchedAt", "Defacs", "Acs", "SeqId", "ReadId", "RecvId", "DelId", "Public", "Private", "State", "StateAt", "Trusted", "IsChan", "LastSeenTime", "LastSeenUserAgent" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.TopicSub), global::Pbx.TopicSub.Parser, new[]{ "UpdatedAt", "DeletedAt", "Online", "Acs", "ReadId", "RecvId", "Public", "Trusted", "Private", "UserId", "Topic", "TouchedAt", "SeqId", "DelId", "LastSeenTime", "LastSeenUserAgent" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.DelValues), global::Pbx.DelValues.Parser, new[]{ "DelId", "DelSeq" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ServerCtrl), global::Pbx.ServerCtrl.Parser, new[]{ "Id", "Topic", "Code", "Text", "Params" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ServerData), global::Pbx.ServerData.Parser, new[]{ "Topic", "FromUserId", "Timestamp", "DeletedAt", "SeqId", "Head", "Content" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ServerPres), global::Pbx.ServerPres.Parser, new[]{ "Topic", "Src", "What", "UserAgent", "SeqId", "DelId", "DelSeq", "TargetUserId", "ActorUserId", "Acs" }, null, new[]{ typeof(global::Pbx.ServerPres.Types.What) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ServerMeta), global::Pbx.ServerMeta.Parser, new[]{ "Id", "Topic", "Desc", "Sub", "Del", "Tags", "Cred" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ServerInfo), global::Pbx.ServerInfo.Parser, new[]{ "Topic", "FromUserId", "What", "SeqId", "Src" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ServerMsg), global::Pbx.ServerMsg.Parser, new[]{ "Ctrl", "Data", "Pres", "Meta", "Info", "Topic" }, new[]{ "Message" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ServerResp), global::Pbx.ServerResp.Parser, new[]{ "Status", "Srvmsg", "Clmsg" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.Session), global::Pbx.Session.Parser, new[]{ "SessionId", "UserId", "AuthLevel", "RemoteAddr", "UserAgent", "DeviceId", "Language" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.ClientReq), global::Pbx.ClientReq.Parser, new[]{ "Msg", "Sess" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.SearchQuery), global::Pbx.SearchQuery.Parser, new[]{ "UserId", "Query" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.SearchFound), global::Pbx.SearchFound.Parser, new[]{ "Status", "Query", "Result" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.TopicEvent), global::Pbx.TopicEvent.Parser, new[]{ "Action", "Name", "Desc" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.AccountEvent), global::Pbx.AccountEvent.Parser, new[]{ "Action", "UserId", "DefaultAcs", "Public", "Tags" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.SubscriptionEvent), global::Pbx.SubscriptionEvent.Parser, new[]{ "Action", "Topic", "UserId", "DelId", "ReadId", "RecvId", "Mode", "Private" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pbx.MessageEvent), global::Pbx.MessageEvent.Parser, new[]{ "Action", "Msg" }, null, null, null, null)
           }));
     }
     #endregion
@@ -254,23 +259,31 @@ namespace Pbx {
   /// <summary>
   /// Dummy placeholder message.
   /// </summary>
-  public sealed partial class Unused : pb::IMessage<Unused> {
+  public sealed partial class Unused : pb::IMessage<Unused>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<Unused> _parser = new pb::MessageParser<Unused>(() => new Unused());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<Unused> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public Unused() {
       OnConstruction();
     }
@@ -278,21 +291,25 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public Unused(Unused other) : this() {
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public Unused Clone() {
       return new Unused(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as Unused);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(Unused other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -304,6 +321,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (_unknownFields != null) {
@@ -313,18 +331,35 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (_unknownFields != null) {
@@ -334,6 +369,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(Unused other) {
       if (other == null) {
         return;
@@ -342,7 +378,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -351,30 +391,54 @@ namespace Pbx {
             break;
         }
       }
+    #endif
     }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+        }
+      }
+    }
+    #endif
 
   }
 
   /// <summary>
   /// Topic default access mode
   /// </summary>
-  public sealed partial class DefaultAcsMode : pb::IMessage<DefaultAcsMode> {
+  public sealed partial class DefaultAcsMode : pb::IMessage<DefaultAcsMode>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<DefaultAcsMode> _parser = new pb::MessageParser<DefaultAcsMode>(() => new DefaultAcsMode());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<DefaultAcsMode> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public DefaultAcsMode() {
       OnConstruction();
     }
@@ -382,6 +446,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public DefaultAcsMode(DefaultAcsMode other) : this() {
       auth_ = other.auth_;
       anon_ = other.anon_;
@@ -389,6 +454,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public DefaultAcsMode Clone() {
       return new DefaultAcsMode(this);
     }
@@ -397,6 +463,7 @@ namespace Pbx {
     public const int AuthFieldNumber = 1;
     private string auth_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Auth {
       get { return auth_; }
       set {
@@ -408,6 +475,7 @@ namespace Pbx {
     public const int AnonFieldNumber = 2;
     private string anon_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Anon {
       get { return anon_; }
       set {
@@ -416,11 +484,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as DefaultAcsMode);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(DefaultAcsMode other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -434,6 +504,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Auth.Length != 0) hash ^= Auth.GetHashCode();
@@ -445,12 +516,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (Auth.Length != 0) {
         output.WriteRawTag(10);
         output.WriteString(Auth);
@@ -462,9 +538,29 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Auth.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Auth);
+      }
+      if (Anon.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Anon);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Auth.Length != 0) {
@@ -480,6 +576,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(DefaultAcsMode other) {
       if (other == null) {
         return;
@@ -494,7 +591,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -511,30 +612,62 @@ namespace Pbx {
           }
         }
       }
+    #endif
     }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Auth = input.ReadString();
+            break;
+          }
+          case 18: {
+            Anon = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
 
   }
 
   /// <summary>
   /// Actual access mode
   /// </summary>
-  public sealed partial class AccessMode : pb::IMessage<AccessMode> {
+  public sealed partial class AccessMode : pb::IMessage<AccessMode>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<AccessMode> _parser = new pb::MessageParser<AccessMode>(() => new AccessMode());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<AccessMode> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public AccessMode() {
       OnConstruction();
     }
@@ -542,6 +675,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public AccessMode(AccessMode other) : this() {
       want_ = other.want_;
       given_ = other.given_;
@@ -549,6 +683,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public AccessMode Clone() {
       return new AccessMode(this);
     }
@@ -560,6 +695,7 @@ namespace Pbx {
     /// Access mode requested by the user
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Want {
       get { return want_; }
       set {
@@ -574,6 +710,7 @@ namespace Pbx {
     /// Access mode granted to the user by the admin
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Given {
       get { return given_; }
       set {
@@ -582,11 +719,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as AccessMode);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(AccessMode other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -600,6 +739,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Want.Length != 0) hash ^= Want.GetHashCode();
@@ -611,12 +751,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (Want.Length != 0) {
         output.WriteRawTag(10);
         output.WriteString(Want);
@@ -628,9 +773,29 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Want.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Want);
+      }
+      if (Given.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Given);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Want.Length != 0) {
@@ -646,6 +811,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(AccessMode other) {
       if (other == null) {
         return;
@@ -660,7 +826,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -677,30 +847,62 @@ namespace Pbx {
           }
         }
       }
+    #endif
     }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Want = input.ReadString();
+            break;
+          }
+          case 18: {
+            Given = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
 
   }
 
   /// <summary>
   /// SetSub: payload in set.sub request to update current subscription or invite another user, {sub.what} == "sub"
   /// </summary>
-  public sealed partial class SetSub : pb::IMessage<SetSub> {
+  public sealed partial class SetSub : pb::IMessage<SetSub>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<SetSub> _parser = new pb::MessageParser<SetSub>(() => new SetSub());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<SetSub> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public SetSub() {
       OnConstruction();
     }
@@ -708,6 +910,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public SetSub(SetSub other) : this() {
       userId_ = other.userId_;
       mode_ = other.mode_;
@@ -715,6 +918,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public SetSub Clone() {
       return new SetSub(this);
     }
@@ -726,6 +930,7 @@ namespace Pbx {
     /// User affected by this request. Default (empty): current user
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string UserId {
       get { return userId_; }
       set {
@@ -740,6 +945,7 @@ namespace Pbx {
     /// Access mode change, either Given or Want depending on context
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Mode {
       get { return mode_; }
       set {
@@ -748,11 +954,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as SetSub);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(SetSub other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -766,6 +974,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (UserId.Length != 0) hash ^= UserId.GetHashCode();
@@ -777,12 +986,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (UserId.Length != 0) {
         output.WriteRawTag(10);
         output.WriteString(UserId);
@@ -794,9 +1008,29 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (UserId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(UserId);
+      }
+      if (Mode.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Mode);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (UserId.Length != 0) {
@@ -812,6 +1046,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(SetSub other) {
       if (other == null) {
         return;
@@ -826,7 +1061,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -843,30 +1082,62 @@ namespace Pbx {
           }
         }
       }
+    #endif
     }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            UserId = input.ReadString();
+            break;
+          }
+          case 18: {
+            Mode = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
 
   }
 
   /// <summary>
   /// Credentials such as email or phone number
   /// </summary>
-  public sealed partial class ClientCred : pb::IMessage<ClientCred> {
+  public sealed partial class ClientCred : pb::IMessage<ClientCred>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<ClientCred> _parser = new pb::MessageParser<ClientCred>(() => new ClientCred());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<ClientCred> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientCred() {
       OnConstruction();
     }
@@ -874,6 +1145,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientCred(ClientCred other) : this() {
       method_ = other.method_;
       value_ = other.value_;
@@ -883,6 +1155,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientCred Clone() {
       return new ClientCred(this);
     }
@@ -894,6 +1167,7 @@ namespace Pbx {
     /// Credential type, i.e. `email` or `tel`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Method {
       get { return method_; }
       set {
@@ -908,6 +1182,7 @@ namespace Pbx {
     /// Value to verify, i.e. `user@example.com` or `+18003287448`
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Value {
       get { return value_; }
       set {
@@ -922,6 +1197,7 @@ namespace Pbx {
     /// Verification response
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Response {
       get { return response_; }
       set {
@@ -932,22 +1208,25 @@ namespace Pbx {
     /// <summary>Field number for the "params" field.</summary>
     public const int ParamsFieldNumber = 4;
     private static readonly pbc::MapField<string, pb::ByteString>.Codec _map_params_codec
-        = new pbc::MapField<string, pb::ByteString>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForBytes(18), 34);
+        = new pbc::MapField<string, pb::ByteString>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForBytes(18, pb::ByteString.Empty), 34);
     private readonly pbc::MapField<string, pb::ByteString> params_ = new pbc::MapField<string, pb::ByteString>();
     /// <summary>
     /// Request parameters, such as preferences or country code.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::MapField<string, pb::ByteString> Params {
       get { return params_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as ClientCred);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(ClientCred other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -963,6 +1242,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Method.Length != 0) hash ^= Method.GetHashCode();
@@ -976,12 +1256,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (Method.Length != 0) {
         output.WriteRawTag(10);
         output.WriteString(Method);
@@ -998,9 +1283,34 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Method.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Method);
+      }
+      if (Value.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Value);
+      }
+      if (Response.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Response);
+      }
+      params_.WriteTo(ref output, _map_params_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Method.Length != 0) {
@@ -1020,6 +1330,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(ClientCred other) {
       if (other == null) {
         return;
@@ -1038,7 +1349,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -1063,30 +1378,70 @@ namespace Pbx {
           }
         }
       }
+    #endif
     }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Method = input.ReadString();
+            break;
+          }
+          case 18: {
+            Value = input.ReadString();
+            break;
+          }
+          case 26: {
+            Response = input.ReadString();
+            break;
+          }
+          case 34: {
+            params_.AddEntriesFrom(ref input, _map_params_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
 
   }
 
   /// <summary>
   /// SetDesc: C2S in set.what == "desc" and sub.init message
   /// </summary>
-  public sealed partial class SetDesc : pb::IMessage<SetDesc> {
+  public sealed partial class SetDesc : pb::IMessage<SetDesc>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<SetDesc> _parser = new pb::MessageParser<SetDesc>(() => new SetDesc());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<SetDesc> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public SetDesc() {
       OnConstruction();
     }
@@ -1094,14 +1449,17 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public SetDesc(SetDesc other) : this() {
       defaultAcs_ = other.defaultAcs_ != null ? other.defaultAcs_.Clone() : null;
       public_ = other.public_;
       private_ = other.private_;
+      trusted_ = other.trusted_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public SetDesc Clone() {
       return new SetDesc(this);
     }
@@ -1110,6 +1468,7 @@ namespace Pbx {
     public const int DefaultAcsFieldNumber = 1;
     private global::Pbx.DefaultAcsMode defaultAcs_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.DefaultAcsMode DefaultAcs {
       get { return defaultAcs_; }
       set {
@@ -1121,6 +1480,7 @@ namespace Pbx {
     public const int PublicFieldNumber = 2;
     private pb::ByteString public_ = pb::ByteString.Empty;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pb::ByteString Public {
       get { return public_; }
       set {
@@ -1132,6 +1492,7 @@ namespace Pbx {
     public const int PrivateFieldNumber = 3;
     private pb::ByteString private_ = pb::ByteString.Empty;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pb::ByteString Private {
       get { return private_; }
       set {
@@ -1139,12 +1500,26 @@ namespace Pbx {
       }
     }
 
+    /// <summary>Field number for the "trusted" field.</summary>
+    public const int TrustedFieldNumber = 4;
+    private pb::ByteString trusted_ = pb::ByteString.Empty;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pb::ByteString Trusted {
+      get { return trusted_; }
+      set {
+        trusted_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as SetDesc);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(SetDesc other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -1155,15 +1530,18 @@ namespace Pbx {
       if (!object.Equals(DefaultAcs, other.DefaultAcs)) return false;
       if (Public != other.Public) return false;
       if (Private != other.Private) return false;
+      if (Trusted != other.Trusted) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (defaultAcs_ != null) hash ^= DefaultAcs.GetHashCode();
       if (Public.Length != 0) hash ^= Public.GetHashCode();
       if (Private.Length != 0) hash ^= Private.GetHashCode();
+      if (Trusted.Length != 0) hash ^= Trusted.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1171,12 +1549,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (defaultAcs_ != null) {
         output.WriteRawTag(10);
         output.WriteMessage(DefaultAcs);
@@ -1189,12 +1572,44 @@ namespace Pbx {
         output.WriteRawTag(26);
         output.WriteBytes(Private);
       }
+      if (Trusted.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteBytes(Trusted);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (defaultAcs_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(DefaultAcs);
+      }
+      if (Public.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteBytes(Public);
+      }
+      if (Private.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteBytes(Private);
+      }
+      if (Trusted.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteBytes(Trusted);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (defaultAcs_ != null) {
@@ -1206,6 +1621,9 @@ namespace Pbx {
       if (Private.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeBytesSize(Private);
       }
+      if (Trusted.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(Trusted);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1213,13 +1631,14 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(SetDesc other) {
       if (other == null) {
         return;
       }
       if (other.defaultAcs_ != null) {
         if (defaultAcs_ == null) {
-          defaultAcs_ = new global::Pbx.DefaultAcsMode();
+          DefaultAcs = new global::Pbx.DefaultAcsMode();
         }
         DefaultAcs.MergeFrom(other.DefaultAcs);
       }
@@ -1229,11 +1648,18 @@ namespace Pbx {
       if (other.Private.Length != 0) {
         Private = other.Private;
       }
+      if (other.Trusted.Length != 0) {
+        Trusted = other.Trusted;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -1242,9 +1668,9 @@ namespace Pbx {
             break;
           case 10: {
             if (defaultAcs_ == null) {
-              defaultAcs_ = new global::Pbx.DefaultAcsMode();
+              DefaultAcs = new global::Pbx.DefaultAcsMode();
             }
-            input.ReadMessage(defaultAcs_);
+            input.ReadMessage(DefaultAcs);
             break;
           }
           case 18: {
@@ -1255,29 +1681,76 @@ namespace Pbx {
             Private = input.ReadBytes();
             break;
           }
+          case 34: {
+            Trusted = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (defaultAcs_ == null) {
+              DefaultAcs = new global::Pbx.DefaultAcsMode();
+            }
+            input.ReadMessage(DefaultAcs);
+            break;
+          }
+          case 18: {
+            Public = input.ReadBytes();
+            break;
+          }
+          case 26: {
+            Private = input.ReadBytes();
+            break;
+          }
+          case 34: {
+            Trusted = input.ReadBytes();
+            break;
+          }
         }
       }
     }
+    #endif
 
   }
 
-  public sealed partial class GetOpts : pb::IMessage<GetOpts> {
+  public sealed partial class GetOpts : pb::IMessage<GetOpts>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<GetOpts> _parser = new pb::MessageParser<GetOpts>(() => new GetOpts());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<GetOpts> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public GetOpts() {
       OnConstruction();
     }
@@ -1285,6 +1758,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public GetOpts(GetOpts other) : this() {
       ifModifiedSince_ = other.ifModifiedSince_;
       user_ = other.user_;
@@ -1296,6 +1770,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public GetOpts Clone() {
       return new GetOpts(this);
     }
@@ -1307,6 +1782,7 @@ namespace Pbx {
     /// Timestamp in milliseconds since epoch 01/01/1970
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long IfModifiedSince {
       get { return ifModifiedSince_; }
       set {
@@ -1321,6 +1797,7 @@ namespace Pbx {
     /// Limit search to this user ID
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string User {
       get { return user_; }
       set {
@@ -1335,6 +1812,7 @@ namespace Pbx {
     /// Limit search results to one topic;
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Topic {
       get { return topic_; }
       set {
@@ -1349,6 +1827,7 @@ namespace Pbx {
     /// Load messages with seq id equal or greater than this
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int SinceId {
       get { return sinceId_; }
       set {
@@ -1363,6 +1842,7 @@ namespace Pbx {
     /// Load messages with seq id lower than this
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int BeforeId {
       get { return beforeId_; }
       set {
@@ -1377,6 +1857,7 @@ namespace Pbx {
     /// Maximum number of results to return
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Limit {
       get { return limit_; }
       set {
@@ -1385,11 +1866,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as GetOpts);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(GetOpts other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -1407,6 +1890,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (IfModifiedSince != 0L) hash ^= IfModifiedSince.GetHashCode();
@@ -1422,12 +1906,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (IfModifiedSince != 0L) {
         output.WriteRawTag(8);
         output.WriteInt64(IfModifiedSince);
@@ -1455,9 +1944,45 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (IfModifiedSince != 0L) {
+        output.WriteRawTag(8);
+        output.WriteInt64(IfModifiedSince);
+      }
+      if (User.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(User);
+      }
+      if (Topic.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Topic);
+      }
+      if (SinceId != 0) {
+        output.WriteRawTag(32);
+        output.WriteInt32(SinceId);
+      }
+      if (BeforeId != 0) {
+        output.WriteRawTag(40);
+        output.WriteInt32(BeforeId);
+      }
+      if (Limit != 0) {
+        output.WriteRawTag(48);
+        output.WriteInt32(Limit);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (IfModifiedSince != 0L) {
@@ -1485,6 +2010,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(GetOpts other) {
       if (other == null) {
         return;
@@ -1511,7 +2037,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -1544,27 +2074,75 @@ namespace Pbx {
           }
         }
       }
+    #endif
     }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            IfModifiedSince = input.ReadInt64();
+            break;
+          }
+          case 18: {
+            User = input.ReadString();
+            break;
+          }
+          case 26: {
+            Topic = input.ReadString();
+            break;
+          }
+          case 32: {
+            SinceId = input.ReadInt32();
+            break;
+          }
+          case 40: {
+            BeforeId = input.ReadInt32();
+            break;
+          }
+          case 48: {
+            Limit = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    }
+    #endif
 
   }
 
-  public sealed partial class GetQuery : pb::IMessage<GetQuery> {
+  public sealed partial class GetQuery : pb::IMessage<GetQuery>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<GetQuery> _parser = new pb::MessageParser<GetQuery>(() => new GetQuery());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<GetQuery> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public GetQuery() {
       OnConstruction();
     }
@@ -1572,6 +2150,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public GetQuery(GetQuery other) : this() {
       what_ = other.what_;
       desc_ = other.desc_ != null ? other.desc_.Clone() : null;
@@ -1581,6 +2160,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public GetQuery Clone() {
       return new GetQuery(this);
     }
@@ -1589,6 +2169,7 @@ namespace Pbx {
     public const int WhatFieldNumber = 1;
     private string what_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string What {
       get { return what_; }
       set {
@@ -1603,6 +2184,7 @@ namespace Pbx {
     /// Parameters of "desc" request
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.GetOpts Desc {
       get { return desc_; }
       set {
@@ -1617,6 +2199,7 @@ namespace Pbx {
     /// Parameters of "sub" request
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.GetOpts Sub {
       get { return sub_; }
       set {
@@ -1631,6 +2214,7 @@ namespace Pbx {
     /// Parameters of "data" request
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.GetOpts Data {
       get { return data_; }
       set {
@@ -1639,11 +2223,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as GetQuery);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(GetQuery other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -1659,6 +2245,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (What.Length != 0) hash ^= What.GetHashCode();
@@ -1672,12 +2259,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (What.Length != 0) {
         output.WriteRawTag(10);
         output.WriteString(What);
@@ -1697,9 +2289,37 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (What.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(What);
+      }
+      if (desc_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Desc);
+      }
+      if (sub_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Sub);
+      }
+      if (data_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Data);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (What.Length != 0) {
@@ -1721,6 +2341,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(GetQuery other) {
       if (other == null) {
         return;
@@ -1730,19 +2351,19 @@ namespace Pbx {
       }
       if (other.desc_ != null) {
         if (desc_ == null) {
-          desc_ = new global::Pbx.GetOpts();
+          Desc = new global::Pbx.GetOpts();
         }
         Desc.MergeFrom(other.Desc);
       }
       if (other.sub_ != null) {
         if (sub_ == null) {
-          sub_ = new global::Pbx.GetOpts();
+          Sub = new global::Pbx.GetOpts();
         }
         Sub.MergeFrom(other.Sub);
       }
       if (other.data_ != null) {
         if (data_ == null) {
-          data_ = new global::Pbx.GetOpts();
+          Data = new global::Pbx.GetOpts();
         }
         Data.MergeFrom(other.Data);
       }
@@ -1750,7 +2371,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -1763,48 +2388,97 @@ namespace Pbx {
           }
           case 18: {
             if (desc_ == null) {
-              desc_ = new global::Pbx.GetOpts();
+              Desc = new global::Pbx.GetOpts();
             }
-            input.ReadMessage(desc_);
+            input.ReadMessage(Desc);
             break;
           }
           case 26: {
             if (sub_ == null) {
-              sub_ = new global::Pbx.GetOpts();
+              Sub = new global::Pbx.GetOpts();
             }
-            input.ReadMessage(sub_);
+            input.ReadMessage(Sub);
             break;
           }
           case 34: {
             if (data_ == null) {
-              data_ = new global::Pbx.GetOpts();
+              Data = new global::Pbx.GetOpts();
             }
-            input.ReadMessage(data_);
+            input.ReadMessage(Data);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            What = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (desc_ == null) {
+              Desc = new global::Pbx.GetOpts();
+            }
+            input.ReadMessage(Desc);
+            break;
+          }
+          case 26: {
+            if (sub_ == null) {
+              Sub = new global::Pbx.GetOpts();
+            }
+            input.ReadMessage(Sub);
+            break;
+          }
+          case 34: {
+            if (data_ == null) {
+              Data = new global::Pbx.GetOpts();
+            }
+            input.ReadMessage(Data);
             break;
           }
         }
       }
     }
+    #endif
 
   }
 
-  public sealed partial class SetQuery : pb::IMessage<SetQuery> {
+  public sealed partial class SetQuery : pb::IMessage<SetQuery>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<SetQuery> _parser = new pb::MessageParser<SetQuery>(() => new SetQuery());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<SetQuery> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public SetQuery() {
       OnConstruction();
     }
@@ -1812,6 +2486,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public SetQuery(SetQuery other) : this() {
       desc_ = other.desc_ != null ? other.desc_.Clone() : null;
       sub_ = other.sub_ != null ? other.sub_.Clone() : null;
@@ -1821,6 +2496,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public SetQuery Clone() {
       return new SetQuery(this);
     }
@@ -1832,6 +2508,7 @@ namespace Pbx {
     /// Topic metadata, new topic &amp; new subscriptions only
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.SetDesc Desc {
       get { return desc_; }
       set {
@@ -1846,6 +2523,7 @@ namespace Pbx {
     /// Subscription parameters
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.SetSub Sub {
       get { return sub_; }
       set {
@@ -1862,6 +2540,7 @@ namespace Pbx {
     /// Indexable tags
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<string> Tags {
       get { return tags_; }
     }
@@ -1873,6 +2552,7 @@ namespace Pbx {
     /// Credential being updated.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.ClientCred Cred {
       get { return cred_; }
       set {
@@ -1881,11 +2561,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as SetQuery);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(SetQuery other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -1901,6 +2583,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (desc_ != null) hash ^= Desc.GetHashCode();
@@ -1914,12 +2597,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (desc_ != null) {
         output.WriteRawTag(10);
         output.WriteMessage(Desc);
@@ -1936,9 +2624,34 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (desc_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Desc);
+      }
+      if (sub_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Sub);
+      }
+      tags_.WriteTo(ref output, _repeated_tags_codec);
+      if (cred_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Cred);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (desc_ != null) {
@@ -1958,26 +2671,27 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(SetQuery other) {
       if (other == null) {
         return;
       }
       if (other.desc_ != null) {
         if (desc_ == null) {
-          desc_ = new global::Pbx.SetDesc();
+          Desc = new global::Pbx.SetDesc();
         }
         Desc.MergeFrom(other.Desc);
       }
       if (other.sub_ != null) {
         if (sub_ == null) {
-          sub_ = new global::Pbx.SetSub();
+          Sub = new global::Pbx.SetSub();
         }
         Sub.MergeFrom(other.Sub);
       }
       tags_.Add(other.tags_);
       if (other.cred_ != null) {
         if (cred_ == null) {
-          cred_ = new global::Pbx.ClientCred();
+          Cred = new global::Pbx.ClientCred();
         }
         Cred.MergeFrom(other.Cred);
       }
@@ -1985,7 +2699,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -1994,16 +2712,16 @@ namespace Pbx {
             break;
           case 10: {
             if (desc_ == null) {
-              desc_ = new global::Pbx.SetDesc();
+              Desc = new global::Pbx.SetDesc();
             }
-            input.ReadMessage(desc_);
+            input.ReadMessage(Desc);
             break;
           }
           case 18: {
             if (sub_ == null) {
-              sub_ = new global::Pbx.SetSub();
+              Sub = new global::Pbx.SetSub();
             }
-            input.ReadMessage(sub_);
+            input.ReadMessage(Sub);
             break;
           }
           case 26: {
@@ -2012,34 +2730,83 @@ namespace Pbx {
           }
           case 34: {
             if (cred_ == null) {
-              cred_ = new global::Pbx.ClientCred();
+              Cred = new global::Pbx.ClientCred();
             }
-            input.ReadMessage(cred_);
+            input.ReadMessage(Cred);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (desc_ == null) {
+              Desc = new global::Pbx.SetDesc();
+            }
+            input.ReadMessage(Desc);
+            break;
+          }
+          case 18: {
+            if (sub_ == null) {
+              Sub = new global::Pbx.SetSub();
+            }
+            input.ReadMessage(Sub);
+            break;
+          }
+          case 26: {
+            tags_.AddEntriesFrom(ref input, _repeated_tags_codec);
+            break;
+          }
+          case 34: {
+            if (cred_ == null) {
+              Cred = new global::Pbx.ClientCred();
+            }
+            input.ReadMessage(Cred);
             break;
           }
         }
       }
     }
+    #endif
 
   }
 
-  public sealed partial class SeqRange : pb::IMessage<SeqRange> {
+  public sealed partial class SeqRange : pb::IMessage<SeqRange>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<SeqRange> _parser = new pb::MessageParser<SeqRange>(() => new SeqRange());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<SeqRange> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public SeqRange() {
       OnConstruction();
     }
@@ -2047,6 +2814,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public SeqRange(SeqRange other) : this() {
       low_ = other.low_;
       hi_ = other.hi_;
@@ -2054,6 +2822,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public SeqRange Clone() {
       return new SeqRange(this);
     }
@@ -2062,6 +2831,7 @@ namespace Pbx {
     public const int LowFieldNumber = 1;
     private int low_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Low {
       get { return low_; }
       set {
@@ -2073,6 +2843,7 @@ namespace Pbx {
     public const int HiFieldNumber = 2;
     private int hi_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Hi {
       get { return hi_; }
       set {
@@ -2081,11 +2852,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as SeqRange);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(SeqRange other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -2099,6 +2872,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Low != 0) hash ^= Low.GetHashCode();
@@ -2110,12 +2884,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (Low != 0) {
         output.WriteRawTag(8);
         output.WriteInt32(Low);
@@ -2127,9 +2906,29 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Low != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(Low);
+      }
+      if (Hi != 0) {
+        output.WriteRawTag(16);
+        output.WriteInt32(Hi);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Low != 0) {
@@ -2145,6 +2944,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(SeqRange other) {
       if (other == null) {
         return;
@@ -2159,7 +2959,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -2176,30 +2980,62 @@ namespace Pbx {
           }
         }
       }
+    #endif
     }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            Low = input.ReadInt32();
+            break;
+          }
+          case 16: {
+            Hi = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    }
+    #endif
 
   }
 
   /// <summary>
   /// Client handshake
   /// </summary>
-  public sealed partial class ClientHi : pb::IMessage<ClientHi> {
+  public sealed partial class ClientHi : pb::IMessage<ClientHi>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<ClientHi> _parser = new pb::MessageParser<ClientHi>(() => new ClientHi());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<ClientHi> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientHi() {
       OnConstruction();
     }
@@ -2207,6 +3043,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientHi(ClientHi other) : this() {
       id_ = other.id_;
       userAgent_ = other.userAgent_;
@@ -2219,6 +3056,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientHi Clone() {
       return new ClientHi(this);
     }
@@ -2227,6 +3065,7 @@ namespace Pbx {
     public const int IdFieldNumber = 1;
     private string id_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Id {
       get { return id_; }
       set {
@@ -2238,6 +3077,7 @@ namespace Pbx {
     public const int UserAgentFieldNumber = 2;
     private string userAgent_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string UserAgent {
       get { return userAgent_; }
       set {
@@ -2249,6 +3089,7 @@ namespace Pbx {
     public const int VerFieldNumber = 3;
     private string ver_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Ver {
       get { return ver_; }
       set {
@@ -2260,6 +3101,7 @@ namespace Pbx {
     public const int DeviceIdFieldNumber = 4;
     private string deviceId_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string DeviceId {
       get { return deviceId_; }
       set {
@@ -2271,6 +3113,7 @@ namespace Pbx {
     public const int LangFieldNumber = 5;
     private string lang_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Lang {
       get { return lang_; }
       set {
@@ -2282,6 +3125,7 @@ namespace Pbx {
     public const int PlatformFieldNumber = 6;
     private string platform_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Platform {
       get { return platform_; }
       set {
@@ -2293,6 +3137,7 @@ namespace Pbx {
     public const int BackgroundFieldNumber = 7;
     private bool background_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Background {
       get { return background_; }
       set {
@@ -2301,11 +3146,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as ClientHi);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(ClientHi other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -2324,6 +3171,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Id.Length != 0) hash ^= Id.GetHashCode();
@@ -2340,12 +3188,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (Id.Length != 0) {
         output.WriteRawTag(10);
         output.WriteString(Id);
@@ -2377,9 +3230,49 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Id.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Id);
+      }
+      if (UserAgent.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(UserAgent);
+      }
+      if (Ver.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Ver);
+      }
+      if (DeviceId.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(DeviceId);
+      }
+      if (Lang.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(Lang);
+      }
+      if (Platform.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(Platform);
+      }
+      if (Background != false) {
+        output.WriteRawTag(56);
+        output.WriteBool(Background);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Id.Length != 0) {
@@ -2410,6 +3303,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(ClientHi other) {
       if (other == null) {
         return;
@@ -2439,7 +3333,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -2476,30 +3374,82 @@ namespace Pbx {
           }
         }
       }
+    #endif
     }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Id = input.ReadString();
+            break;
+          }
+          case 18: {
+            UserAgent = input.ReadString();
+            break;
+          }
+          case 26: {
+            Ver = input.ReadString();
+            break;
+          }
+          case 34: {
+            DeviceId = input.ReadString();
+            break;
+          }
+          case 42: {
+            Lang = input.ReadString();
+            break;
+          }
+          case 50: {
+            Platform = input.ReadString();
+            break;
+          }
+          case 56: {
+            Background = input.ReadBool();
+            break;
+          }
+        }
+      }
+    }
+    #endif
 
   }
 
   /// <summary>
   /// User creation message {acc}
   /// </summary>
-  public sealed partial class ClientAcc : pb::IMessage<ClientAcc> {
+  public sealed partial class ClientAcc : pb::IMessage<ClientAcc>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<ClientAcc> _parser = new pb::MessageParser<ClientAcc>(() => new ClientAcc());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<ClientAcc> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientAcc() {
       OnConstruction();
     }
@@ -2507,6 +3457,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientAcc(ClientAcc other) : this() {
       id_ = other.id_;
       userId_ = other.userId_;
@@ -2522,6 +3473,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientAcc Clone() {
       return new ClientAcc(this);
     }
@@ -2530,6 +3482,7 @@ namespace Pbx {
     public const int IdFieldNumber = 1;
     private string id_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Id {
       get { return id_; }
       set {
@@ -2544,6 +3497,7 @@ namespace Pbx {
     /// User being created or updated
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string UserId {
       get { return userId_; }
       set {
@@ -2558,6 +3512,7 @@ namespace Pbx {
     /// The initial authentication scheme the account can use
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Scheme {
       get { return scheme_; }
       set {
@@ -2572,6 +3527,7 @@ namespace Pbx {
     /// Shared secret
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pb::ByteString Secret {
       get { return secret_; }
       set {
@@ -2586,6 +3542,7 @@ namespace Pbx {
     /// Authenticate session with the newly created account
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Login {
       get { return login_; }
       set {
@@ -2602,6 +3559,7 @@ namespace Pbx {
     /// Indexable tags for user discovery
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<string> Tags {
       get { return tags_; }
     }
@@ -2613,6 +3571,7 @@ namespace Pbx {
     /// User initialization data when creating a new user, otherwise ignored
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.SetDesc Desc {
       get { return desc_; }
       set {
@@ -2629,6 +3588,7 @@ namespace Pbx {
     /// Credentials for verification.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::Pbx.ClientCred> Cred {
       get { return cred_; }
     }
@@ -2640,6 +3600,7 @@ namespace Pbx {
     /// Authentication token used for resetting a password.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pb::ByteString Token {
       get { return token_; }
       set {
@@ -2654,6 +3615,7 @@ namespace Pbx {
     /// Account state: normal ("ok"), suspended
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string State {
       get { return state_; }
       set {
@@ -2662,11 +3624,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as ClientAcc);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(ClientAcc other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -2688,6 +3652,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Id.Length != 0) hash ^= Id.GetHashCode();
@@ -2707,12 +3672,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (Id.Length != 0) {
         output.WriteRawTag(10);
         output.WriteString(Id);
@@ -2750,9 +3720,55 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Id.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Id);
+      }
+      if (UserId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(UserId);
+      }
+      if (Scheme.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Scheme);
+      }
+      if (Secret.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteBytes(Secret);
+      }
+      if (Login != false) {
+        output.WriteRawTag(40);
+        output.WriteBool(Login);
+      }
+      tags_.WriteTo(ref output, _repeated_tags_codec);
+      if (desc_ != null) {
+        output.WriteRawTag(58);
+        output.WriteMessage(Desc);
+      }
+      cred_.WriteTo(ref output, _repeated_cred_codec);
+      if (Token.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteBytes(Token);
+      }
+      if (State.Length != 0) {
+        output.WriteRawTag(82);
+        output.WriteString(State);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Id.Length != 0) {
@@ -2788,6 +3804,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(ClientAcc other) {
       if (other == null) {
         return;
@@ -2810,7 +3827,7 @@ namespace Pbx {
       tags_.Add(other.tags_);
       if (other.desc_ != null) {
         if (desc_ == null) {
-          desc_ = new global::Pbx.SetDesc();
+          Desc = new global::Pbx.SetDesc();
         }
         Desc.MergeFrom(other.Desc);
       }
@@ -2825,7 +3842,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -2858,9 +3879,9 @@ namespace Pbx {
           }
           case 58: {
             if (desc_ == null) {
-              desc_ = new global::Pbx.SetDesc();
+              Desc = new global::Pbx.SetDesc();
             }
-            input.ReadMessage(desc_);
+            input.ReadMessage(Desc);
             break;
           }
           case 66: {
@@ -2877,30 +3898,97 @@ namespace Pbx {
           }
         }
       }
+    #endif
     }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Id = input.ReadString();
+            break;
+          }
+          case 18: {
+            UserId = input.ReadString();
+            break;
+          }
+          case 26: {
+            Scheme = input.ReadString();
+            break;
+          }
+          case 34: {
+            Secret = input.ReadBytes();
+            break;
+          }
+          case 40: {
+            Login = input.ReadBool();
+            break;
+          }
+          case 50: {
+            tags_.AddEntriesFrom(ref input, _repeated_tags_codec);
+            break;
+          }
+          case 58: {
+            if (desc_ == null) {
+              Desc = new global::Pbx.SetDesc();
+            }
+            input.ReadMessage(Desc);
+            break;
+          }
+          case 66: {
+            cred_.AddEntriesFrom(ref input, _repeated_cred_codec);
+            break;
+          }
+          case 74: {
+            Token = input.ReadBytes();
+            break;
+          }
+          case 82: {
+            State = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
 
   }
 
   /// <summary>
   /// Login {login} message
   /// </summary>
-  public sealed partial class ClientLogin : pb::IMessage<ClientLogin> {
+  public sealed partial class ClientLogin : pb::IMessage<ClientLogin>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<ClientLogin> _parser = new pb::MessageParser<ClientLogin>(() => new ClientLogin());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<ClientLogin> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientLogin() {
       OnConstruction();
     }
@@ -2908,6 +3996,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientLogin(ClientLogin other) : this() {
       id_ = other.id_;
       scheme_ = other.scheme_;
@@ -2917,6 +4006,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientLogin Clone() {
       return new ClientLogin(this);
     }
@@ -2925,6 +4015,7 @@ namespace Pbx {
     public const int IdFieldNumber = 1;
     private string id_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Id {
       get { return id_; }
       set {
@@ -2939,6 +4030,7 @@ namespace Pbx {
     /// Authentication scheme
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Scheme {
       get { return scheme_; }
       set {
@@ -2953,6 +4045,7 @@ namespace Pbx {
     /// Shared secret
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pb::ByteString Secret {
       get { return secret_; }
       set {
@@ -2969,16 +4062,19 @@ namespace Pbx {
     /// Credentials for verification.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::Pbx.ClientCred> Cred {
       get { return cred_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as ClientLogin);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(ClientLogin other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -2994,6 +4090,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Id.Length != 0) hash ^= Id.GetHashCode();
@@ -3007,12 +4104,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (Id.Length != 0) {
         output.WriteRawTag(10);
         output.WriteString(Id);
@@ -3029,9 +4131,34 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Id.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Id);
+      }
+      if (Scheme.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Scheme);
+      }
+      if (Secret.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteBytes(Secret);
+      }
+      cred_.WriteTo(ref output, _repeated_cred_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Id.Length != 0) {
@@ -3051,6 +4178,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(ClientLogin other) {
       if (other == null) {
         return;
@@ -3069,7 +4197,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -3094,30 +4226,70 @@ namespace Pbx {
           }
         }
       }
+    #endif
     }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Id = input.ReadString();
+            break;
+          }
+          case 18: {
+            Scheme = input.ReadString();
+            break;
+          }
+          case 26: {
+            Secret = input.ReadBytes();
+            break;
+          }
+          case 34: {
+            cred_.AddEntriesFrom(ref input, _repeated_cred_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
 
   }
 
   /// <summary>
   /// Subscription request {sub} message
   /// </summary>
-  public sealed partial class ClientSub : pb::IMessage<ClientSub> {
+  public sealed partial class ClientSub : pb::IMessage<ClientSub>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<ClientSub> _parser = new pb::MessageParser<ClientSub>(() => new ClientSub());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<ClientSub> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientSub() {
       OnConstruction();
     }
@@ -3125,6 +4297,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientSub(ClientSub other) : this() {
       id_ = other.id_;
       topic_ = other.topic_;
@@ -3134,6 +4307,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientSub Clone() {
       return new ClientSub(this);
     }
@@ -3142,6 +4316,7 @@ namespace Pbx {
     public const int IdFieldNumber = 1;
     private string id_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Id {
       get { return id_; }
       set {
@@ -3153,6 +4328,7 @@ namespace Pbx {
     public const int TopicFieldNumber = 2;
     private string topic_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Topic {
       get { return topic_; }
       set {
@@ -3167,6 +4343,7 @@ namespace Pbx {
     /// mirrors {set}
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.SetQuery SetQuery {
       get { return setQuery_; }
       set {
@@ -3181,6 +4358,7 @@ namespace Pbx {
     /// mirrors {get}
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.GetQuery GetQuery {
       get { return getQuery_; }
       set {
@@ -3189,11 +4367,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as ClientSub);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(ClientSub other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -3209,6 +4389,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Id.Length != 0) hash ^= Id.GetHashCode();
@@ -3222,12 +4403,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (Id.Length != 0) {
         output.WriteRawTag(10);
         output.WriteString(Id);
@@ -3247,9 +4433,37 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Id.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Id);
+      }
+      if (Topic.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Topic);
+      }
+      if (setQuery_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(SetQuery);
+      }
+      if (getQuery_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(GetQuery);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Id.Length != 0) {
@@ -3271,6 +4485,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(ClientSub other) {
       if (other == null) {
         return;
@@ -3283,13 +4498,13 @@ namespace Pbx {
       }
       if (other.setQuery_ != null) {
         if (setQuery_ == null) {
-          setQuery_ = new global::Pbx.SetQuery();
+          SetQuery = new global::Pbx.SetQuery();
         }
         SetQuery.MergeFrom(other.SetQuery);
       }
       if (other.getQuery_ != null) {
         if (getQuery_ == null) {
-          getQuery_ = new global::Pbx.GetQuery();
+          GetQuery = new global::Pbx.GetQuery();
         }
         GetQuery.MergeFrom(other.GetQuery);
       }
@@ -3297,7 +4512,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -3314,44 +4533,90 @@ namespace Pbx {
           }
           case 26: {
             if (setQuery_ == null) {
-              setQuery_ = new global::Pbx.SetQuery();
+              SetQuery = new global::Pbx.SetQuery();
             }
-            input.ReadMessage(setQuery_);
+            input.ReadMessage(SetQuery);
             break;
           }
           case 34: {
             if (getQuery_ == null) {
-              getQuery_ = new global::Pbx.GetQuery();
+              GetQuery = new global::Pbx.GetQuery();
             }
-            input.ReadMessage(getQuery_);
+            input.ReadMessage(GetQuery);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Id = input.ReadString();
+            break;
+          }
+          case 18: {
+            Topic = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (setQuery_ == null) {
+              SetQuery = new global::Pbx.SetQuery();
+            }
+            input.ReadMessage(SetQuery);
+            break;
+          }
+          case 34: {
+            if (getQuery_ == null) {
+              GetQuery = new global::Pbx.GetQuery();
+            }
+            input.ReadMessage(GetQuery);
             break;
           }
         }
       }
     }
+    #endif
 
   }
 
   /// <summary>
   /// Unsubscribe {leave} request message
   /// </summary>
-  public sealed partial class ClientLeave : pb::IMessage<ClientLeave> {
+  public sealed partial class ClientLeave : pb::IMessage<ClientLeave>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<ClientLeave> _parser = new pb::MessageParser<ClientLeave>(() => new ClientLeave());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<ClientLeave> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientLeave() {
       OnConstruction();
     }
@@ -3359,6 +4624,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientLeave(ClientLeave other) : this() {
       id_ = other.id_;
       topic_ = other.topic_;
@@ -3367,6 +4633,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientLeave Clone() {
       return new ClientLeave(this);
     }
@@ -3375,6 +4642,7 @@ namespace Pbx {
     public const int IdFieldNumber = 1;
     private string id_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Id {
       get { return id_; }
       set {
@@ -3386,6 +4654,7 @@ namespace Pbx {
     public const int TopicFieldNumber = 2;
     private string topic_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Topic {
       get { return topic_; }
       set {
@@ -3397,6 +4666,7 @@ namespace Pbx {
     public const int UnsubFieldNumber = 3;
     private bool unsub_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Unsub {
       get { return unsub_; }
       set {
@@ -3405,11 +4675,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as ClientLeave);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(ClientLeave other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -3424,6 +4696,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Id.Length != 0) hash ^= Id.GetHashCode();
@@ -3436,12 +4709,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (Id.Length != 0) {
         output.WriteRawTag(10);
         output.WriteString(Id);
@@ -3457,9 +4735,33 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Id.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Id);
+      }
+      if (Topic.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Topic);
+      }
+      if (Unsub != false) {
+        output.WriteRawTag(24);
+        output.WriteBool(Unsub);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Id.Length != 0) {
@@ -3478,6 +4780,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(ClientLeave other) {
       if (other == null) {
         return;
@@ -3495,7 +4798,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -3516,30 +4823,66 @@ namespace Pbx {
           }
         }
       }
+    #endif
     }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Id = input.ReadString();
+            break;
+          }
+          case 18: {
+            Topic = input.ReadString();
+            break;
+          }
+          case 24: {
+            Unsub = input.ReadBool();
+            break;
+          }
+        }
+      }
+    }
+    #endif
 
   }
 
   /// <summary>
   /// ClientPub is client's request to publish data to topic subscribers {pub}
   /// </summary>
-  public sealed partial class ClientPub : pb::IMessage<ClientPub> {
+  public sealed partial class ClientPub : pb::IMessage<ClientPub>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<ClientPub> _parser = new pb::MessageParser<ClientPub>(() => new ClientPub());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<ClientPub> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientPub() {
       OnConstruction();
     }
@@ -3547,6 +4890,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientPub(ClientPub other) : this() {
       id_ = other.id_;
       topic_ = other.topic_;
@@ -3557,6 +4901,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientPub Clone() {
       return new ClientPub(this);
     }
@@ -3565,6 +4910,7 @@ namespace Pbx {
     public const int IdFieldNumber = 1;
     private string id_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Id {
       get { return id_; }
       set {
@@ -3576,6 +4922,7 @@ namespace Pbx {
     public const int TopicFieldNumber = 2;
     private string topic_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Topic {
       get { return topic_; }
       set {
@@ -3587,6 +4934,7 @@ namespace Pbx {
     public const int NoEchoFieldNumber = 3;
     private bool noEcho_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool NoEcho {
       get { return noEcho_; }
       set {
@@ -3597,9 +4945,10 @@ namespace Pbx {
     /// <summary>Field number for the "head" field.</summary>
     public const int HeadFieldNumber = 4;
     private static readonly pbc::MapField<string, pb::ByteString>.Codec _map_head_codec
-        = new pbc::MapField<string, pb::ByteString>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForBytes(18), 34);
+        = new pbc::MapField<string, pb::ByteString>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForBytes(18, pb::ByteString.Empty), 34);
     private readonly pbc::MapField<string, pb::ByteString> head_ = new pbc::MapField<string, pb::ByteString>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::MapField<string, pb::ByteString> Head {
       get { return head_; }
     }
@@ -3608,6 +4957,7 @@ namespace Pbx {
     public const int ContentFieldNumber = 5;
     private pb::ByteString content_ = pb::ByteString.Empty;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pb::ByteString Content {
       get { return content_; }
       set {
@@ -3616,11 +4966,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as ClientPub);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(ClientPub other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -3637,6 +4989,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Id.Length != 0) hash ^= Id.GetHashCode();
@@ -3651,12 +5004,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (Id.Length != 0) {
         output.WriteRawTag(10);
         output.WriteString(Id);
@@ -3677,9 +5035,38 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Id.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Id);
+      }
+      if (Topic.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Topic);
+      }
+      if (NoEcho != false) {
+        output.WriteRawTag(24);
+        output.WriteBool(NoEcho);
+      }
+      head_.WriteTo(ref output, _map_head_codec);
+      if (Content.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteBytes(Content);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Id.Length != 0) {
@@ -3702,6 +5089,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(ClientPub other) {
       if (other == null) {
         return;
@@ -3723,7 +5111,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -3752,30 +5144,74 @@ namespace Pbx {
           }
         }
       }
+    #endif
     }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Id = input.ReadString();
+            break;
+          }
+          case 18: {
+            Topic = input.ReadString();
+            break;
+          }
+          case 24: {
+            NoEcho = input.ReadBool();
+            break;
+          }
+          case 34: {
+            head_.AddEntriesFrom(ref input, _map_head_codec);
+            break;
+          }
+          case 42: {
+            Content = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    }
+    #endif
 
   }
 
   /// <summary>
   /// Query topic state {get}
   /// </summary>
-  public sealed partial class ClientGet : pb::IMessage<ClientGet> {
+  public sealed partial class ClientGet : pb::IMessage<ClientGet>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<ClientGet> _parser = new pb::MessageParser<ClientGet>(() => new ClientGet());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<ClientGet> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientGet() {
       OnConstruction();
     }
@@ -3783,6 +5219,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientGet(ClientGet other) : this() {
       id_ = other.id_;
       topic_ = other.topic_;
@@ -3791,6 +5228,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientGet Clone() {
       return new ClientGet(this);
     }
@@ -3799,6 +5237,7 @@ namespace Pbx {
     public const int IdFieldNumber = 1;
     private string id_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Id {
       get { return id_; }
       set {
@@ -3810,6 +5249,7 @@ namespace Pbx {
     public const int TopicFieldNumber = 2;
     private string topic_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Topic {
       get { return topic_; }
       set {
@@ -3821,6 +5261,7 @@ namespace Pbx {
     public const int QueryFieldNumber = 3;
     private global::Pbx.GetQuery query_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.GetQuery Query {
       get { return query_; }
       set {
@@ -3829,11 +5270,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as ClientGet);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(ClientGet other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -3848,6 +5291,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Id.Length != 0) hash ^= Id.GetHashCode();
@@ -3860,12 +5304,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (Id.Length != 0) {
         output.WriteRawTag(10);
         output.WriteString(Id);
@@ -3881,9 +5330,33 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Id.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Id);
+      }
+      if (Topic.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Topic);
+      }
+      if (query_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Query);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Id.Length != 0) {
@@ -3902,6 +5375,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(ClientGet other) {
       if (other == null) {
         return;
@@ -3914,7 +5388,7 @@ namespace Pbx {
       }
       if (other.query_ != null) {
         if (query_ == null) {
-          query_ = new global::Pbx.GetQuery();
+          Query = new global::Pbx.GetQuery();
         }
         Query.MergeFrom(other.Query);
       }
@@ -3922,7 +5396,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -3939,37 +5417,76 @@ namespace Pbx {
           }
           case 26: {
             if (query_ == null) {
-              query_ = new global::Pbx.GetQuery();
+              Query = new global::Pbx.GetQuery();
             }
-            input.ReadMessage(query_);
+            input.ReadMessage(Query);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Id = input.ReadString();
+            break;
+          }
+          case 18: {
+            Topic = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (query_ == null) {
+              Query = new global::Pbx.GetQuery();
+            }
+            input.ReadMessage(Query);
             break;
           }
         }
       }
     }
+    #endif
 
   }
 
   /// <summary>
   /// Update topic state {set}
   /// </summary>
-  public sealed partial class ClientSet : pb::IMessage<ClientSet> {
+  public sealed partial class ClientSet : pb::IMessage<ClientSet>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<ClientSet> _parser = new pb::MessageParser<ClientSet>(() => new ClientSet());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<ClientSet> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientSet() {
       OnConstruction();
     }
@@ -3977,6 +5494,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientSet(ClientSet other) : this() {
       id_ = other.id_;
       topic_ = other.topic_;
@@ -3985,6 +5503,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientSet Clone() {
       return new ClientSet(this);
     }
@@ -3993,6 +5512,7 @@ namespace Pbx {
     public const int IdFieldNumber = 1;
     private string id_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Id {
       get { return id_; }
       set {
@@ -4004,6 +5524,7 @@ namespace Pbx {
     public const int TopicFieldNumber = 2;
     private string topic_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Topic {
       get { return topic_; }
       set {
@@ -4015,6 +5536,7 @@ namespace Pbx {
     public const int QueryFieldNumber = 3;
     private global::Pbx.SetQuery query_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.SetQuery Query {
       get { return query_; }
       set {
@@ -4023,11 +5545,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as ClientSet);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(ClientSet other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -4042,6 +5566,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Id.Length != 0) hash ^= Id.GetHashCode();
@@ -4054,12 +5579,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (Id.Length != 0) {
         output.WriteRawTag(10);
         output.WriteString(Id);
@@ -4075,9 +5605,33 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Id.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Id);
+      }
+      if (Topic.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Topic);
+      }
+      if (query_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Query);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Id.Length != 0) {
@@ -4096,6 +5650,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(ClientSet other) {
       if (other == null) {
         return;
@@ -4108,7 +5663,7 @@ namespace Pbx {
       }
       if (other.query_ != null) {
         if (query_ == null) {
-          query_ = new global::Pbx.SetQuery();
+          Query = new global::Pbx.SetQuery();
         }
         Query.MergeFrom(other.Query);
       }
@@ -4116,7 +5671,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -4133,37 +5692,76 @@ namespace Pbx {
           }
           case 26: {
             if (query_ == null) {
-              query_ = new global::Pbx.SetQuery();
+              Query = new global::Pbx.SetQuery();
             }
-            input.ReadMessage(query_);
+            input.ReadMessage(Query);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Id = input.ReadString();
+            break;
+          }
+          case 18: {
+            Topic = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (query_ == null) {
+              Query = new global::Pbx.SetQuery();
+            }
+            input.ReadMessage(Query);
             break;
           }
         }
       }
     }
+    #endif
 
   }
 
   /// <summary>
   /// ClientDel delete messages or topic
   /// </summary>
-  public sealed partial class ClientDel : pb::IMessage<ClientDel> {
+  public sealed partial class ClientDel : pb::IMessage<ClientDel>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<ClientDel> _parser = new pb::MessageParser<ClientDel>(() => new ClientDel());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<ClientDel> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientDel() {
       OnConstruction();
     }
@@ -4171,6 +5769,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientDel(ClientDel other) : this() {
       id_ = other.id_;
       topic_ = other.topic_;
@@ -4183,6 +5782,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientDel Clone() {
       return new ClientDel(this);
     }
@@ -4191,6 +5791,7 @@ namespace Pbx {
     public const int IdFieldNumber = 1;
     private string id_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Id {
       get { return id_; }
       set {
@@ -4202,6 +5803,7 @@ namespace Pbx {
     public const int TopicFieldNumber = 2;
     private string topic_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Topic {
       get { return topic_; }
       set {
@@ -4211,8 +5813,9 @@ namespace Pbx {
 
     /// <summary>Field number for the "what" field.</summary>
     public const int WhatFieldNumber = 3;
-    private global::Pbx.ClientDel.Types.What what_ = 0;
+    private global::Pbx.ClientDel.Types.What what_ = global::Pbx.ClientDel.Types.What.Msg;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.ClientDel.Types.What What {
       get { return what_; }
       set {
@@ -4229,6 +5832,7 @@ namespace Pbx {
     /// Delete messages by id or range of ids
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::Pbx.SeqRange> DelSeq {
       get { return delSeq_; }
     }
@@ -4240,6 +5844,7 @@ namespace Pbx {
     /// User ID of the subscription to delete
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string UserId {
       get { return userId_; }
       set {
@@ -4254,6 +5859,7 @@ namespace Pbx {
     /// Credential to delete.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.ClientCred Cred {
       get { return cred_; }
       set {
@@ -4268,6 +5874,7 @@ namespace Pbx {
     /// Request to hard-delete messages for all users, if such option is available.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Hard {
       get { return hard_; }
       set {
@@ -4276,11 +5883,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as ClientDel);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(ClientDel other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -4299,11 +5908,12 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Id.Length != 0) hash ^= Id.GetHashCode();
       if (Topic.Length != 0) hash ^= Topic.GetHashCode();
-      if (What != 0) hash ^= What.GetHashCode();
+      if (What != global::Pbx.ClientDel.Types.What.Msg) hash ^= What.GetHashCode();
       hash ^= delSeq_.GetHashCode();
       if (UserId.Length != 0) hash ^= UserId.GetHashCode();
       if (cred_ != null) hash ^= Cred.GetHashCode();
@@ -4315,12 +5925,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (Id.Length != 0) {
         output.WriteRawTag(10);
         output.WriteString(Id);
@@ -4329,7 +5944,7 @@ namespace Pbx {
         output.WriteRawTag(18);
         output.WriteString(Topic);
       }
-      if (What != 0) {
+      if (What != global::Pbx.ClientDel.Types.What.Msg) {
         output.WriteRawTag(24);
         output.WriteEnum((int) What);
       }
@@ -4349,9 +5964,46 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Id.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Id);
+      }
+      if (Topic.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Topic);
+      }
+      if (What != global::Pbx.ClientDel.Types.What.Msg) {
+        output.WriteRawTag(24);
+        output.WriteEnum((int) What);
+      }
+      delSeq_.WriteTo(ref output, _repeated_delSeq_codec);
+      if (UserId.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(UserId);
+      }
+      if (cred_ != null) {
+        output.WriteRawTag(50);
+        output.WriteMessage(Cred);
+      }
+      if (Hard != false) {
+        output.WriteRawTag(56);
+        output.WriteBool(Hard);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Id.Length != 0) {
@@ -4360,7 +6012,7 @@ namespace Pbx {
       if (Topic.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Topic);
       }
-      if (What != 0) {
+      if (What != global::Pbx.ClientDel.Types.What.Msg) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) What);
       }
       size += delSeq_.CalculateSize(_repeated_delSeq_codec);
@@ -4380,6 +6032,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(ClientDel other) {
       if (other == null) {
         return;
@@ -4390,7 +6043,7 @@ namespace Pbx {
       if (other.Topic.Length != 0) {
         Topic = other.Topic;
       }
-      if (other.What != 0) {
+      if (other.What != global::Pbx.ClientDel.Types.What.Msg) {
         What = other.What;
       }
       delSeq_.Add(other.delSeq_);
@@ -4399,7 +6052,7 @@ namespace Pbx {
       }
       if (other.cred_ != null) {
         if (cred_ == null) {
-          cred_ = new global::Pbx.ClientCred();
+          Cred = new global::Pbx.ClientCred();
         }
         Cred.MergeFrom(other.Cred);
       }
@@ -4410,7 +6063,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -4426,7 +6083,7 @@ namespace Pbx {
             break;
           }
           case 24: {
-            what_ = (global::Pbx.ClientDel.Types.What) input.ReadEnum();
+            What = (global::Pbx.ClientDel.Types.What) input.ReadEnum();
             break;
           }
           case 34: {
@@ -4439,9 +6096,55 @@ namespace Pbx {
           }
           case 50: {
             if (cred_ == null) {
-              cred_ = new global::Pbx.ClientCred();
+              Cred = new global::Pbx.ClientCred();
             }
-            input.ReadMessage(cred_);
+            input.ReadMessage(Cred);
+            break;
+          }
+          case 56: {
+            Hard = input.ReadBool();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Id = input.ReadString();
+            break;
+          }
+          case 18: {
+            Topic = input.ReadString();
+            break;
+          }
+          case 24: {
+            What = (global::Pbx.ClientDel.Types.What) input.ReadEnum();
+            break;
+          }
+          case 34: {
+            delSeq_.AddEntriesFrom(ref input, _repeated_delSeq_codec);
+            break;
+          }
+          case 42: {
+            UserId = input.ReadString();
+            break;
+          }
+          case 50: {
+            if (cred_ == null) {
+              Cred = new global::Pbx.ClientCred();
+            }
+            input.ReadMessage(Cred);
             break;
           }
           case 56: {
@@ -4451,10 +6154,12 @@ namespace Pbx {
         }
       }
     }
+    #endif
 
     #region Nested types
     /// <summary>Container for nested types declared in the ClientDel message type.</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static partial class Types {
       /// <summary>
       /// What to delete, either "msg" to delete messages (default) or "topic" to delete the topic or "sub"
@@ -4476,23 +6181,31 @@ namespace Pbx {
   /// <summary>
   /// ClientNote is a client-generated notification for topic subscribers
   /// </summary>
-  public sealed partial class ClientNote : pb::IMessage<ClientNote> {
+  public sealed partial class ClientNote : pb::IMessage<ClientNote>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<ClientNote> _parser = new pb::MessageParser<ClientNote>(() => new ClientNote());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<ClientNote> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[19]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientNote() {
       OnConstruction();
     }
@@ -4500,6 +6213,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientNote(ClientNote other) : this() {
       topic_ = other.topic_;
       what_ = other.what_;
@@ -4508,6 +6222,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientNote Clone() {
       return new ClientNote(this);
     }
@@ -4516,6 +6231,7 @@ namespace Pbx {
     public const int TopicFieldNumber = 1;
     private string topic_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Topic {
       get { return topic_; }
       set {
@@ -4525,11 +6241,12 @@ namespace Pbx {
 
     /// <summary>Field number for the "what" field.</summary>
     public const int WhatFieldNumber = 2;
-    private global::Pbx.InfoNote what_ = 0;
+    private global::Pbx.InfoNote what_ = global::Pbx.InfoNote.Read;
     /// <summary>
     /// what is being reported: "recv" - message received, "read" - message read, "kp" - typing notification
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.InfoNote What {
       get { return what_; }
       set {
@@ -4544,6 +6261,7 @@ namespace Pbx {
     /// Server-issued message ID being reported
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int SeqId {
       get { return seqId_; }
       set {
@@ -4552,11 +6270,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as ClientNote);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(ClientNote other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -4571,10 +6291,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Topic.Length != 0) hash ^= Topic.GetHashCode();
-      if (What != 0) hash ^= What.GetHashCode();
+      if (What != global::Pbx.InfoNote.Read) hash ^= What.GetHashCode();
       if (SeqId != 0) hash ^= SeqId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -4583,17 +6304,22 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (Topic.Length != 0) {
         output.WriteRawTag(10);
         output.WriteString(Topic);
       }
-      if (What != 0) {
+      if (What != global::Pbx.InfoNote.Read) {
         output.WriteRawTag(16);
         output.WriteEnum((int) What);
       }
@@ -4604,15 +6330,39 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Topic.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Topic);
+      }
+      if (What != global::Pbx.InfoNote.Read) {
+        output.WriteRawTag(16);
+        output.WriteEnum((int) What);
+      }
+      if (SeqId != 0) {
+        output.WriteRawTag(24);
+        output.WriteInt32(SeqId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Topic.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Topic);
       }
-      if (What != 0) {
+      if (What != global::Pbx.InfoNote.Read) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) What);
       }
       if (SeqId != 0) {
@@ -4625,6 +6375,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(ClientNote other) {
       if (other == null) {
         return;
@@ -4632,7 +6383,7 @@ namespace Pbx {
       if (other.Topic.Length != 0) {
         Topic = other.Topic;
       }
-      if (other.What != 0) {
+      if (other.What != global::Pbx.InfoNote.Read) {
         What = other.What;
       }
       if (other.SeqId != 0) {
@@ -4642,7 +6393,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -4654,7 +6409,34 @@ namespace Pbx {
             break;
           }
           case 16: {
-            what_ = (global::Pbx.InfoNote) input.ReadEnum();
+            What = (global::Pbx.InfoNote) input.ReadEnum();
+            break;
+          }
+          case 24: {
+            SeqId = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Topic = input.ReadString();
+            break;
+          }
+          case 16: {
+            What = (global::Pbx.InfoNote) input.ReadEnum();
             break;
           }
           case 24: {
@@ -4664,26 +6446,290 @@ namespace Pbx {
         }
       }
     }
+    #endif
 
   }
 
-  public sealed partial class ClientMsg : pb::IMessage<ClientMsg> {
-    private static readonly pb::MessageParser<ClientMsg> _parser = new pb::MessageParser<ClientMsg>(() => new ClientMsg());
+  public sealed partial class ClientExtra : pb::IMessage<ClientExtra>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ClientExtra> _parser = new pb::MessageParser<ClientExtra>(() => new ClientExtra());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<ClientMsg> Parser { get { return _parser; } }
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<ClientExtra> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[20]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ClientExtra() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ClientExtra(ClientExtra other) : this() {
+      attachments_ = other.attachments_.Clone();
+      onBehalfOf_ = other.onBehalfOf_;
+      authLevel_ = other.authLevel_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ClientExtra Clone() {
+      return new ClientExtra(this);
+    }
+
+    /// <summary>Field number for the "attachments" field.</summary>
+    public const int AttachmentsFieldNumber = 1;
+    private static readonly pb::FieldCodec<string> _repeated_attachments_codec
+        = pb::FieldCodec.ForString(10);
+    private readonly pbc::RepeatedField<string> attachments_ = new pbc::RepeatedField<string>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<string> Attachments {
+      get { return attachments_; }
+    }
+
+    /// <summary>Field number for the "on_behalf_of" field.</summary>
+    public const int OnBehalfOfFieldNumber = 2;
+    private string onBehalfOf_ = "";
+    /// <summary>
+    /// Root user may send messages on behalf of other users.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string OnBehalfOf {
+      get { return onBehalfOf_; }
+      set {
+        onBehalfOf_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "auth_level" field.</summary>
+    public const int AuthLevelFieldNumber = 3;
+    private global::Pbx.AuthLevel authLevel_ = global::Pbx.AuthLevel.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Pbx.AuthLevel AuthLevel {
+      get { return authLevel_; }
+      set {
+        authLevel_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as ClientExtra);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(ClientExtra other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!attachments_.Equals(other.attachments_)) return false;
+      if (OnBehalfOf != other.OnBehalfOf) return false;
+      if (AuthLevel != other.AuthLevel) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= attachments_.GetHashCode();
+      if (OnBehalfOf.Length != 0) hash ^= OnBehalfOf.GetHashCode();
+      if (AuthLevel != global::Pbx.AuthLevel.None) hash ^= AuthLevel.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      attachments_.WriteTo(output, _repeated_attachments_codec);
+      if (OnBehalfOf.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(OnBehalfOf);
+      }
+      if (AuthLevel != global::Pbx.AuthLevel.None) {
+        output.WriteRawTag(24);
+        output.WriteEnum((int) AuthLevel);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      attachments_.WriteTo(ref output, _repeated_attachments_codec);
+      if (OnBehalfOf.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(OnBehalfOf);
+      }
+      if (AuthLevel != global::Pbx.AuthLevel.None) {
+        output.WriteRawTag(24);
+        output.WriteEnum((int) AuthLevel);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      size += attachments_.CalculateSize(_repeated_attachments_codec);
+      if (OnBehalfOf.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(OnBehalfOf);
+      }
+      if (AuthLevel != global::Pbx.AuthLevel.None) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) AuthLevel);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(ClientExtra other) {
+      if (other == null) {
+        return;
+      }
+      attachments_.Add(other.attachments_);
+      if (other.OnBehalfOf.Length != 0) {
+        OnBehalfOf = other.OnBehalfOf;
+      }
+      if (other.AuthLevel != global::Pbx.AuthLevel.None) {
+        AuthLevel = other.AuthLevel;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            attachments_.AddEntriesFrom(input, _repeated_attachments_codec);
+            break;
+          }
+          case 18: {
+            OnBehalfOf = input.ReadString();
+            break;
+          }
+          case 24: {
+            AuthLevel = (global::Pbx.AuthLevel) input.ReadEnum();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            attachments_.AddEntriesFrom(ref input, _repeated_attachments_codec);
+            break;
+          }
+          case 18: {
+            OnBehalfOf = input.ReadString();
+            break;
+          }
+          case 24: {
+            AuthLevel = (global::Pbx.AuthLevel) input.ReadEnum();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  public sealed partial class ClientMsg : pb::IMessage<ClientMsg>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ClientMsg> _parser = new pb::MessageParser<ClientMsg>(() => new ClientMsg());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<ClientMsg> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[21]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientMsg() {
       OnConstruction();
     }
@@ -4691,9 +6737,9 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientMsg(ClientMsg other) : this() {
-      onBehalfOf_ = other.onBehalfOf_;
-      authLevel_ = other.authLevel_;
+      extra_ = other.extra_ != null ? other.extra_.Clone() : null;
       switch (other.MessageCase) {
         case MessageOneofCase.Hi:
           Hi = other.Hi.Clone();
@@ -4731,6 +6777,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientMsg Clone() {
       return new ClientMsg(this);
     }
@@ -4738,6 +6785,7 @@ namespace Pbx {
     /// <summary>Field number for the "hi" field.</summary>
     public const int HiFieldNumber = 1;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.ClientHi Hi {
       get { return messageCase_ == MessageOneofCase.Hi ? (global::Pbx.ClientHi) message_ : null; }
       set {
@@ -4749,6 +6797,7 @@ namespace Pbx {
     /// <summary>Field number for the "acc" field.</summary>
     public const int AccFieldNumber = 2;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.ClientAcc Acc {
       get { return messageCase_ == MessageOneofCase.Acc ? (global::Pbx.ClientAcc) message_ : null; }
       set {
@@ -4760,6 +6809,7 @@ namespace Pbx {
     /// <summary>Field number for the "login" field.</summary>
     public const int LoginFieldNumber = 3;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.ClientLogin Login {
       get { return messageCase_ == MessageOneofCase.Login ? (global::Pbx.ClientLogin) message_ : null; }
       set {
@@ -4771,6 +6821,7 @@ namespace Pbx {
     /// <summary>Field number for the "sub" field.</summary>
     public const int SubFieldNumber = 4;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.ClientSub Sub {
       get { return messageCase_ == MessageOneofCase.Sub ? (global::Pbx.ClientSub) message_ : null; }
       set {
@@ -4782,6 +6833,7 @@ namespace Pbx {
     /// <summary>Field number for the "leave" field.</summary>
     public const int LeaveFieldNumber = 5;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.ClientLeave Leave {
       get { return messageCase_ == MessageOneofCase.Leave ? (global::Pbx.ClientLeave) message_ : null; }
       set {
@@ -4793,6 +6845,7 @@ namespace Pbx {
     /// <summary>Field number for the "pub" field.</summary>
     public const int PubFieldNumber = 6;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.ClientPub Pub {
       get { return messageCase_ == MessageOneofCase.Pub ? (global::Pbx.ClientPub) message_ : null; }
       set {
@@ -4804,6 +6857,7 @@ namespace Pbx {
     /// <summary>Field number for the "get" field.</summary>
     public const int GetFieldNumber = 7;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.ClientGet Get {
       get { return messageCase_ == MessageOneofCase.Get ? (global::Pbx.ClientGet) message_ : null; }
       set {
@@ -4815,6 +6869,7 @@ namespace Pbx {
     /// <summary>Field number for the "set" field.</summary>
     public const int SetFieldNumber = 8;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.ClientSet Set {
       get { return messageCase_ == MessageOneofCase.Set ? (global::Pbx.ClientSet) message_ : null; }
       set {
@@ -4826,6 +6881,7 @@ namespace Pbx {
     /// <summary>Field number for the "del" field.</summary>
     public const int DelFieldNumber = 9;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.ClientDel Del {
       get { return messageCase_ == MessageOneofCase.Del ? (global::Pbx.ClientDel) message_ : null; }
       set {
@@ -4837,6 +6893,7 @@ namespace Pbx {
     /// <summary>Field number for the "note" field.</summary>
     public const int NoteFieldNumber = 10;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.ClientNote Note {
       get { return messageCase_ == MessageOneofCase.Note ? (global::Pbx.ClientNote) message_ : null; }
       set {
@@ -4845,28 +6902,18 @@ namespace Pbx {
       }
     }
 
-    /// <summary>Field number for the "on_behalf_of" field.</summary>
-    public const int OnBehalfOfFieldNumber = 11;
-    private string onBehalfOf_ = "";
+    /// <summary>Field number for the "extra" field.</summary>
+    public const int ExtraFieldNumber = 13;
+    private global::Pbx.ClientExtra extra_;
     /// <summary>
-    /// Root user may send messages on behalf of other users.
+    /// Additional message parameters.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string OnBehalfOf {
-      get { return onBehalfOf_; }
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Pbx.ClientExtra Extra {
+      get { return extra_; }
       set {
-        onBehalfOf_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "auth_level" field.</summary>
-    public const int AuthLevelFieldNumber = 12;
-    private global::Pbx.AuthLevel authLevel_ = 0;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Pbx.AuthLevel AuthLevel {
-      get { return authLevel_; }
-      set {
-        authLevel_ = value;
+        extra_ = value;
       }
     }
 
@@ -4887,22 +6934,26 @@ namespace Pbx {
     }
     private MessageOneofCase messageCase_ = MessageOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public MessageOneofCase MessageCase {
       get { return messageCase_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearMessage() {
       messageCase_ = MessageOneofCase.None;
       message_ = null;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as ClientMsg);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(ClientMsg other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -4920,13 +6971,13 @@ namespace Pbx {
       if (!object.Equals(Set, other.Set)) return false;
       if (!object.Equals(Del, other.Del)) return false;
       if (!object.Equals(Note, other.Note)) return false;
-      if (OnBehalfOf != other.OnBehalfOf) return false;
-      if (AuthLevel != other.AuthLevel) return false;
+      if (!object.Equals(Extra, other.Extra)) return false;
       if (MessageCase != other.MessageCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (messageCase_ == MessageOneofCase.Hi) hash ^= Hi.GetHashCode();
@@ -4939,8 +6990,7 @@ namespace Pbx {
       if (messageCase_ == MessageOneofCase.Set) hash ^= Set.GetHashCode();
       if (messageCase_ == MessageOneofCase.Del) hash ^= Del.GetHashCode();
       if (messageCase_ == MessageOneofCase.Note) hash ^= Note.GetHashCode();
-      if (OnBehalfOf.Length != 0) hash ^= OnBehalfOf.GetHashCode();
-      if (AuthLevel != 0) hash ^= AuthLevel.GetHashCode();
+      if (extra_ != null) hash ^= Extra.GetHashCode();
       hash ^= (int) messageCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -4949,12 +6999,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (messageCase_ == MessageOneofCase.Hi) {
         output.WriteRawTag(10);
         output.WriteMessage(Hi);
@@ -4995,20 +7050,72 @@ namespace Pbx {
         output.WriteRawTag(82);
         output.WriteMessage(Note);
       }
-      if (OnBehalfOf.Length != 0) {
-        output.WriteRawTag(90);
-        output.WriteString(OnBehalfOf);
-      }
-      if (AuthLevel != 0) {
-        output.WriteRawTag(96);
-        output.WriteEnum((int) AuthLevel);
+      if (extra_ != null) {
+        output.WriteRawTag(106);
+        output.WriteMessage(Extra);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (messageCase_ == MessageOneofCase.Hi) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Hi);
+      }
+      if (messageCase_ == MessageOneofCase.Acc) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Acc);
+      }
+      if (messageCase_ == MessageOneofCase.Login) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Login);
+      }
+      if (messageCase_ == MessageOneofCase.Sub) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Sub);
+      }
+      if (messageCase_ == MessageOneofCase.Leave) {
+        output.WriteRawTag(42);
+        output.WriteMessage(Leave);
+      }
+      if (messageCase_ == MessageOneofCase.Pub) {
+        output.WriteRawTag(50);
+        output.WriteMessage(Pub);
+      }
+      if (messageCase_ == MessageOneofCase.Get) {
+        output.WriteRawTag(58);
+        output.WriteMessage(Get);
+      }
+      if (messageCase_ == MessageOneofCase.Set) {
+        output.WriteRawTag(66);
+        output.WriteMessage(Set);
+      }
+      if (messageCase_ == MessageOneofCase.Del) {
+        output.WriteRawTag(74);
+        output.WriteMessage(Del);
+      }
+      if (messageCase_ == MessageOneofCase.Note) {
+        output.WriteRawTag(82);
+        output.WriteMessage(Note);
+      }
+      if (extra_ != null) {
+        output.WriteRawTag(106);
+        output.WriteMessage(Extra);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (messageCase_ == MessageOneofCase.Hi) {
@@ -5041,11 +7148,8 @@ namespace Pbx {
       if (messageCase_ == MessageOneofCase.Note) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Note);
       }
-      if (OnBehalfOf.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(OnBehalfOf);
-      }
-      if (AuthLevel != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) AuthLevel);
+      if (extra_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Extra);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -5054,15 +7158,16 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(ClientMsg other) {
       if (other == null) {
         return;
       }
-      if (other.OnBehalfOf.Length != 0) {
-        OnBehalfOf = other.OnBehalfOf;
-      }
-      if (other.AuthLevel != 0) {
-        AuthLevel = other.AuthLevel;
+      if (other.extra_ != null) {
+        if (extra_ == null) {
+          Extra = new global::Pbx.ClientExtra();
+        }
+        Extra.MergeFrom(other.Extra);
       }
       switch (other.MessageCase) {
         case MessageOneofCase.Hi:
@@ -5131,7 +7236,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -5228,40 +7337,160 @@ namespace Pbx {
             Note = subBuilder;
             break;
           }
-          case 90: {
-            OnBehalfOf = input.ReadString();
+          case 106: {
+            if (extra_ == null) {
+              Extra = new global::Pbx.ClientExtra();
+            }
+            input.ReadMessage(Extra);
             break;
           }
-          case 96: {
-            authLevel_ = (global::Pbx.AuthLevel) input.ReadEnum();
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            global::Pbx.ClientHi subBuilder = new global::Pbx.ClientHi();
+            if (messageCase_ == MessageOneofCase.Hi) {
+              subBuilder.MergeFrom(Hi);
+            }
+            input.ReadMessage(subBuilder);
+            Hi = subBuilder;
+            break;
+          }
+          case 18: {
+            global::Pbx.ClientAcc subBuilder = new global::Pbx.ClientAcc();
+            if (messageCase_ == MessageOneofCase.Acc) {
+              subBuilder.MergeFrom(Acc);
+            }
+            input.ReadMessage(subBuilder);
+            Acc = subBuilder;
+            break;
+          }
+          case 26: {
+            global::Pbx.ClientLogin subBuilder = new global::Pbx.ClientLogin();
+            if (messageCase_ == MessageOneofCase.Login) {
+              subBuilder.MergeFrom(Login);
+            }
+            input.ReadMessage(subBuilder);
+            Login = subBuilder;
+            break;
+          }
+          case 34: {
+            global::Pbx.ClientSub subBuilder = new global::Pbx.ClientSub();
+            if (messageCase_ == MessageOneofCase.Sub) {
+              subBuilder.MergeFrom(Sub);
+            }
+            input.ReadMessage(subBuilder);
+            Sub = subBuilder;
+            break;
+          }
+          case 42: {
+            global::Pbx.ClientLeave subBuilder = new global::Pbx.ClientLeave();
+            if (messageCase_ == MessageOneofCase.Leave) {
+              subBuilder.MergeFrom(Leave);
+            }
+            input.ReadMessage(subBuilder);
+            Leave = subBuilder;
+            break;
+          }
+          case 50: {
+            global::Pbx.ClientPub subBuilder = new global::Pbx.ClientPub();
+            if (messageCase_ == MessageOneofCase.Pub) {
+              subBuilder.MergeFrom(Pub);
+            }
+            input.ReadMessage(subBuilder);
+            Pub = subBuilder;
+            break;
+          }
+          case 58: {
+            global::Pbx.ClientGet subBuilder = new global::Pbx.ClientGet();
+            if (messageCase_ == MessageOneofCase.Get) {
+              subBuilder.MergeFrom(Get);
+            }
+            input.ReadMessage(subBuilder);
+            Get = subBuilder;
+            break;
+          }
+          case 66: {
+            global::Pbx.ClientSet subBuilder = new global::Pbx.ClientSet();
+            if (messageCase_ == MessageOneofCase.Set) {
+              subBuilder.MergeFrom(Set);
+            }
+            input.ReadMessage(subBuilder);
+            Set = subBuilder;
+            break;
+          }
+          case 74: {
+            global::Pbx.ClientDel subBuilder = new global::Pbx.ClientDel();
+            if (messageCase_ == MessageOneofCase.Del) {
+              subBuilder.MergeFrom(Del);
+            }
+            input.ReadMessage(subBuilder);
+            Del = subBuilder;
+            break;
+          }
+          case 82: {
+            global::Pbx.ClientNote subBuilder = new global::Pbx.ClientNote();
+            if (messageCase_ == MessageOneofCase.Note) {
+              subBuilder.MergeFrom(Note);
+            }
+            input.ReadMessage(subBuilder);
+            Note = subBuilder;
+            break;
+          }
+          case 106: {
+            if (extra_ == null) {
+              Extra = new global::Pbx.ClientExtra();
+            }
+            input.ReadMessage(Extra);
             break;
           }
         }
       }
     }
+    #endif
 
   }
 
   /// <summary>
   /// Credentials
   /// </summary>
-  public sealed partial class ServerCred : pb::IMessage<ServerCred> {
+  public sealed partial class ServerCred : pb::IMessage<ServerCred>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<ServerCred> _parser = new pb::MessageParser<ServerCred>(() => new ServerCred());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<ServerCred> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[21]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[22]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ServerCred() {
       OnConstruction();
     }
@@ -5269,6 +7498,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ServerCred(ServerCred other) : this() {
       method_ = other.method_;
       value_ = other.value_;
@@ -5277,6 +7507,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ServerCred Clone() {
       return new ServerCred(this);
     }
@@ -5288,6 +7519,7 @@ namespace Pbx {
     /// Credential type, i.e. `email` or `tel`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Method {
       get { return method_; }
       set {
@@ -5302,6 +7534,7 @@ namespace Pbx {
     /// Value to verify, i.e. `user@example.com` or `+18003287448`
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Value {
       get { return value_; }
       set {
@@ -5316,6 +7549,7 @@ namespace Pbx {
     /// Indicator that the credential is validated
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Done {
       get { return done_; }
       set {
@@ -5324,11 +7558,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as ServerCred);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(ServerCred other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -5343,6 +7579,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Method.Length != 0) hash ^= Method.GetHashCode();
@@ -5355,12 +7592,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (Method.Length != 0) {
         output.WriteRawTag(10);
         output.WriteString(Method);
@@ -5376,9 +7618,33 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Method.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Method);
+      }
+      if (Value.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Value);
+      }
+      if (Done != false) {
+        output.WriteRawTag(24);
+        output.WriteBool(Done);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Method.Length != 0) {
@@ -5397,6 +7663,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(ServerCred other) {
       if (other == null) {
         return;
@@ -5414,7 +7681,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -5435,30 +7706,66 @@ namespace Pbx {
           }
         }
       }
+    #endif
     }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Method = input.ReadString();
+            break;
+          }
+          case 18: {
+            Value = input.ReadString();
+            break;
+          }
+          case 24: {
+            Done = input.ReadBool();
+            break;
+          }
+        }
+      }
+    }
+    #endif
 
   }
 
   /// <summary>
   /// Topic description, S2C in Meta message
   /// </summary>
-  public sealed partial class TopicDesc : pb::IMessage<TopicDesc> {
+  public sealed partial class TopicDesc : pb::IMessage<TopicDesc>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<TopicDesc> _parser = new pb::MessageParser<TopicDesc>(() => new TopicDesc());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<TopicDesc> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[22]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[23]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public TopicDesc() {
       OnConstruction();
     }
@@ -5466,6 +7773,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public TopicDesc(TopicDesc other) : this() {
       createdAt_ = other.createdAt_;
       updatedAt_ = other.updatedAt_;
@@ -5480,12 +7788,15 @@ namespace Pbx {
       private_ = other.private_;
       state_ = other.state_;
       stateAt_ = other.stateAt_;
+      trusted_ = other.trusted_;
+      isChan_ = other.isChan_;
       lastSeenTime_ = other.lastSeenTime_;
       lastSeenUserAgent_ = other.lastSeenUserAgent_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public TopicDesc Clone() {
       return new TopicDesc(this);
     }
@@ -5494,6 +7805,7 @@ namespace Pbx {
     public const int CreatedAtFieldNumber = 1;
     private long createdAt_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long CreatedAt {
       get { return createdAt_; }
       set {
@@ -5505,6 +7817,7 @@ namespace Pbx {
     public const int UpdatedAtFieldNumber = 2;
     private long updatedAt_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long UpdatedAt {
       get { return updatedAt_; }
       set {
@@ -5516,6 +7829,7 @@ namespace Pbx {
     public const int TouchedAtFieldNumber = 3;
     private long touchedAt_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long TouchedAt {
       get { return touchedAt_; }
       set {
@@ -5527,6 +7841,7 @@ namespace Pbx {
     public const int DefacsFieldNumber = 4;
     private global::Pbx.DefaultAcsMode defacs_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.DefaultAcsMode Defacs {
       get { return defacs_; }
       set {
@@ -5538,6 +7853,7 @@ namespace Pbx {
     public const int AcsFieldNumber = 5;
     private global::Pbx.AccessMode acs_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.AccessMode Acs {
       get { return acs_; }
       set {
@@ -5549,6 +7865,7 @@ namespace Pbx {
     public const int SeqIdFieldNumber = 6;
     private int seqId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int SeqId {
       get { return seqId_; }
       set {
@@ -5560,6 +7877,7 @@ namespace Pbx {
     public const int ReadIdFieldNumber = 7;
     private int readId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int ReadId {
       get { return readId_; }
       set {
@@ -5571,6 +7889,7 @@ namespace Pbx {
     public const int RecvIdFieldNumber = 8;
     private int recvId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int RecvId {
       get { return recvId_; }
       set {
@@ -5582,6 +7901,7 @@ namespace Pbx {
     public const int DelIdFieldNumber = 9;
     private int delId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int DelId {
       get { return delId_; }
       set {
@@ -5593,6 +7913,7 @@ namespace Pbx {
     public const int PublicFieldNumber = 10;
     private pb::ByteString public_ = pb::ByteString.Empty;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pb::ByteString Public {
       get { return public_; }
       set {
@@ -5604,6 +7925,7 @@ namespace Pbx {
     public const int PrivateFieldNumber = 11;
     private pb::ByteString private_ = pb::ByteString.Empty;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pb::ByteString Private {
       get { return private_; }
       set {
@@ -5615,6 +7937,7 @@ namespace Pbx {
     public const int StateFieldNumber = 12;
     private string state_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string State {
       get { return state_; }
       set {
@@ -5626,10 +7949,38 @@ namespace Pbx {
     public const int StateAtFieldNumber = 13;
     private long stateAt_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long StateAt {
       get { return stateAt_; }
       set {
         stateAt_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "trusted" field.</summary>
+    public const int TrustedFieldNumber = 14;
+    private pb::ByteString trusted_ = pb::ByteString.Empty;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pb::ByteString Trusted {
+      get { return trusted_; }
+      set {
+        trusted_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "is_chan" field.</summary>
+    public const int IsChanFieldNumber = 17;
+    private bool isChan_;
+    /// <summary>
+    /// 17!
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool IsChan {
+      get { return isChan_; }
+      set {
+        isChan_ = value;
       }
     }
 
@@ -5640,6 +7991,7 @@ namespace Pbx {
     /// P2P only: other user's last online timestamp &amp; user agent
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long LastSeenTime {
       get { return lastSeenTime_; }
       set {
@@ -5651,6 +8003,7 @@ namespace Pbx {
     public const int LastSeenUserAgentFieldNumber = 16;
     private string lastSeenUserAgent_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string LastSeenUserAgent {
       get { return lastSeenUserAgent_; }
       set {
@@ -5659,11 +8012,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as TopicDesc);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(TopicDesc other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -5684,12 +8039,15 @@ namespace Pbx {
       if (Private != other.Private) return false;
       if (State != other.State) return false;
       if (StateAt != other.StateAt) return false;
+      if (Trusted != other.Trusted) return false;
+      if (IsChan != other.IsChan) return false;
       if (LastSeenTime != other.LastSeenTime) return false;
       if (LastSeenUserAgent != other.LastSeenUserAgent) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (CreatedAt != 0L) hash ^= CreatedAt.GetHashCode();
@@ -5705,6 +8063,8 @@ namespace Pbx {
       if (Private.Length != 0) hash ^= Private.GetHashCode();
       if (State.Length != 0) hash ^= State.GetHashCode();
       if (StateAt != 0L) hash ^= StateAt.GetHashCode();
+      if (Trusted.Length != 0) hash ^= Trusted.GetHashCode();
+      if (IsChan != false) hash ^= IsChan.GetHashCode();
       if (LastSeenTime != 0L) hash ^= LastSeenTime.GetHashCode();
       if (LastSeenUserAgent.Length != 0) hash ^= LastSeenUserAgent.GetHashCode();
       if (_unknownFields != null) {
@@ -5714,12 +8074,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (CreatedAt != 0L) {
         output.WriteRawTag(8);
         output.WriteInt64(CreatedAt);
@@ -5772,6 +8137,10 @@ namespace Pbx {
         output.WriteRawTag(104);
         output.WriteInt64(StateAt);
       }
+      if (Trusted.Length != 0) {
+        output.WriteRawTag(114);
+        output.WriteBytes(Trusted);
+      }
       if (LastSeenTime != 0L) {
         output.WriteRawTag(120);
         output.WriteInt64(LastSeenTime);
@@ -5780,12 +8149,96 @@ namespace Pbx {
         output.WriteRawTag(130, 1);
         output.WriteString(LastSeenUserAgent);
       }
+      if (IsChan != false) {
+        output.WriteRawTag(136, 1);
+        output.WriteBool(IsChan);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (CreatedAt != 0L) {
+        output.WriteRawTag(8);
+        output.WriteInt64(CreatedAt);
+      }
+      if (UpdatedAt != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(UpdatedAt);
+      }
+      if (TouchedAt != 0L) {
+        output.WriteRawTag(24);
+        output.WriteInt64(TouchedAt);
+      }
+      if (defacs_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Defacs);
+      }
+      if (acs_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(Acs);
+      }
+      if (SeqId != 0) {
+        output.WriteRawTag(48);
+        output.WriteInt32(SeqId);
+      }
+      if (ReadId != 0) {
+        output.WriteRawTag(56);
+        output.WriteInt32(ReadId);
+      }
+      if (RecvId != 0) {
+        output.WriteRawTag(64);
+        output.WriteInt32(RecvId);
+      }
+      if (DelId != 0) {
+        output.WriteRawTag(72);
+        output.WriteInt32(DelId);
+      }
+      if (Public.Length != 0) {
+        output.WriteRawTag(82);
+        output.WriteBytes(Public);
+      }
+      if (Private.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteBytes(Private);
+      }
+      if (State.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(State);
+      }
+      if (StateAt != 0L) {
+        output.WriteRawTag(104);
+        output.WriteInt64(StateAt);
+      }
+      if (Trusted.Length != 0) {
+        output.WriteRawTag(114);
+        output.WriteBytes(Trusted);
+      }
+      if (LastSeenTime != 0L) {
+        output.WriteRawTag(120);
+        output.WriteInt64(LastSeenTime);
+      }
+      if (LastSeenUserAgent.Length != 0) {
+        output.WriteRawTag(130, 1);
+        output.WriteString(LastSeenUserAgent);
+      }
+      if (IsChan != false) {
+        output.WriteRawTag(136, 1);
+        output.WriteBool(IsChan);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (CreatedAt != 0L) {
@@ -5827,6 +8280,12 @@ namespace Pbx {
       if (StateAt != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(StateAt);
       }
+      if (Trusted.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(Trusted);
+      }
+      if (IsChan != false) {
+        size += 2 + 1;
+      }
       if (LastSeenTime != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(LastSeenTime);
       }
@@ -5840,6 +8299,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(TopicDesc other) {
       if (other == null) {
         return;
@@ -5855,13 +8315,13 @@ namespace Pbx {
       }
       if (other.defacs_ != null) {
         if (defacs_ == null) {
-          defacs_ = new global::Pbx.DefaultAcsMode();
+          Defacs = new global::Pbx.DefaultAcsMode();
         }
         Defacs.MergeFrom(other.Defacs);
       }
       if (other.acs_ != null) {
         if (acs_ == null) {
-          acs_ = new global::Pbx.AccessMode();
+          Acs = new global::Pbx.AccessMode();
         }
         Acs.MergeFrom(other.Acs);
       }
@@ -5889,6 +8349,12 @@ namespace Pbx {
       if (other.StateAt != 0L) {
         StateAt = other.StateAt;
       }
+      if (other.Trusted.Length != 0) {
+        Trusted = other.Trusted;
+      }
+      if (other.IsChan != false) {
+        IsChan = other.IsChan;
+      }
       if (other.LastSeenTime != 0L) {
         LastSeenTime = other.LastSeenTime;
       }
@@ -5899,7 +8365,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -5920,16 +8390,16 @@ namespace Pbx {
           }
           case 34: {
             if (defacs_ == null) {
-              defacs_ = new global::Pbx.DefaultAcsMode();
+              Defacs = new global::Pbx.DefaultAcsMode();
             }
-            input.ReadMessage(defacs_);
+            input.ReadMessage(Defacs);
             break;
           }
           case 42: {
             if (acs_ == null) {
-              acs_ = new global::Pbx.AccessMode();
+              Acs = new global::Pbx.AccessMode();
             }
-            input.ReadMessage(acs_);
+            input.ReadMessage(Acs);
             break;
           }
           case 48: {
@@ -5964,6 +8434,10 @@ namespace Pbx {
             StateAt = input.ReadInt64();
             break;
           }
+          case 114: {
+            Trusted = input.ReadBytes();
+            break;
+          }
           case 120: {
             LastSeenTime = input.ReadInt64();
             break;
@@ -5972,32 +8446,134 @@ namespace Pbx {
             LastSeenUserAgent = input.ReadString();
             break;
           }
+          case 136: {
+            IsChan = input.ReadBool();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            CreatedAt = input.ReadInt64();
+            break;
+          }
+          case 16: {
+            UpdatedAt = input.ReadInt64();
+            break;
+          }
+          case 24: {
+            TouchedAt = input.ReadInt64();
+            break;
+          }
+          case 34: {
+            if (defacs_ == null) {
+              Defacs = new global::Pbx.DefaultAcsMode();
+            }
+            input.ReadMessage(Defacs);
+            break;
+          }
+          case 42: {
+            if (acs_ == null) {
+              Acs = new global::Pbx.AccessMode();
+            }
+            input.ReadMessage(Acs);
+            break;
+          }
+          case 48: {
+            SeqId = input.ReadInt32();
+            break;
+          }
+          case 56: {
+            ReadId = input.ReadInt32();
+            break;
+          }
+          case 64: {
+            RecvId = input.ReadInt32();
+            break;
+          }
+          case 72: {
+            DelId = input.ReadInt32();
+            break;
+          }
+          case 82: {
+            Public = input.ReadBytes();
+            break;
+          }
+          case 90: {
+            Private = input.ReadBytes();
+            break;
+          }
+          case 98: {
+            State = input.ReadString();
+            break;
+          }
+          case 104: {
+            StateAt = input.ReadInt64();
+            break;
+          }
+          case 114: {
+            Trusted = input.ReadBytes();
+            break;
+          }
+          case 120: {
+            LastSeenTime = input.ReadInt64();
+            break;
+          }
+          case 130: {
+            LastSeenUserAgent = input.ReadString();
+            break;
+          }
+          case 136: {
+            IsChan = input.ReadBool();
+            break;
+          }
         }
       }
     }
+    #endif
 
   }
 
   /// <summary>
   /// MsgTopicSub: topic subscription details, sent in Meta message
   /// </summary>
-  public sealed partial class TopicSub : pb::IMessage<TopicSub> {
+  public sealed partial class TopicSub : pb::IMessage<TopicSub>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<TopicSub> _parser = new pb::MessageParser<TopicSub>(() => new TopicSub());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<TopicSub> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[23]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[24]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public TopicSub() {
       OnConstruction();
     }
@@ -6005,6 +8581,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public TopicSub(TopicSub other) : this() {
       updatedAt_ = other.updatedAt_;
       deletedAt_ = other.deletedAt_;
@@ -6013,6 +8590,7 @@ namespace Pbx {
       readId_ = other.readId_;
       recvId_ = other.recvId_;
       public_ = other.public_;
+      trusted_ = other.trusted_;
       private_ = other.private_;
       userId_ = other.userId_;
       topic_ = other.topic_;
@@ -6025,6 +8603,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public TopicSub Clone() {
       return new TopicSub(this);
     }
@@ -6033,6 +8612,7 @@ namespace Pbx {
     public const int UpdatedAtFieldNumber = 1;
     private long updatedAt_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long UpdatedAt {
       get { return updatedAt_; }
       set {
@@ -6044,6 +8624,7 @@ namespace Pbx {
     public const int DeletedAtFieldNumber = 2;
     private long deletedAt_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long DeletedAt {
       get { return deletedAt_; }
       set {
@@ -6055,6 +8636,7 @@ namespace Pbx {
     public const int OnlineFieldNumber = 3;
     private bool online_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Online {
       get { return online_; }
       set {
@@ -6066,6 +8648,7 @@ namespace Pbx {
     public const int AcsFieldNumber = 4;
     private global::Pbx.AccessMode acs_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.AccessMode Acs {
       get { return acs_; }
       set {
@@ -6077,6 +8660,7 @@ namespace Pbx {
     public const int ReadIdFieldNumber = 5;
     private int readId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int ReadId {
       get { return readId_; }
       set {
@@ -6088,6 +8672,7 @@ namespace Pbx {
     public const int RecvIdFieldNumber = 6;
     private int recvId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int RecvId {
       get { return recvId_; }
       set {
@@ -6099,6 +8684,7 @@ namespace Pbx {
     public const int PublicFieldNumber = 7;
     private pb::ByteString public_ = pb::ByteString.Empty;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pb::ByteString Public {
       get { return public_; }
       set {
@@ -6106,10 +8692,26 @@ namespace Pbx {
       }
     }
 
+    /// <summary>Field number for the "trusted" field.</summary>
+    public const int TrustedFieldNumber = 16;
+    private pb::ByteString trusted_ = pb::ByteString.Empty;
+    /// <summary>
+    /// 16!
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pb::ByteString Trusted {
+      get { return trusted_; }
+      set {
+        trusted_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     /// <summary>Field number for the "private" field.</summary>
     public const int PrivateFieldNumber = 8;
     private pb::ByteString private_ = pb::ByteString.Empty;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pb::ByteString Private {
       get { return private_; }
       set {
@@ -6124,6 +8726,7 @@ namespace Pbx {
     /// Uid of the subscribed user
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string UserId {
       get { return userId_; }
       set {
@@ -6138,6 +8741,7 @@ namespace Pbx {
     /// Topic name of this subscription
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Topic {
       get { return topic_; }
       set {
@@ -6149,6 +8753,7 @@ namespace Pbx {
     public const int TouchedAtFieldNumber = 11;
     private long touchedAt_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long TouchedAt {
       get { return touchedAt_; }
       set {
@@ -6163,6 +8768,7 @@ namespace Pbx {
     /// ID of the last {data} message in a topic
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int SeqId {
       get { return seqId_; }
       set {
@@ -6177,6 +8783,7 @@ namespace Pbx {
     /// Messages are deleted up to this ID
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int DelId {
       get { return delId_; }
       set {
@@ -6191,6 +8798,7 @@ namespace Pbx {
     /// Other user's last online timestamp &amp; user agent
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long LastSeenTime {
       get { return lastSeenTime_; }
       set {
@@ -6202,6 +8810,7 @@ namespace Pbx {
     public const int LastSeenUserAgentFieldNumber = 15;
     private string lastSeenUserAgent_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string LastSeenUserAgent {
       get { return lastSeenUserAgent_; }
       set {
@@ -6210,11 +8819,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as TopicSub);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(TopicSub other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -6229,6 +8840,7 @@ namespace Pbx {
       if (ReadId != other.ReadId) return false;
       if (RecvId != other.RecvId) return false;
       if (Public != other.Public) return false;
+      if (Trusted != other.Trusted) return false;
       if (Private != other.Private) return false;
       if (UserId != other.UserId) return false;
       if (Topic != other.Topic) return false;
@@ -6241,6 +8853,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (UpdatedAt != 0L) hash ^= UpdatedAt.GetHashCode();
@@ -6250,6 +8863,7 @@ namespace Pbx {
       if (ReadId != 0) hash ^= ReadId.GetHashCode();
       if (RecvId != 0) hash ^= RecvId.GetHashCode();
       if (Public.Length != 0) hash ^= Public.GetHashCode();
+      if (Trusted.Length != 0) hash ^= Trusted.GetHashCode();
       if (Private.Length != 0) hash ^= Private.GetHashCode();
       if (UserId.Length != 0) hash ^= UserId.GetHashCode();
       if (Topic.Length != 0) hash ^= Topic.GetHashCode();
@@ -6265,12 +8879,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (UpdatedAt != 0L) {
         output.WriteRawTag(8);
         output.WriteInt64(UpdatedAt);
@@ -6331,12 +8950,92 @@ namespace Pbx {
         output.WriteRawTag(122);
         output.WriteString(LastSeenUserAgent);
       }
+      if (Trusted.Length != 0) {
+        output.WriteRawTag(130, 1);
+        output.WriteBytes(Trusted);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (UpdatedAt != 0L) {
+        output.WriteRawTag(8);
+        output.WriteInt64(UpdatedAt);
+      }
+      if (DeletedAt != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(DeletedAt);
+      }
+      if (Online != false) {
+        output.WriteRawTag(24);
+        output.WriteBool(Online);
+      }
+      if (acs_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Acs);
+      }
+      if (ReadId != 0) {
+        output.WriteRawTag(40);
+        output.WriteInt32(ReadId);
+      }
+      if (RecvId != 0) {
+        output.WriteRawTag(48);
+        output.WriteInt32(RecvId);
+      }
+      if (Public.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteBytes(Public);
+      }
+      if (Private.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteBytes(Private);
+      }
+      if (UserId.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(UserId);
+      }
+      if (Topic.Length != 0) {
+        output.WriteRawTag(82);
+        output.WriteString(Topic);
+      }
+      if (TouchedAt != 0L) {
+        output.WriteRawTag(88);
+        output.WriteInt64(TouchedAt);
+      }
+      if (SeqId != 0) {
+        output.WriteRawTag(96);
+        output.WriteInt32(SeqId);
+      }
+      if (DelId != 0) {
+        output.WriteRawTag(104);
+        output.WriteInt32(DelId);
+      }
+      if (LastSeenTime != 0L) {
+        output.WriteRawTag(112);
+        output.WriteInt64(LastSeenTime);
+      }
+      if (LastSeenUserAgent.Length != 0) {
+        output.WriteRawTag(122);
+        output.WriteString(LastSeenUserAgent);
+      }
+      if (Trusted.Length != 0) {
+        output.WriteRawTag(130, 1);
+        output.WriteBytes(Trusted);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (UpdatedAt != 0L) {
@@ -6359,6 +9058,9 @@ namespace Pbx {
       }
       if (Public.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeBytesSize(Public);
+      }
+      if (Trusted.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeBytesSize(Trusted);
       }
       if (Private.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeBytesSize(Private);
@@ -6391,6 +9093,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(TopicSub other) {
       if (other == null) {
         return;
@@ -6406,7 +9109,7 @@ namespace Pbx {
       }
       if (other.acs_ != null) {
         if (acs_ == null) {
-          acs_ = new global::Pbx.AccessMode();
+          Acs = new global::Pbx.AccessMode();
         }
         Acs.MergeFrom(other.Acs);
       }
@@ -6418,6 +9121,9 @@ namespace Pbx {
       }
       if (other.Public.Length != 0) {
         Public = other.Public;
+      }
+      if (other.Trusted.Length != 0) {
+        Trusted = other.Trusted;
       }
       if (other.Private.Length != 0) {
         Private = other.Private;
@@ -6447,7 +9153,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -6468,9 +9178,9 @@ namespace Pbx {
           }
           case 34: {
             if (acs_ == null) {
-              acs_ = new global::Pbx.AccessMode();
+              Acs = new global::Pbx.AccessMode();
             }
-            input.ReadMessage(acs_);
+            input.ReadMessage(Acs);
             break;
           }
           case 40: {
@@ -6517,29 +9227,124 @@ namespace Pbx {
             LastSeenUserAgent = input.ReadString();
             break;
           }
+          case 130: {
+            Trusted = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            UpdatedAt = input.ReadInt64();
+            break;
+          }
+          case 16: {
+            DeletedAt = input.ReadInt64();
+            break;
+          }
+          case 24: {
+            Online = input.ReadBool();
+            break;
+          }
+          case 34: {
+            if (acs_ == null) {
+              Acs = new global::Pbx.AccessMode();
+            }
+            input.ReadMessage(Acs);
+            break;
+          }
+          case 40: {
+            ReadId = input.ReadInt32();
+            break;
+          }
+          case 48: {
+            RecvId = input.ReadInt32();
+            break;
+          }
+          case 58: {
+            Public = input.ReadBytes();
+            break;
+          }
+          case 66: {
+            Private = input.ReadBytes();
+            break;
+          }
+          case 74: {
+            UserId = input.ReadString();
+            break;
+          }
+          case 82: {
+            Topic = input.ReadString();
+            break;
+          }
+          case 88: {
+            TouchedAt = input.ReadInt64();
+            break;
+          }
+          case 96: {
+            SeqId = input.ReadInt32();
+            break;
+          }
+          case 104: {
+            DelId = input.ReadInt32();
+            break;
+          }
+          case 112: {
+            LastSeenTime = input.ReadInt64();
+            break;
+          }
+          case 122: {
+            LastSeenUserAgent = input.ReadString();
+            break;
+          }
+          case 130: {
+            Trusted = input.ReadBytes();
+            break;
+          }
         }
       }
     }
+    #endif
 
   }
 
-  public sealed partial class DelValues : pb::IMessage<DelValues> {
+  public sealed partial class DelValues : pb::IMessage<DelValues>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<DelValues> _parser = new pb::MessageParser<DelValues>(() => new DelValues());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<DelValues> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[24]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[25]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public DelValues() {
       OnConstruction();
     }
@@ -6547,6 +9352,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public DelValues(DelValues other) : this() {
       delId_ = other.delId_;
       delSeq_ = other.delSeq_.Clone();
@@ -6554,6 +9360,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public DelValues Clone() {
       return new DelValues(this);
     }
@@ -6562,6 +9369,7 @@ namespace Pbx {
     public const int DelIdFieldNumber = 1;
     private int delId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int DelId {
       get { return delId_; }
       set {
@@ -6575,16 +9383,19 @@ namespace Pbx {
         = pb::FieldCodec.ForMessage(18, global::Pbx.SeqRange.Parser);
     private readonly pbc::RepeatedField<global::Pbx.SeqRange> delSeq_ = new pbc::RepeatedField<global::Pbx.SeqRange>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::Pbx.SeqRange> DelSeq {
       get { return delSeq_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as DelValues);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(DelValues other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -6598,6 +9409,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (DelId != 0) hash ^= DelId.GetHashCode();
@@ -6609,12 +9421,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (DelId != 0) {
         output.WriteRawTag(8);
         output.WriteInt32(DelId);
@@ -6623,9 +9440,26 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (DelId != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(DelId);
+      }
+      delSeq_.WriteTo(ref output, _repeated_delSeq_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (DelId != 0) {
@@ -6639,6 +9473,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(DelValues other) {
       if (other == null) {
         return;
@@ -6651,7 +9486,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -6668,30 +9507,62 @@ namespace Pbx {
           }
         }
       }
+    #endif
     }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            DelId = input.ReadInt32();
+            break;
+          }
+          case 18: {
+            delSeq_.AddEntriesFrom(ref input, _repeated_delSeq_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
 
   }
 
   /// <summary>
   /// {ctrl} message
   /// </summary>
-  public sealed partial class ServerCtrl : pb::IMessage<ServerCtrl> {
+  public sealed partial class ServerCtrl : pb::IMessage<ServerCtrl>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<ServerCtrl> _parser = new pb::MessageParser<ServerCtrl>(() => new ServerCtrl());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<ServerCtrl> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[25]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[26]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ServerCtrl() {
       OnConstruction();
     }
@@ -6699,6 +9570,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ServerCtrl(ServerCtrl other) : this() {
       id_ = other.id_;
       topic_ = other.topic_;
@@ -6709,6 +9581,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ServerCtrl Clone() {
       return new ServerCtrl(this);
     }
@@ -6717,6 +9590,7 @@ namespace Pbx {
     public const int IdFieldNumber = 1;
     private string id_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Id {
       get { return id_; }
       set {
@@ -6728,6 +9602,7 @@ namespace Pbx {
     public const int TopicFieldNumber = 2;
     private string topic_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Topic {
       get { return topic_; }
       set {
@@ -6739,6 +9614,7 @@ namespace Pbx {
     public const int CodeFieldNumber = 3;
     private int code_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Code {
       get { return code_; }
       set {
@@ -6750,6 +9626,7 @@ namespace Pbx {
     public const int TextFieldNumber = 4;
     private string text_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Text {
       get { return text_; }
       set {
@@ -6760,19 +9637,22 @@ namespace Pbx {
     /// <summary>Field number for the "params" field.</summary>
     public const int ParamsFieldNumber = 5;
     private static readonly pbc::MapField<string, pb::ByteString>.Codec _map_params_codec
-        = new pbc::MapField<string, pb::ByteString>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForBytes(18), 42);
+        = new pbc::MapField<string, pb::ByteString>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForBytes(18, pb::ByteString.Empty), 42);
     private readonly pbc::MapField<string, pb::ByteString> params_ = new pbc::MapField<string, pb::ByteString>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::MapField<string, pb::ByteString> Params {
       get { return params_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as ServerCtrl);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(ServerCtrl other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -6789,6 +9669,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Id.Length != 0) hash ^= Id.GetHashCode();
@@ -6803,12 +9684,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (Id.Length != 0) {
         output.WriteRawTag(10);
         output.WriteString(Id);
@@ -6829,9 +9715,38 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Id.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Id);
+      }
+      if (Topic.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Topic);
+      }
+      if (Code != 0) {
+        output.WriteRawTag(24);
+        output.WriteInt32(Code);
+      }
+      if (Text.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(Text);
+      }
+      params_.WriteTo(ref output, _map_params_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Id.Length != 0) {
@@ -6854,6 +9769,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(ServerCtrl other) {
       if (other == null) {
         return;
@@ -6875,7 +9791,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -6904,30 +9824,74 @@ namespace Pbx {
           }
         }
       }
+    #endif
     }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Id = input.ReadString();
+            break;
+          }
+          case 18: {
+            Topic = input.ReadString();
+            break;
+          }
+          case 24: {
+            Code = input.ReadInt32();
+            break;
+          }
+          case 34: {
+            Text = input.ReadString();
+            break;
+          }
+          case 42: {
+            params_.AddEntriesFrom(ref input, _map_params_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
 
   }
 
   /// <summary>
   /// {data} message
   /// </summary>
-  public sealed partial class ServerData : pb::IMessage<ServerData> {
+  public sealed partial class ServerData : pb::IMessage<ServerData>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<ServerData> _parser = new pb::MessageParser<ServerData>(() => new ServerData());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<ServerData> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[26]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[27]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ServerData() {
       OnConstruction();
     }
@@ -6935,6 +9899,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ServerData(ServerData other) : this() {
       topic_ = other.topic_;
       fromUserId_ = other.fromUserId_;
@@ -6947,6 +9912,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ServerData Clone() {
       return new ServerData(this);
     }
@@ -6955,6 +9921,7 @@ namespace Pbx {
     public const int TopicFieldNumber = 1;
     private string topic_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Topic {
       get { return topic_; }
       set {
@@ -6969,6 +9936,7 @@ namespace Pbx {
     /// ID of the user who originated the message as {pub}, could be empty if sent by the system
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string FromUserId {
       get { return fromUserId_; }
       set {
@@ -6983,6 +9951,7 @@ namespace Pbx {
     /// Timestamp when the message was sent.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long Timestamp {
       get { return timestamp_; }
       set {
@@ -6997,6 +9966,7 @@ namespace Pbx {
     /// Timestamp when the message was deleted or 0. Milliseconds since the epoch 01/01/1970
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long DeletedAt {
       get { return deletedAt_; }
       set {
@@ -7008,6 +9978,7 @@ namespace Pbx {
     public const int SeqIdFieldNumber = 4;
     private int seqId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int SeqId {
       get { return seqId_; }
       set {
@@ -7018,9 +9989,10 @@ namespace Pbx {
     /// <summary>Field number for the "head" field.</summary>
     public const int HeadFieldNumber = 5;
     private static readonly pbc::MapField<string, pb::ByteString>.Codec _map_head_codec
-        = new pbc::MapField<string, pb::ByteString>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForBytes(18), 42);
+        = new pbc::MapField<string, pb::ByteString>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForBytes(18, pb::ByteString.Empty), 42);
     private readonly pbc::MapField<string, pb::ByteString> head_ = new pbc::MapField<string, pb::ByteString>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::MapField<string, pb::ByteString> Head {
       get { return head_; }
     }
@@ -7029,6 +10001,7 @@ namespace Pbx {
     public const int ContentFieldNumber = 6;
     private pb::ByteString content_ = pb::ByteString.Empty;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pb::ByteString Content {
       get { return content_; }
       set {
@@ -7037,11 +10010,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as ServerData);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(ServerData other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -7060,6 +10035,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Topic.Length != 0) hash ^= Topic.GetHashCode();
@@ -7076,12 +10052,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (Topic.Length != 0) {
         output.WriteRawTag(10);
         output.WriteString(Topic);
@@ -7110,9 +10091,46 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Topic.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Topic);
+      }
+      if (FromUserId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(FromUserId);
+      }
+      if (DeletedAt != 0L) {
+        output.WriteRawTag(24);
+        output.WriteInt64(DeletedAt);
+      }
+      if (SeqId != 0) {
+        output.WriteRawTag(32);
+        output.WriteInt32(SeqId);
+      }
+      head_.WriteTo(ref output, _map_head_codec);
+      if (Content.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteBytes(Content);
+      }
+      if (Timestamp != 0L) {
+        output.WriteRawTag(56);
+        output.WriteInt64(Timestamp);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Topic.Length != 0) {
@@ -7141,6 +10159,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(ServerData other) {
       if (other == null) {
         return;
@@ -7168,7 +10187,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -7205,30 +10228,82 @@ namespace Pbx {
           }
         }
       }
+    #endif
     }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Topic = input.ReadString();
+            break;
+          }
+          case 18: {
+            FromUserId = input.ReadString();
+            break;
+          }
+          case 24: {
+            DeletedAt = input.ReadInt64();
+            break;
+          }
+          case 32: {
+            SeqId = input.ReadInt32();
+            break;
+          }
+          case 42: {
+            head_.AddEntriesFrom(ref input, _map_head_codec);
+            break;
+          }
+          case 50: {
+            Content = input.ReadBytes();
+            break;
+          }
+          case 56: {
+            Timestamp = input.ReadInt64();
+            break;
+          }
+        }
+      }
+    }
+    #endif
 
   }
 
   /// <summary>
   /// {pres} message
   /// </summary>
-  public sealed partial class ServerPres : pb::IMessage<ServerPres> {
+  public sealed partial class ServerPres : pb::IMessage<ServerPres>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<ServerPres> _parser = new pb::MessageParser<ServerPres>(() => new ServerPres());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<ServerPres> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[27]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[28]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ServerPres() {
       OnConstruction();
     }
@@ -7236,6 +10311,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ServerPres(ServerPres other) : this() {
       topic_ = other.topic_;
       src_ = other.src_;
@@ -7251,6 +10327,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ServerPres Clone() {
       return new ServerPres(this);
     }
@@ -7259,6 +10336,7 @@ namespace Pbx {
     public const int TopicFieldNumber = 1;
     private string topic_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Topic {
       get { return topic_; }
       set {
@@ -7270,6 +10348,7 @@ namespace Pbx {
     public const int SrcFieldNumber = 2;
     private string src_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Src {
       get { return src_; }
       set {
@@ -7279,8 +10358,9 @@ namespace Pbx {
 
     /// <summary>Field number for the "what" field.</summary>
     public const int WhatFieldNumber = 3;
-    private global::Pbx.ServerPres.Types.What what_ = 0;
+    private global::Pbx.ServerPres.Types.What what_ = global::Pbx.ServerPres.Types.What.On;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.ServerPres.Types.What What {
       get { return what_; }
       set {
@@ -7292,6 +10372,7 @@ namespace Pbx {
     public const int UserAgentFieldNumber = 4;
     private string userAgent_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string UserAgent {
       get { return userAgent_; }
       set {
@@ -7303,6 +10384,7 @@ namespace Pbx {
     public const int SeqIdFieldNumber = 5;
     private int seqId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int SeqId {
       get { return seqId_; }
       set {
@@ -7314,6 +10396,7 @@ namespace Pbx {
     public const int DelIdFieldNumber = 6;
     private int delId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int DelId {
       get { return delId_; }
       set {
@@ -7327,6 +10410,7 @@ namespace Pbx {
         = pb::FieldCodec.ForMessage(58, global::Pbx.SeqRange.Parser);
     private readonly pbc::RepeatedField<global::Pbx.SeqRange> delSeq_ = new pbc::RepeatedField<global::Pbx.SeqRange>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::Pbx.SeqRange> DelSeq {
       get { return delSeq_; }
     }
@@ -7335,6 +10419,7 @@ namespace Pbx {
     public const int TargetUserIdFieldNumber = 8;
     private string targetUserId_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string TargetUserId {
       get { return targetUserId_; }
       set {
@@ -7346,6 +10431,7 @@ namespace Pbx {
     public const int ActorUserIdFieldNumber = 9;
     private string actorUserId_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string ActorUserId {
       get { return actorUserId_; }
       set {
@@ -7357,6 +10443,7 @@ namespace Pbx {
     public const int AcsFieldNumber = 10;
     private global::Pbx.AccessMode acs_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.AccessMode Acs {
       get { return acs_; }
       set {
@@ -7365,11 +10452,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as ServerPres);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(ServerPres other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -7391,11 +10480,12 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Topic.Length != 0) hash ^= Topic.GetHashCode();
       if (Src.Length != 0) hash ^= Src.GetHashCode();
-      if (What != 0) hash ^= What.GetHashCode();
+      if (What != global::Pbx.ServerPres.Types.What.On) hash ^= What.GetHashCode();
       if (UserAgent.Length != 0) hash ^= UserAgent.GetHashCode();
       if (SeqId != 0) hash ^= SeqId.GetHashCode();
       if (DelId != 0) hash ^= DelId.GetHashCode();
@@ -7410,12 +10500,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (Topic.Length != 0) {
         output.WriteRawTag(10);
         output.WriteString(Topic);
@@ -7424,7 +10519,7 @@ namespace Pbx {
         output.WriteRawTag(18);
         output.WriteString(Src);
       }
-      if (What != 0) {
+      if (What != global::Pbx.ServerPres.Types.What.On) {
         output.WriteRawTag(24);
         output.WriteEnum((int) What);
       }
@@ -7456,9 +10551,58 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Topic.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Topic);
+      }
+      if (Src.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Src);
+      }
+      if (What != global::Pbx.ServerPres.Types.What.On) {
+        output.WriteRawTag(24);
+        output.WriteEnum((int) What);
+      }
+      if (UserAgent.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(UserAgent);
+      }
+      if (SeqId != 0) {
+        output.WriteRawTag(40);
+        output.WriteInt32(SeqId);
+      }
+      if (DelId != 0) {
+        output.WriteRawTag(48);
+        output.WriteInt32(DelId);
+      }
+      delSeq_.WriteTo(ref output, _repeated_delSeq_codec);
+      if (TargetUserId.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(TargetUserId);
+      }
+      if (ActorUserId.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(ActorUserId);
+      }
+      if (acs_ != null) {
+        output.WriteRawTag(82);
+        output.WriteMessage(Acs);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Topic.Length != 0) {
@@ -7467,7 +10611,7 @@ namespace Pbx {
       if (Src.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Src);
       }
-      if (What != 0) {
+      if (What != global::Pbx.ServerPres.Types.What.On) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) What);
       }
       if (UserAgent.Length != 0) {
@@ -7496,6 +10640,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(ServerPres other) {
       if (other == null) {
         return;
@@ -7506,7 +10651,7 @@ namespace Pbx {
       if (other.Src.Length != 0) {
         Src = other.Src;
       }
-      if (other.What != 0) {
+      if (other.What != global::Pbx.ServerPres.Types.What.On) {
         What = other.What;
       }
       if (other.UserAgent.Length != 0) {
@@ -7527,7 +10672,7 @@ namespace Pbx {
       }
       if (other.acs_ != null) {
         if (acs_ == null) {
-          acs_ = new global::Pbx.AccessMode();
+          Acs = new global::Pbx.AccessMode();
         }
         Acs.MergeFrom(other.Acs);
       }
@@ -7535,7 +10680,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -7551,7 +10700,7 @@ namespace Pbx {
             break;
           }
           case 24: {
-            what_ = (global::Pbx.ServerPres.Types.What) input.ReadEnum();
+            What = (global::Pbx.ServerPres.Types.What) input.ReadEnum();
             break;
           }
           case 34: {
@@ -7580,18 +10729,78 @@ namespace Pbx {
           }
           case 82: {
             if (acs_ == null) {
-              acs_ = new global::Pbx.AccessMode();
+              Acs = new global::Pbx.AccessMode();
             }
-            input.ReadMessage(acs_);
+            input.ReadMessage(Acs);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Topic = input.ReadString();
+            break;
+          }
+          case 18: {
+            Src = input.ReadString();
+            break;
+          }
+          case 24: {
+            What = (global::Pbx.ServerPres.Types.What) input.ReadEnum();
+            break;
+          }
+          case 34: {
+            UserAgent = input.ReadString();
+            break;
+          }
+          case 40: {
+            SeqId = input.ReadInt32();
+            break;
+          }
+          case 48: {
+            DelId = input.ReadInt32();
+            break;
+          }
+          case 58: {
+            delSeq_.AddEntriesFrom(ref input, _repeated_delSeq_codec);
+            break;
+          }
+          case 66: {
+            TargetUserId = input.ReadString();
+            break;
+          }
+          case 74: {
+            ActorUserId = input.ReadString();
+            break;
+          }
+          case 82: {
+            if (acs_ == null) {
+              Acs = new global::Pbx.AccessMode();
+            }
+            input.ReadMessage(Acs);
             break;
           }
         }
       }
     }
+    #endif
 
     #region Nested types
     /// <summary>Container for nested types declared in the ServerPres message type.</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static partial class Types {
       public enum What {
         [pbr::OriginalName("ON")] On = 0,
@@ -7616,23 +10825,31 @@ namespace Pbx {
   /// <summary>
   /// {meta} message
   /// </summary>
-  public sealed partial class ServerMeta : pb::IMessage<ServerMeta> {
+  public sealed partial class ServerMeta : pb::IMessage<ServerMeta>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<ServerMeta> _parser = new pb::MessageParser<ServerMeta>(() => new ServerMeta());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<ServerMeta> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[28]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[29]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ServerMeta() {
       OnConstruction();
     }
@@ -7640,6 +10857,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ServerMeta(ServerMeta other) : this() {
       id_ = other.id_;
       topic_ = other.topic_;
@@ -7652,6 +10870,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ServerMeta Clone() {
       return new ServerMeta(this);
     }
@@ -7660,6 +10879,7 @@ namespace Pbx {
     public const int IdFieldNumber = 1;
     private string id_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Id {
       get { return id_; }
       set {
@@ -7671,6 +10891,7 @@ namespace Pbx {
     public const int TopicFieldNumber = 2;
     private string topic_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Topic {
       get { return topic_; }
       set {
@@ -7682,6 +10903,7 @@ namespace Pbx {
     public const int DescFieldNumber = 3;
     private global::Pbx.TopicDesc desc_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.TopicDesc Desc {
       get { return desc_; }
       set {
@@ -7695,6 +10917,7 @@ namespace Pbx {
         = pb::FieldCodec.ForMessage(34, global::Pbx.TopicSub.Parser);
     private readonly pbc::RepeatedField<global::Pbx.TopicSub> sub_ = new pbc::RepeatedField<global::Pbx.TopicSub>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::Pbx.TopicSub> Sub {
       get { return sub_; }
     }
@@ -7703,6 +10926,7 @@ namespace Pbx {
     public const int DelFieldNumber = 5;
     private global::Pbx.DelValues del_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.DelValues Del {
       get { return del_; }
       set {
@@ -7716,6 +10940,7 @@ namespace Pbx {
         = pb::FieldCodec.ForString(50);
     private readonly pbc::RepeatedField<string> tags_ = new pbc::RepeatedField<string>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<string> Tags {
       get { return tags_; }
     }
@@ -7726,16 +10951,19 @@ namespace Pbx {
         = pb::FieldCodec.ForMessage(58, global::Pbx.ServerCred.Parser);
     private readonly pbc::RepeatedField<global::Pbx.ServerCred> cred_ = new pbc::RepeatedField<global::Pbx.ServerCred>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::Pbx.ServerCred> Cred {
       get { return cred_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as ServerMeta);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(ServerMeta other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -7754,6 +10982,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Id.Length != 0) hash ^= Id.GetHashCode();
@@ -7770,12 +10999,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (Id.Length != 0) {
         output.WriteRawTag(10);
         output.WriteString(Id);
@@ -7798,9 +11032,40 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Id.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Id);
+      }
+      if (Topic.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Topic);
+      }
+      if (desc_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Desc);
+      }
+      sub_.WriteTo(ref output, _repeated_sub_codec);
+      if (del_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(Del);
+      }
+      tags_.WriteTo(ref output, _repeated_tags_codec);
+      cred_.WriteTo(ref output, _repeated_cred_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Id.Length != 0) {
@@ -7825,6 +11090,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(ServerMeta other) {
       if (other == null) {
         return;
@@ -7837,14 +11103,14 @@ namespace Pbx {
       }
       if (other.desc_ != null) {
         if (desc_ == null) {
-          desc_ = new global::Pbx.TopicDesc();
+          Desc = new global::Pbx.TopicDesc();
         }
         Desc.MergeFrom(other.Desc);
       }
       sub_.Add(other.sub_);
       if (other.del_ != null) {
         if (del_ == null) {
-          del_ = new global::Pbx.DelValues();
+          Del = new global::Pbx.DelValues();
         }
         Del.MergeFrom(other.Del);
       }
@@ -7854,7 +11120,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -7871,9 +11141,9 @@ namespace Pbx {
           }
           case 26: {
             if (desc_ == null) {
-              desc_ = new global::Pbx.TopicDesc();
+              Desc = new global::Pbx.TopicDesc();
             }
-            input.ReadMessage(desc_);
+            input.ReadMessage(Desc);
             break;
           }
           case 34: {
@@ -7882,9 +11152,9 @@ namespace Pbx {
           }
           case 42: {
             if (del_ == null) {
-              del_ = new global::Pbx.DelValues();
+              Del = new global::Pbx.DelValues();
             }
-            input.ReadMessage(del_);
+            input.ReadMessage(Del);
             break;
           }
           case 50: {
@@ -7897,30 +11167,88 @@ namespace Pbx {
           }
         }
       }
+    #endif
     }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Id = input.ReadString();
+            break;
+          }
+          case 18: {
+            Topic = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (desc_ == null) {
+              Desc = new global::Pbx.TopicDesc();
+            }
+            input.ReadMessage(Desc);
+            break;
+          }
+          case 34: {
+            sub_.AddEntriesFrom(ref input, _repeated_sub_codec);
+            break;
+          }
+          case 42: {
+            if (del_ == null) {
+              Del = new global::Pbx.DelValues();
+            }
+            input.ReadMessage(Del);
+            break;
+          }
+          case 50: {
+            tags_.AddEntriesFrom(ref input, _repeated_tags_codec);
+            break;
+          }
+          case 58: {
+            cred_.AddEntriesFrom(ref input, _repeated_cred_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
 
   }
 
   /// <summary>
   /// {info} message: server-side copy of ClientNote with From and optional Src added.
   /// </summary>
-  public sealed partial class ServerInfo : pb::IMessage<ServerInfo> {
+  public sealed partial class ServerInfo : pb::IMessage<ServerInfo>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<ServerInfo> _parser = new pb::MessageParser<ServerInfo>(() => new ServerInfo());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<ServerInfo> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[29]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[30]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ServerInfo() {
       OnConstruction();
     }
@@ -7928,6 +11256,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ServerInfo(ServerInfo other) : this() {
       topic_ = other.topic_;
       fromUserId_ = other.fromUserId_;
@@ -7938,6 +11267,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ServerInfo Clone() {
       return new ServerInfo(this);
     }
@@ -7946,6 +11276,7 @@ namespace Pbx {
     public const int TopicFieldNumber = 1;
     private string topic_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Topic {
       get { return topic_; }
       set {
@@ -7957,6 +11288,7 @@ namespace Pbx {
     public const int FromUserIdFieldNumber = 2;
     private string fromUserId_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string FromUserId {
       get { return fromUserId_; }
       set {
@@ -7966,8 +11298,9 @@ namespace Pbx {
 
     /// <summary>Field number for the "what" field.</summary>
     public const int WhatFieldNumber = 3;
-    private global::Pbx.InfoNote what_ = 0;
+    private global::Pbx.InfoNote what_ = global::Pbx.InfoNote.Read;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.InfoNote What {
       get { return what_; }
       set {
@@ -7979,6 +11312,7 @@ namespace Pbx {
     public const int SeqIdFieldNumber = 4;
     private int seqId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int SeqId {
       get { return seqId_; }
       set {
@@ -7990,6 +11324,7 @@ namespace Pbx {
     public const int SrcFieldNumber = 5;
     private string src_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Src {
       get { return src_; }
       set {
@@ -7998,11 +11333,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as ServerInfo);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(ServerInfo other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -8019,11 +11356,12 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Topic.Length != 0) hash ^= Topic.GetHashCode();
       if (FromUserId.Length != 0) hash ^= FromUserId.GetHashCode();
-      if (What != 0) hash ^= What.GetHashCode();
+      if (What != global::Pbx.InfoNote.Read) hash ^= What.GetHashCode();
       if (SeqId != 0) hash ^= SeqId.GetHashCode();
       if (Src.Length != 0) hash ^= Src.GetHashCode();
       if (_unknownFields != null) {
@@ -8033,12 +11371,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (Topic.Length != 0) {
         output.WriteRawTag(10);
         output.WriteString(Topic);
@@ -8047,7 +11390,7 @@ namespace Pbx {
         output.WriteRawTag(18);
         output.WriteString(FromUserId);
       }
-      if (What != 0) {
+      if (What != global::Pbx.InfoNote.Read) {
         output.WriteRawTag(24);
         output.WriteEnum((int) What);
       }
@@ -8062,9 +11405,41 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Topic.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Topic);
+      }
+      if (FromUserId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(FromUserId);
+      }
+      if (What != global::Pbx.InfoNote.Read) {
+        output.WriteRawTag(24);
+        output.WriteEnum((int) What);
+      }
+      if (SeqId != 0) {
+        output.WriteRawTag(32);
+        output.WriteInt32(SeqId);
+      }
+      if (Src.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(Src);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Topic.Length != 0) {
@@ -8073,7 +11448,7 @@ namespace Pbx {
       if (FromUserId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(FromUserId);
       }
-      if (What != 0) {
+      if (What != global::Pbx.InfoNote.Read) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) What);
       }
       if (SeqId != 0) {
@@ -8089,6 +11464,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(ServerInfo other) {
       if (other == null) {
         return;
@@ -8099,7 +11475,7 @@ namespace Pbx {
       if (other.FromUserId.Length != 0) {
         FromUserId = other.FromUserId;
       }
-      if (other.What != 0) {
+      if (other.What != global::Pbx.InfoNote.Read) {
         What = other.What;
       }
       if (other.SeqId != 0) {
@@ -8112,7 +11488,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -8128,7 +11508,42 @@ namespace Pbx {
             break;
           }
           case 24: {
-            what_ = (global::Pbx.InfoNote) input.ReadEnum();
+            What = (global::Pbx.InfoNote) input.ReadEnum();
+            break;
+          }
+          case 32: {
+            SeqId = input.ReadInt32();
+            break;
+          }
+          case 42: {
+            Src = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Topic = input.ReadString();
+            break;
+          }
+          case 18: {
+            FromUserId = input.ReadString();
+            break;
+          }
+          case 24: {
+            What = (global::Pbx.InfoNote) input.ReadEnum();
             break;
           }
           case 32: {
@@ -8142,29 +11557,38 @@ namespace Pbx {
         }
       }
     }
+    #endif
 
   }
 
   /// <summary>
   /// Cumulative message
   /// </summary>
-  public sealed partial class ServerMsg : pb::IMessage<ServerMsg> {
+  public sealed partial class ServerMsg : pb::IMessage<ServerMsg>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<ServerMsg> _parser = new pb::MessageParser<ServerMsg>(() => new ServerMsg());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<ServerMsg> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[30]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[31]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ServerMsg() {
       OnConstruction();
     }
@@ -8172,6 +11596,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ServerMsg(ServerMsg other) : this() {
       topic_ = other.topic_;
       switch (other.MessageCase) {
@@ -8196,6 +11621,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ServerMsg Clone() {
       return new ServerMsg(this);
     }
@@ -8203,6 +11629,7 @@ namespace Pbx {
     /// <summary>Field number for the "ctrl" field.</summary>
     public const int CtrlFieldNumber = 1;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.ServerCtrl Ctrl {
       get { return messageCase_ == MessageOneofCase.Ctrl ? (global::Pbx.ServerCtrl) message_ : null; }
       set {
@@ -8214,6 +11641,7 @@ namespace Pbx {
     /// <summary>Field number for the "data" field.</summary>
     public const int DataFieldNumber = 2;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.ServerData Data {
       get { return messageCase_ == MessageOneofCase.Data ? (global::Pbx.ServerData) message_ : null; }
       set {
@@ -8225,6 +11653,7 @@ namespace Pbx {
     /// <summary>Field number for the "pres" field.</summary>
     public const int PresFieldNumber = 3;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.ServerPres Pres {
       get { return messageCase_ == MessageOneofCase.Pres ? (global::Pbx.ServerPres) message_ : null; }
       set {
@@ -8236,6 +11665,7 @@ namespace Pbx {
     /// <summary>Field number for the "meta" field.</summary>
     public const int MetaFieldNumber = 4;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.ServerMeta Meta {
       get { return messageCase_ == MessageOneofCase.Meta ? (global::Pbx.ServerMeta) message_ : null; }
       set {
@@ -8247,6 +11677,7 @@ namespace Pbx {
     /// <summary>Field number for the "info" field.</summary>
     public const int InfoFieldNumber = 5;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.ServerInfo Info {
       get { return messageCase_ == MessageOneofCase.Info ? (global::Pbx.ServerInfo) message_ : null; }
       set {
@@ -8262,6 +11693,7 @@ namespace Pbx {
     /// When response is sent to Root, send internal topic name too.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Topic {
       get { return topic_; }
       set {
@@ -8281,22 +11713,26 @@ namespace Pbx {
     }
     private MessageOneofCase messageCase_ = MessageOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public MessageOneofCase MessageCase {
       get { return messageCase_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearMessage() {
       messageCase_ = MessageOneofCase.None;
       message_ = null;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as ServerMsg);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(ServerMsg other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -8315,6 +11751,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (messageCase_ == MessageOneofCase.Ctrl) hash ^= Ctrl.GetHashCode();
@@ -8331,12 +11768,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (messageCase_ == MessageOneofCase.Ctrl) {
         output.WriteRawTag(10);
         output.WriteMessage(Ctrl);
@@ -8364,9 +11806,45 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (messageCase_ == MessageOneofCase.Ctrl) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Ctrl);
+      }
+      if (messageCase_ == MessageOneofCase.Data) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Data);
+      }
+      if (messageCase_ == MessageOneofCase.Pres) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Pres);
+      }
+      if (messageCase_ == MessageOneofCase.Meta) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Meta);
+      }
+      if (messageCase_ == MessageOneofCase.Info) {
+        output.WriteRawTag(42);
+        output.WriteMessage(Info);
+      }
+      if (Topic.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(Topic);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (messageCase_ == MessageOneofCase.Ctrl) {
@@ -8394,6 +11872,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(ServerMsg other) {
       if (other == null) {
         return;
@@ -8438,7 +11917,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -8496,27 +11979,100 @@ namespace Pbx {
           }
         }
       }
+    #endif
     }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            global::Pbx.ServerCtrl subBuilder = new global::Pbx.ServerCtrl();
+            if (messageCase_ == MessageOneofCase.Ctrl) {
+              subBuilder.MergeFrom(Ctrl);
+            }
+            input.ReadMessage(subBuilder);
+            Ctrl = subBuilder;
+            break;
+          }
+          case 18: {
+            global::Pbx.ServerData subBuilder = new global::Pbx.ServerData();
+            if (messageCase_ == MessageOneofCase.Data) {
+              subBuilder.MergeFrom(Data);
+            }
+            input.ReadMessage(subBuilder);
+            Data = subBuilder;
+            break;
+          }
+          case 26: {
+            global::Pbx.ServerPres subBuilder = new global::Pbx.ServerPres();
+            if (messageCase_ == MessageOneofCase.Pres) {
+              subBuilder.MergeFrom(Pres);
+            }
+            input.ReadMessage(subBuilder);
+            Pres = subBuilder;
+            break;
+          }
+          case 34: {
+            global::Pbx.ServerMeta subBuilder = new global::Pbx.ServerMeta();
+            if (messageCase_ == MessageOneofCase.Meta) {
+              subBuilder.MergeFrom(Meta);
+            }
+            input.ReadMessage(subBuilder);
+            Meta = subBuilder;
+            break;
+          }
+          case 42: {
+            global::Pbx.ServerInfo subBuilder = new global::Pbx.ServerInfo();
+            if (messageCase_ == MessageOneofCase.Info) {
+              subBuilder.MergeFrom(Info);
+            }
+            input.ReadMessage(subBuilder);
+            Info = subBuilder;
+            break;
+          }
+          case 50: {
+            Topic = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
 
   }
 
-  public sealed partial class ServerResp : pb::IMessage<ServerResp> {
+  public sealed partial class ServerResp : pb::IMessage<ServerResp>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<ServerResp> _parser = new pb::MessageParser<ServerResp>(() => new ServerResp());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<ServerResp> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[31]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[32]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ServerResp() {
       OnConstruction();
     }
@@ -8524,6 +12080,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ServerResp(ServerResp other) : this() {
       status_ = other.status_;
       srvmsg_ = other.srvmsg_ != null ? other.srvmsg_.Clone() : null;
@@ -8532,14 +12089,16 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ServerResp Clone() {
       return new ServerResp(this);
     }
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 1;
-    private global::Pbx.RespCode status_ = 0;
+    private global::Pbx.RespCode status_ = global::Pbx.RespCode.Continue;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.RespCode Status {
       get { return status_; }
       set {
@@ -8551,6 +12110,7 @@ namespace Pbx {
     public const int SrvmsgFieldNumber = 2;
     private global::Pbx.ServerMsg srvmsg_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.ServerMsg Srvmsg {
       get { return srvmsg_; }
       set {
@@ -8562,6 +12122,7 @@ namespace Pbx {
     public const int ClmsgFieldNumber = 3;
     private global::Pbx.ClientMsg clmsg_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.ClientMsg Clmsg {
       get { return clmsg_; }
       set {
@@ -8570,11 +12131,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as ServerResp);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(ServerResp other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -8589,9 +12152,10 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (Status != 0) hash ^= Status.GetHashCode();
+      if (Status != global::Pbx.RespCode.Continue) hash ^= Status.GetHashCode();
       if (srvmsg_ != null) hash ^= Srvmsg.GetHashCode();
       if (clmsg_ != null) hash ^= Clmsg.GetHashCode();
       if (_unknownFields != null) {
@@ -8601,13 +12165,18 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (Status != 0) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Status != global::Pbx.RespCode.Continue) {
         output.WriteRawTag(8);
         output.WriteEnum((int) Status);
       }
@@ -8622,12 +12191,36 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Status != global::Pbx.RespCode.Continue) {
+        output.WriteRawTag(8);
+        output.WriteEnum((int) Status);
+      }
+      if (srvmsg_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Srvmsg);
+      }
+      if (clmsg_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Clmsg);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (Status != 0) {
+      if (Status != global::Pbx.RespCode.Continue) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       if (srvmsg_ != null) {
@@ -8643,22 +12236,23 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(ServerResp other) {
       if (other == null) {
         return;
       }
-      if (other.Status != 0) {
+      if (other.Status != global::Pbx.RespCode.Continue) {
         Status = other.Status;
       }
       if (other.srvmsg_ != null) {
         if (srvmsg_ == null) {
-          srvmsg_ = new global::Pbx.ServerMsg();
+          Srvmsg = new global::Pbx.ServerMsg();
         }
         Srvmsg.MergeFrom(other.Srvmsg);
       }
       if (other.clmsg_ != null) {
         if (clmsg_ == null) {
-          clmsg_ = new global::Pbx.ClientMsg();
+          Clmsg = new global::Pbx.ClientMsg();
         }
         Clmsg.MergeFrom(other.Clmsg);
       }
@@ -8666,7 +12260,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -8674,49 +12272,91 @@ namespace Pbx {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            status_ = (global::Pbx.RespCode) input.ReadEnum();
+            Status = (global::Pbx.RespCode) input.ReadEnum();
             break;
           }
           case 18: {
             if (srvmsg_ == null) {
-              srvmsg_ = new global::Pbx.ServerMsg();
+              Srvmsg = new global::Pbx.ServerMsg();
             }
-            input.ReadMessage(srvmsg_);
+            input.ReadMessage(Srvmsg);
             break;
           }
           case 26: {
             if (clmsg_ == null) {
-              clmsg_ = new global::Pbx.ClientMsg();
+              Clmsg = new global::Pbx.ClientMsg();
             }
-            input.ReadMessage(clmsg_);
+            input.ReadMessage(Clmsg);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            Status = (global::Pbx.RespCode) input.ReadEnum();
+            break;
+          }
+          case 18: {
+            if (srvmsg_ == null) {
+              Srvmsg = new global::Pbx.ServerMsg();
+            }
+            input.ReadMessage(Srvmsg);
+            break;
+          }
+          case 26: {
+            if (clmsg_ == null) {
+              Clmsg = new global::Pbx.ClientMsg();
+            }
+            input.ReadMessage(Clmsg);
             break;
           }
         }
       }
     }
+    #endif
 
   }
 
   /// <summary>
   /// Context message
   /// </summary>
-  public sealed partial class Session : pb::IMessage<Session> {
+  public sealed partial class Session : pb::IMessage<Session>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<Session> _parser = new pb::MessageParser<Session>(() => new Session());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<Session> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[32]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[33]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public Session() {
       OnConstruction();
     }
@@ -8724,6 +12364,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public Session(Session other) : this() {
       sessionId_ = other.sessionId_;
       userId_ = other.userId_;
@@ -8736,6 +12377,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public Session Clone() {
       return new Session(this);
     }
@@ -8744,6 +12386,7 @@ namespace Pbx {
     public const int SessionIdFieldNumber = 1;
     private string sessionId_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SessionId {
       get { return sessionId_; }
       set {
@@ -8755,6 +12398,7 @@ namespace Pbx {
     public const int UserIdFieldNumber = 2;
     private string userId_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string UserId {
       get { return userId_; }
       set {
@@ -8764,8 +12408,9 @@ namespace Pbx {
 
     /// <summary>Field number for the "auth_level" field.</summary>
     public const int AuthLevelFieldNumber = 3;
-    private global::Pbx.AuthLevel authLevel_ = 0;
+    private global::Pbx.AuthLevel authLevel_ = global::Pbx.AuthLevel.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.AuthLevel AuthLevel {
       get { return authLevel_; }
       set {
@@ -8777,6 +12422,7 @@ namespace Pbx {
     public const int RemoteAddrFieldNumber = 4;
     private string remoteAddr_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string RemoteAddr {
       get { return remoteAddr_; }
       set {
@@ -8788,6 +12434,7 @@ namespace Pbx {
     public const int UserAgentFieldNumber = 5;
     private string userAgent_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string UserAgent {
       get { return userAgent_; }
       set {
@@ -8799,6 +12446,7 @@ namespace Pbx {
     public const int DeviceIdFieldNumber = 6;
     private string deviceId_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string DeviceId {
       get { return deviceId_; }
       set {
@@ -8810,6 +12458,7 @@ namespace Pbx {
     public const int LanguageFieldNumber = 7;
     private string language_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Language {
       get { return language_; }
       set {
@@ -8818,11 +12467,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as Session);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(Session other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -8841,11 +12492,12 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (SessionId.Length != 0) hash ^= SessionId.GetHashCode();
       if (UserId.Length != 0) hash ^= UserId.GetHashCode();
-      if (AuthLevel != 0) hash ^= AuthLevel.GetHashCode();
+      if (AuthLevel != global::Pbx.AuthLevel.None) hash ^= AuthLevel.GetHashCode();
       if (RemoteAddr.Length != 0) hash ^= RemoteAddr.GetHashCode();
       if (UserAgent.Length != 0) hash ^= UserAgent.GetHashCode();
       if (DeviceId.Length != 0) hash ^= DeviceId.GetHashCode();
@@ -8857,12 +12509,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (SessionId.Length != 0) {
         output.WriteRawTag(10);
         output.WriteString(SessionId);
@@ -8871,7 +12528,7 @@ namespace Pbx {
         output.WriteRawTag(18);
         output.WriteString(UserId);
       }
-      if (AuthLevel != 0) {
+      if (AuthLevel != global::Pbx.AuthLevel.None) {
         output.WriteRawTag(24);
         output.WriteEnum((int) AuthLevel);
       }
@@ -8894,9 +12551,49 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (SessionId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(SessionId);
+      }
+      if (UserId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(UserId);
+      }
+      if (AuthLevel != global::Pbx.AuthLevel.None) {
+        output.WriteRawTag(24);
+        output.WriteEnum((int) AuthLevel);
+      }
+      if (RemoteAddr.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(RemoteAddr);
+      }
+      if (UserAgent.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(UserAgent);
+      }
+      if (DeviceId.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(DeviceId);
+      }
+      if (Language.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(Language);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (SessionId.Length != 0) {
@@ -8905,7 +12602,7 @@ namespace Pbx {
       if (UserId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(UserId);
       }
-      if (AuthLevel != 0) {
+      if (AuthLevel != global::Pbx.AuthLevel.None) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) AuthLevel);
       }
       if (RemoteAddr.Length != 0) {
@@ -8927,6 +12624,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(Session other) {
       if (other == null) {
         return;
@@ -8937,7 +12635,7 @@ namespace Pbx {
       if (other.UserId.Length != 0) {
         UserId = other.UserId;
       }
-      if (other.AuthLevel != 0) {
+      if (other.AuthLevel != global::Pbx.AuthLevel.None) {
         AuthLevel = other.AuthLevel;
       }
       if (other.RemoteAddr.Length != 0) {
@@ -8956,7 +12654,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -8972,7 +12674,50 @@ namespace Pbx {
             break;
           }
           case 24: {
-            authLevel_ = (global::Pbx.AuthLevel) input.ReadEnum();
+            AuthLevel = (global::Pbx.AuthLevel) input.ReadEnum();
+            break;
+          }
+          case 34: {
+            RemoteAddr = input.ReadString();
+            break;
+          }
+          case 42: {
+            UserAgent = input.ReadString();
+            break;
+          }
+          case 50: {
+            DeviceId = input.ReadString();
+            break;
+          }
+          case 58: {
+            Language = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            SessionId = input.ReadString();
+            break;
+          }
+          case 18: {
+            UserId = input.ReadString();
+            break;
+          }
+          case 24: {
+            AuthLevel = (global::Pbx.AuthLevel) input.ReadEnum();
             break;
           }
           case 34: {
@@ -8994,26 +12739,35 @@ namespace Pbx {
         }
       }
     }
+    #endif
 
   }
 
-  public sealed partial class ClientReq : pb::IMessage<ClientReq> {
+  public sealed partial class ClientReq : pb::IMessage<ClientReq>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<ClientReq> _parser = new pb::MessageParser<ClientReq>(() => new ClientReq());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<ClientReq> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[33]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[34]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientReq() {
       OnConstruction();
     }
@@ -9021,6 +12775,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientReq(ClientReq other) : this() {
       msg_ = other.msg_ != null ? other.msg_.Clone() : null;
       sess_ = other.sess_ != null ? other.sess_.Clone() : null;
@@ -9028,6 +12783,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ClientReq Clone() {
       return new ClientReq(this);
     }
@@ -9036,6 +12792,7 @@ namespace Pbx {
     public const int MsgFieldNumber = 1;
     private global::Pbx.ClientMsg msg_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.ClientMsg Msg {
       get { return msg_; }
       set {
@@ -9047,6 +12804,7 @@ namespace Pbx {
     public const int SessFieldNumber = 2;
     private global::Pbx.Session sess_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.Session Sess {
       get { return sess_; }
       set {
@@ -9055,11 +12813,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as ClientReq);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(ClientReq other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -9073,6 +12833,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (msg_ != null) hash ^= Msg.GetHashCode();
@@ -9084,12 +12845,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (msg_ != null) {
         output.WriteRawTag(10);
         output.WriteMessage(Msg);
@@ -9101,9 +12867,29 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (msg_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Msg);
+      }
+      if (sess_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Sess);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (msg_ != null) {
@@ -9119,19 +12905,20 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(ClientReq other) {
       if (other == null) {
         return;
       }
       if (other.msg_ != null) {
         if (msg_ == null) {
-          msg_ = new global::Pbx.ClientMsg();
+          Msg = new global::Pbx.ClientMsg();
         }
         Msg.MergeFrom(other.Msg);
       }
       if (other.sess_ != null) {
         if (sess_ == null) {
-          sess_ = new global::Pbx.Session();
+          Sess = new global::Pbx.Session();
         }
         Sess.MergeFrom(other.Sess);
       }
@@ -9139,7 +12926,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -9148,41 +12939,79 @@ namespace Pbx {
             break;
           case 10: {
             if (msg_ == null) {
-              msg_ = new global::Pbx.ClientMsg();
+              Msg = new global::Pbx.ClientMsg();
             }
-            input.ReadMessage(msg_);
+            input.ReadMessage(Msg);
             break;
           }
           case 18: {
             if (sess_ == null) {
-              sess_ = new global::Pbx.Session();
+              Sess = new global::Pbx.Session();
             }
-            input.ReadMessage(sess_);
+            input.ReadMessage(Sess);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (msg_ == null) {
+              Msg = new global::Pbx.ClientMsg();
+            }
+            input.ReadMessage(Msg);
+            break;
+          }
+          case 18: {
+            if (sess_ == null) {
+              Sess = new global::Pbx.Session();
+            }
+            input.ReadMessage(Sess);
             break;
           }
         }
       }
     }
+    #endif
 
   }
 
-  public sealed partial class SearchQuery : pb::IMessage<SearchQuery> {
+  public sealed partial class SearchQuery : pb::IMessage<SearchQuery>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<SearchQuery> _parser = new pb::MessageParser<SearchQuery>(() => new SearchQuery());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<SearchQuery> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[34]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[35]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public SearchQuery() {
       OnConstruction();
     }
@@ -9190,6 +13019,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public SearchQuery(SearchQuery other) : this() {
       userId_ = other.userId_;
       query_ = other.query_;
@@ -9197,6 +13027,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public SearchQuery Clone() {
       return new SearchQuery(this);
     }
@@ -9205,6 +13036,7 @@ namespace Pbx {
     public const int UserIdFieldNumber = 1;
     private string userId_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string UserId {
       get { return userId_; }
       set {
@@ -9216,6 +13048,7 @@ namespace Pbx {
     public const int QueryFieldNumber = 2;
     private string query_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Query {
       get { return query_; }
       set {
@@ -9224,11 +13057,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as SearchQuery);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(SearchQuery other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -9242,6 +13077,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (UserId.Length != 0) hash ^= UserId.GetHashCode();
@@ -9253,12 +13089,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
       if (UserId.Length != 0) {
         output.WriteRawTag(10);
         output.WriteString(UserId);
@@ -9270,9 +13111,29 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (UserId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(UserId);
+      }
+      if (Query.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Query);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (UserId.Length != 0) {
@@ -9288,6 +13149,7 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(SearchQuery other) {
       if (other == null) {
         return;
@@ -9302,7 +13164,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -9319,27 +13185,59 @@ namespace Pbx {
           }
         }
       }
+    #endif
     }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            UserId = input.ReadString();
+            break;
+          }
+          case 18: {
+            Query = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
 
   }
 
-  public sealed partial class SearchFound : pb::IMessage<SearchFound> {
+  public sealed partial class SearchFound : pb::IMessage<SearchFound>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<SearchFound> _parser = new pb::MessageParser<SearchFound>(() => new SearchFound());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<SearchFound> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[35]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[36]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public SearchFound() {
       OnConstruction();
     }
@@ -9347,6 +13245,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public SearchFound(SearchFound other) : this() {
       status_ = other.status_;
       query_ = other.query_;
@@ -9355,14 +13254,16 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public SearchFound Clone() {
       return new SearchFound(this);
     }
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 1;
-    private global::Pbx.RespCode status_ = 0;
+    private global::Pbx.RespCode status_ = global::Pbx.RespCode.Continue;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.RespCode Status {
       get { return status_; }
       set {
@@ -9377,6 +13278,7 @@ namespace Pbx {
     /// New search query If status == REPLACE, otherwise unset.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Query {
       get { return query_; }
       set {
@@ -9393,16 +13295,19 @@ namespace Pbx {
     /// Search results.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::Pbx.TopicSub> Result {
       get { return result_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as SearchFound);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(SearchFound other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -9417,9 +13322,10 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (Status != 0) hash ^= Status.GetHashCode();
+      if (Status != global::Pbx.RespCode.Continue) hash ^= Status.GetHashCode();
       if (Query.Length != 0) hash ^= Query.GetHashCode();
       hash ^= result_.GetHashCode();
       if (_unknownFields != null) {
@@ -9429,13 +13335,18 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (Status != 0) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Status != global::Pbx.RespCode.Continue) {
         output.WriteRawTag(8);
         output.WriteEnum((int) Status);
       }
@@ -9447,12 +13358,33 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Status != global::Pbx.RespCode.Continue) {
+        output.WriteRawTag(8);
+        output.WriteEnum((int) Status);
+      }
+      if (Query.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Query);
+      }
+      result_.WriteTo(ref output, _repeated_result_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (Status != 0) {
+      if (Status != global::Pbx.RespCode.Continue) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       if (Query.Length != 0) {
@@ -9466,11 +13398,12 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(SearchFound other) {
       if (other == null) {
         return;
       }
-      if (other.Status != 0) {
+      if (other.Status != global::Pbx.RespCode.Continue) {
         Status = other.Status;
       }
       if (other.Query.Length != 0) {
@@ -9481,7 +13414,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -9489,7 +13426,7 @@ namespace Pbx {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            status_ = (global::Pbx.RespCode) input.ReadEnum();
+            Status = (global::Pbx.RespCode) input.ReadEnum();
             break;
           }
           case 18: {
@@ -9502,27 +13439,63 @@ namespace Pbx {
           }
         }
       }
+    #endif
     }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            Status = (global::Pbx.RespCode) input.ReadEnum();
+            break;
+          }
+          case 18: {
+            Query = input.ReadString();
+            break;
+          }
+          case 26: {
+            result_.AddEntriesFrom(ref input, _repeated_result_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
 
   }
 
-  public sealed partial class TopicEvent : pb::IMessage<TopicEvent> {
+  public sealed partial class TopicEvent : pb::IMessage<TopicEvent>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<TopicEvent> _parser = new pb::MessageParser<TopicEvent>(() => new TopicEvent());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<TopicEvent> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[36]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[37]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public TopicEvent() {
       OnConstruction();
     }
@@ -9530,6 +13503,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public TopicEvent(TopicEvent other) : this() {
       action_ = other.action_;
       name_ = other.name_;
@@ -9538,14 +13512,16 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public TopicEvent Clone() {
       return new TopicEvent(this);
     }
 
     /// <summary>Field number for the "action" field.</summary>
     public const int ActionFieldNumber = 1;
-    private global::Pbx.Crud action_ = 0;
+    private global::Pbx.Crud action_ = global::Pbx.Crud.Create;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.Crud Action {
       get { return action_; }
       set {
@@ -9557,6 +13533,7 @@ namespace Pbx {
     public const int NameFieldNumber = 2;
     private string name_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Name {
       get { return name_; }
       set {
@@ -9568,6 +13545,7 @@ namespace Pbx {
     public const int DescFieldNumber = 3;
     private global::Pbx.TopicDesc desc_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.TopicDesc Desc {
       get { return desc_; }
       set {
@@ -9576,11 +13554,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as TopicEvent);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(TopicEvent other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -9595,9 +13575,10 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (Action != 0) hash ^= Action.GetHashCode();
+      if (Action != global::Pbx.Crud.Create) hash ^= Action.GetHashCode();
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (desc_ != null) hash ^= Desc.GetHashCode();
       if (_unknownFields != null) {
@@ -9607,13 +13588,18 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (Action != 0) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Action != global::Pbx.Crud.Create) {
         output.WriteRawTag(8);
         output.WriteEnum((int) Action);
       }
@@ -9628,12 +13614,36 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Action != global::Pbx.Crud.Create) {
+        output.WriteRawTag(8);
+        output.WriteEnum((int) Action);
+      }
+      if (Name.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Name);
+      }
+      if (desc_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Desc);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (Action != 0) {
+      if (Action != global::Pbx.Crud.Create) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Action);
       }
       if (Name.Length != 0) {
@@ -9649,11 +13659,12 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(TopicEvent other) {
       if (other == null) {
         return;
       }
-      if (other.Action != 0) {
+      if (other.Action != global::Pbx.Crud.Create) {
         Action = other.Action;
       }
       if (other.Name.Length != 0) {
@@ -9661,7 +13672,7 @@ namespace Pbx {
       }
       if (other.desc_ != null) {
         if (desc_ == null) {
-          desc_ = new global::Pbx.TopicDesc();
+          Desc = new global::Pbx.TopicDesc();
         }
         Desc.MergeFrom(other.Desc);
       }
@@ -9669,7 +13680,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -9677,7 +13692,7 @@ namespace Pbx {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            action_ = (global::Pbx.Crud) input.ReadEnum();
+            Action = (global::Pbx.Crud) input.ReadEnum();
             break;
           }
           case 18: {
@@ -9686,34 +13701,73 @@ namespace Pbx {
           }
           case 26: {
             if (desc_ == null) {
-              desc_ = new global::Pbx.TopicDesc();
+              Desc = new global::Pbx.TopicDesc();
             }
-            input.ReadMessage(desc_);
+            input.ReadMessage(Desc);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            Action = (global::Pbx.Crud) input.ReadEnum();
+            break;
+          }
+          case 18: {
+            Name = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (desc_ == null) {
+              Desc = new global::Pbx.TopicDesc();
+            }
+            input.ReadMessage(Desc);
             break;
           }
         }
       }
     }
+    #endif
 
   }
 
-  public sealed partial class AccountEvent : pb::IMessage<AccountEvent> {
+  public sealed partial class AccountEvent : pb::IMessage<AccountEvent>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<AccountEvent> _parser = new pb::MessageParser<AccountEvent>(() => new AccountEvent());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<AccountEvent> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[37]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[38]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public AccountEvent() {
       OnConstruction();
     }
@@ -9721,6 +13775,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public AccountEvent(AccountEvent other) : this() {
       action_ = other.action_;
       userId_ = other.userId_;
@@ -9731,14 +13786,16 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public AccountEvent Clone() {
       return new AccountEvent(this);
     }
 
     /// <summary>Field number for the "action" field.</summary>
     public const int ActionFieldNumber = 1;
-    private global::Pbx.Crud action_ = 0;
+    private global::Pbx.Crud action_ = global::Pbx.Crud.Create;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.Crud Action {
       get { return action_; }
       set {
@@ -9750,6 +13807,7 @@ namespace Pbx {
     public const int UserIdFieldNumber = 2;
     private string userId_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string UserId {
       get { return userId_; }
       set {
@@ -9761,6 +13819,7 @@ namespace Pbx {
     public const int DefaultAcsFieldNumber = 3;
     private global::Pbx.DefaultAcsMode defaultAcs_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.DefaultAcsMode DefaultAcs {
       get { return defaultAcs_; }
       set {
@@ -9772,6 +13831,7 @@ namespace Pbx {
     public const int PublicFieldNumber = 4;
     private pb::ByteString public_ = pb::ByteString.Empty;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pb::ByteString Public {
       get { return public_; }
       set {
@@ -9788,16 +13848,19 @@ namespace Pbx {
     /// Indexable tags for user discovery
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<string> Tags {
       get { return tags_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as AccountEvent);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(AccountEvent other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -9814,9 +13877,10 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (Action != 0) hash ^= Action.GetHashCode();
+      if (Action != global::Pbx.Crud.Create) hash ^= Action.GetHashCode();
       if (UserId.Length != 0) hash ^= UserId.GetHashCode();
       if (defaultAcs_ != null) hash ^= DefaultAcs.GetHashCode();
       if (Public.Length != 0) hash ^= Public.GetHashCode();
@@ -9828,13 +13892,18 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (Action != 0) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Action != global::Pbx.Crud.Create) {
         output.WriteRawTag(8);
         output.WriteEnum((int) Action);
       }
@@ -9854,12 +13923,41 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Action != global::Pbx.Crud.Create) {
+        output.WriteRawTag(8);
+        output.WriteEnum((int) Action);
+      }
+      if (UserId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(UserId);
+      }
+      if (defaultAcs_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(DefaultAcs);
+      }
+      if (Public.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteBytes(Public);
+      }
+      tags_.WriteTo(ref output, _repeated_tags_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (Action != 0) {
+      if (Action != global::Pbx.Crud.Create) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Action);
       }
       if (UserId.Length != 0) {
@@ -9879,11 +13977,12 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(AccountEvent other) {
       if (other == null) {
         return;
       }
-      if (other.Action != 0) {
+      if (other.Action != global::Pbx.Crud.Create) {
         Action = other.Action;
       }
       if (other.UserId.Length != 0) {
@@ -9891,7 +13990,7 @@ namespace Pbx {
       }
       if (other.defaultAcs_ != null) {
         if (defaultAcs_ == null) {
-          defaultAcs_ = new global::Pbx.DefaultAcsMode();
+          DefaultAcs = new global::Pbx.DefaultAcsMode();
         }
         DefaultAcs.MergeFrom(other.DefaultAcs);
       }
@@ -9903,7 +14002,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -9911,7 +14014,7 @@ namespace Pbx {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            action_ = (global::Pbx.Crud) input.ReadEnum();
+            Action = (global::Pbx.Crud) input.ReadEnum();
             break;
           }
           case 18: {
@@ -9920,9 +14023,9 @@ namespace Pbx {
           }
           case 26: {
             if (defaultAcs_ == null) {
-              defaultAcs_ = new global::Pbx.DefaultAcsMode();
+              DefaultAcs = new global::Pbx.DefaultAcsMode();
             }
-            input.ReadMessage(defaultAcs_);
+            input.ReadMessage(DefaultAcs);
             break;
           }
           case 34: {
@@ -9935,27 +14038,74 @@ namespace Pbx {
           }
         }
       }
+    #endif
     }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            Action = (global::Pbx.Crud) input.ReadEnum();
+            break;
+          }
+          case 18: {
+            UserId = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (defaultAcs_ == null) {
+              DefaultAcs = new global::Pbx.DefaultAcsMode();
+            }
+            input.ReadMessage(DefaultAcs);
+            break;
+          }
+          case 34: {
+            Public = input.ReadBytes();
+            break;
+          }
+          case 66: {
+            tags_.AddEntriesFrom(ref input, _repeated_tags_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
 
   }
 
-  public sealed partial class SubscriptionEvent : pb::IMessage<SubscriptionEvent> {
+  public sealed partial class SubscriptionEvent : pb::IMessage<SubscriptionEvent>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<SubscriptionEvent> _parser = new pb::MessageParser<SubscriptionEvent>(() => new SubscriptionEvent());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<SubscriptionEvent> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[38]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[39]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public SubscriptionEvent() {
       OnConstruction();
     }
@@ -9963,6 +14113,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public SubscriptionEvent(SubscriptionEvent other) : this() {
       action_ = other.action_;
       topic_ = other.topic_;
@@ -9976,14 +14127,16 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public SubscriptionEvent Clone() {
       return new SubscriptionEvent(this);
     }
 
     /// <summary>Field number for the "action" field.</summary>
     public const int ActionFieldNumber = 1;
-    private global::Pbx.Crud action_ = 0;
+    private global::Pbx.Crud action_ = global::Pbx.Crud.Create;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.Crud Action {
       get { return action_; }
       set {
@@ -9995,6 +14148,7 @@ namespace Pbx {
     public const int TopicFieldNumber = 2;
     private string topic_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Topic {
       get { return topic_; }
       set {
@@ -10006,6 +14160,7 @@ namespace Pbx {
     public const int UserIdFieldNumber = 3;
     private string userId_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string UserId {
       get { return userId_; }
       set {
@@ -10017,6 +14172,7 @@ namespace Pbx {
     public const int DelIdFieldNumber = 4;
     private int delId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int DelId {
       get { return delId_; }
       set {
@@ -10028,6 +14184,7 @@ namespace Pbx {
     public const int ReadIdFieldNumber = 5;
     private int readId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int ReadId {
       get { return readId_; }
       set {
@@ -10039,6 +14196,7 @@ namespace Pbx {
     public const int RecvIdFieldNumber = 6;
     private int recvId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int RecvId {
       get { return recvId_; }
       set {
@@ -10050,6 +14208,7 @@ namespace Pbx {
     public const int ModeFieldNumber = 7;
     private global::Pbx.AccessMode mode_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.AccessMode Mode {
       get { return mode_; }
       set {
@@ -10061,6 +14220,7 @@ namespace Pbx {
     public const int PrivateFieldNumber = 8;
     private pb::ByteString private_ = pb::ByteString.Empty;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pb::ByteString Private {
       get { return private_; }
       set {
@@ -10069,11 +14229,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as SubscriptionEvent);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(SubscriptionEvent other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -10093,9 +14255,10 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (Action != 0) hash ^= Action.GetHashCode();
+      if (Action != global::Pbx.Crud.Create) hash ^= Action.GetHashCode();
       if (Topic.Length != 0) hash ^= Topic.GetHashCode();
       if (UserId.Length != 0) hash ^= UserId.GetHashCode();
       if (DelId != 0) hash ^= DelId.GetHashCode();
@@ -10110,13 +14273,18 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (Action != 0) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Action != global::Pbx.Crud.Create) {
         output.WriteRawTag(8);
         output.WriteEnum((int) Action);
       }
@@ -10151,12 +14319,56 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Action != global::Pbx.Crud.Create) {
+        output.WriteRawTag(8);
+        output.WriteEnum((int) Action);
+      }
+      if (Topic.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Topic);
+      }
+      if (UserId.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(UserId);
+      }
+      if (DelId != 0) {
+        output.WriteRawTag(32);
+        output.WriteInt32(DelId);
+      }
+      if (ReadId != 0) {
+        output.WriteRawTag(40);
+        output.WriteInt32(ReadId);
+      }
+      if (RecvId != 0) {
+        output.WriteRawTag(48);
+        output.WriteInt32(RecvId);
+      }
+      if (mode_ != null) {
+        output.WriteRawTag(58);
+        output.WriteMessage(Mode);
+      }
+      if (Private.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteBytes(Private);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (Action != 0) {
+      if (Action != global::Pbx.Crud.Create) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Action);
       }
       if (Topic.Length != 0) {
@@ -10187,11 +14399,12 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(SubscriptionEvent other) {
       if (other == null) {
         return;
       }
-      if (other.Action != 0) {
+      if (other.Action != global::Pbx.Crud.Create) {
         Action = other.Action;
       }
       if (other.Topic.Length != 0) {
@@ -10211,7 +14424,7 @@ namespace Pbx {
       }
       if (other.mode_ != null) {
         if (mode_ == null) {
-          mode_ = new global::Pbx.AccessMode();
+          Mode = new global::Pbx.AccessMode();
         }
         Mode.MergeFrom(other.Mode);
       }
@@ -10222,7 +14435,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -10230,7 +14447,7 @@ namespace Pbx {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            action_ = (global::Pbx.Crud) input.ReadEnum();
+            Action = (global::Pbx.Crud) input.ReadEnum();
             break;
           }
           case 18: {
@@ -10255,9 +14472,59 @@ namespace Pbx {
           }
           case 58: {
             if (mode_ == null) {
-              mode_ = new global::Pbx.AccessMode();
+              Mode = new global::Pbx.AccessMode();
             }
-            input.ReadMessage(mode_);
+            input.ReadMessage(Mode);
+            break;
+          }
+          case 66: {
+            Private = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            Action = (global::Pbx.Crud) input.ReadEnum();
+            break;
+          }
+          case 18: {
+            Topic = input.ReadString();
+            break;
+          }
+          case 26: {
+            UserId = input.ReadString();
+            break;
+          }
+          case 32: {
+            DelId = input.ReadInt32();
+            break;
+          }
+          case 40: {
+            ReadId = input.ReadInt32();
+            break;
+          }
+          case 48: {
+            RecvId = input.ReadInt32();
+            break;
+          }
+          case 58: {
+            if (mode_ == null) {
+              Mode = new global::Pbx.AccessMode();
+            }
+            input.ReadMessage(Mode);
             break;
           }
           case 66: {
@@ -10267,26 +14534,35 @@ namespace Pbx {
         }
       }
     }
+    #endif
 
   }
 
-  public sealed partial class MessageEvent : pb::IMessage<MessageEvent> {
+  public sealed partial class MessageEvent : pb::IMessage<MessageEvent>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
     private static readonly pb::MessageParser<MessageEvent> _parser = new pb::MessageParser<MessageEvent>(() => new MessageEvent());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<MessageEvent> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[39]; }
+      get { return global::Pbx.ModelReflection.Descriptor.MessageTypes[40]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public MessageEvent() {
       OnConstruction();
     }
@@ -10294,6 +14570,7 @@ namespace Pbx {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public MessageEvent(MessageEvent other) : this() {
       action_ = other.action_;
       msg_ = other.msg_ != null ? other.msg_.Clone() : null;
@@ -10301,14 +14578,16 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public MessageEvent Clone() {
       return new MessageEvent(this);
     }
 
     /// <summary>Field number for the "action" field.</summary>
     public const int ActionFieldNumber = 1;
-    private global::Pbx.Crud action_ = 0;
+    private global::Pbx.Crud action_ = global::Pbx.Crud.Create;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.Crud Action {
       get { return action_; }
       set {
@@ -10320,6 +14599,7 @@ namespace Pbx {
     public const int MsgFieldNumber = 2;
     private global::Pbx.ServerData msg_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Pbx.ServerData Msg {
       get { return msg_; }
       set {
@@ -10328,11 +14608,13 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as MessageEvent);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(MessageEvent other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -10346,9 +14628,10 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (Action != 0) hash ^= Action.GetHashCode();
+      if (Action != global::Pbx.Crud.Create) hash ^= Action.GetHashCode();
       if (msg_ != null) hash ^= Msg.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -10357,13 +14640,18 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (Action != 0) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Action != global::Pbx.Crud.Create) {
         output.WriteRawTag(8);
         output.WriteEnum((int) Action);
       }
@@ -10374,12 +14662,32 @@ namespace Pbx {
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
+    #endif
     }
 
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Action != global::Pbx.Crud.Create) {
+        output.WriteRawTag(8);
+        output.WriteEnum((int) Action);
+      }
+      if (msg_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Msg);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (Action != 0) {
+      if (Action != global::Pbx.Crud.Create) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Action);
       }
       if (msg_ != null) {
@@ -10392,16 +14700,17 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(MessageEvent other) {
       if (other == null) {
         return;
       }
-      if (other.Action != 0) {
+      if (other.Action != global::Pbx.Crud.Create) {
         Action = other.Action;
       }
       if (other.msg_ != null) {
         if (msg_ == null) {
-          msg_ = new global::Pbx.ServerData();
+          Msg = new global::Pbx.ServerData();
         }
         Msg.MergeFrom(other.Msg);
       }
@@ -10409,7 +14718,11 @@ namespace Pbx {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -10417,19 +14730,46 @@ namespace Pbx {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            action_ = (global::Pbx.Crud) input.ReadEnum();
+            Action = (global::Pbx.Crud) input.ReadEnum();
             break;
           }
           case 18: {
             if (msg_ == null) {
-              msg_ = new global::Pbx.ServerData();
+              Msg = new global::Pbx.ServerData();
             }
-            input.ReadMessage(msg_);
+            input.ReadMessage(Msg);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            Action = (global::Pbx.Crud) input.ReadEnum();
+            break;
+          }
+          case 18: {
+            if (msg_ == null) {
+              Msg = new global::Pbx.ServerData();
+            }
+            input.ReadMessage(Msg);
             break;
           }
         }
       }
     }
+    #endif
 
   }
 

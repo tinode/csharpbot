@@ -15,9 +15,45 @@ namespace Pbx {
   {
     static readonly string __ServiceName = "pbx.Node";
 
-    static readonly grpc::Marshaller<global::Pbx.ClientMsg> __Marshaller_pbx_ClientMsg = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Pbx.ClientMsg.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Pbx.ServerMsg> __Marshaller_pbx_ServerMsg = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Pbx.ServerMsg.Parser.ParseFrom);
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (message is global::Google.Protobuf.IBufferMessage)
+      {
+        context.SetPayloadLength(message.CalculateSize());
+        global::Google.Protobuf.MessageExtensions.WriteTo(message, context.GetBufferWriter());
+        context.Complete();
+        return;
+      }
+      #endif
+      context.Complete(global::Google.Protobuf.MessageExtensions.ToByteArray(message));
+    }
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static class __Helper_MessageCache<T>
+    {
+      public static readonly bool IsBufferMessage = global::System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(global::Google.Protobuf.IBufferMessage)).IsAssignableFrom(typeof(T));
+    }
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static T __Helper_DeserializeMessage<T>(grpc::DeserializationContext context, global::Google.Protobuf.MessageParser<T> parser) where T : global::Google.Protobuf.IMessage<T>
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (__Helper_MessageCache<T>.IsBufferMessage)
+      {
+        return parser.ParseFrom(context.PayloadAsReadOnlySequence());
+      }
+      #endif
+      return parser.ParseFrom(context.PayloadAsNewBuffer());
+    }
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Pbx.ClientMsg> __Marshaller_pbx_ClientMsg = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Pbx.ClientMsg.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Pbx.ServerMsg> __Marshaller_pbx_ServerMsg = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Pbx.ServerMsg.Parser));
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Pbx.ClientMsg, global::Pbx.ServerMsg> __Method_MessageLoop = new grpc::Method<global::Pbx.ClientMsg, global::Pbx.ServerMsg>(
         grpc::MethodType.DuplexStreaming,
         __ServiceName,
@@ -32,6 +68,7 @@ namespace Pbx {
     }
 
     /// <summary>Base class for server-side implementations of Node</summary>
+    [grpc::BindServiceMethod(typeof(Node), "BindService")]
     public abstract partial class NodeBase
     {
       /// <summary>
@@ -41,6 +78,7 @@ namespace Pbx {
       /// <param name="responseStream">Used for sending responses back to the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
       /// <returns>A task indicating completion of the handler.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task MessageLoop(grpc::IAsyncStreamReader<global::Pbx.ClientMsg> requestStream, grpc::IServerStreamWriter<global::Pbx.ServerMsg> responseStream, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
@@ -53,20 +91,24 @@ namespace Pbx {
     {
       /// <summary>Creates a new client for Node</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public NodeClient(grpc::Channel channel) : base(channel)
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public NodeClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for Node that uses a custom <c>CallInvoker</c>.</summary>
       /// <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public NodeClient(grpc::CallInvoker callInvoker) : base(callInvoker)
       {
       }
       /// <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected NodeClient() : base()
       {
       }
       /// <summary>Protected constructor to allow creation of configured clients.</summary>
       /// <param name="configuration">The client configuration.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected NodeClient(ClientBaseConfiguration configuration) : base(configuration)
       {
       }
@@ -78,6 +120,7 @@ namespace Pbx {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncDuplexStreamingCall<global::Pbx.ClientMsg, global::Pbx.ServerMsg> MessageLoop(grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return MessageLoop(new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -87,11 +130,13 @@ namespace Pbx {
       /// </summary>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncDuplexStreamingCall<global::Pbx.ClientMsg, global::Pbx.ServerMsg> MessageLoop(grpc::CallOptions options)
       {
         return CallInvoker.AsyncDuplexStreamingCall(__Method_MessageLoop, null, options);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected override NodeClient NewInstance(ClientBaseConfiguration configuration)
       {
         return new NodeClient(configuration);
@@ -100,10 +145,21 @@ namespace Pbx {
 
     /// <summary>Creates service definition that can be registered with a server</summary>
     /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     public static grpc::ServerServiceDefinition BindService(NodeBase serviceImpl)
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
           .AddMethod(__Method_MessageLoop, serviceImpl.MessageLoop).Build();
+    }
+
+    /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
+    /// Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
+    /// <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
+    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public static void BindService(grpc::ServiceBinderBase serviceBinder, NodeBase serviceImpl)
+    {
+      serviceBinder.AddMethod(__Method_MessageLoop, serviceImpl == null ? null : new grpc::DuplexStreamingServerMethod<global::Pbx.ClientMsg, global::Pbx.ServerMsg>(serviceImpl.MessageLoop));
     }
 
   }
@@ -114,16 +170,59 @@ namespace Pbx {
   {
     static readonly string __ServiceName = "pbx.Plugin";
 
-    static readonly grpc::Marshaller<global::Pbx.ClientReq> __Marshaller_pbx_ClientReq = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Pbx.ClientReq.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Pbx.ServerResp> __Marshaller_pbx_ServerResp = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Pbx.ServerResp.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Pbx.SearchQuery> __Marshaller_pbx_SearchQuery = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Pbx.SearchQuery.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Pbx.SearchFound> __Marshaller_pbx_SearchFound = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Pbx.SearchFound.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Pbx.AccountEvent> __Marshaller_pbx_AccountEvent = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Pbx.AccountEvent.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Pbx.Unused> __Marshaller_pbx_Unused = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Pbx.Unused.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Pbx.TopicEvent> __Marshaller_pbx_TopicEvent = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Pbx.TopicEvent.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Pbx.SubscriptionEvent> __Marshaller_pbx_SubscriptionEvent = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Pbx.SubscriptionEvent.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Pbx.MessageEvent> __Marshaller_pbx_MessageEvent = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Pbx.MessageEvent.Parser.ParseFrom);
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (message is global::Google.Protobuf.IBufferMessage)
+      {
+        context.SetPayloadLength(message.CalculateSize());
+        global::Google.Protobuf.MessageExtensions.WriteTo(message, context.GetBufferWriter());
+        context.Complete();
+        return;
+      }
+      #endif
+      context.Complete(global::Google.Protobuf.MessageExtensions.ToByteArray(message));
+    }
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static class __Helper_MessageCache<T>
+    {
+      public static readonly bool IsBufferMessage = global::System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(global::Google.Protobuf.IBufferMessage)).IsAssignableFrom(typeof(T));
+    }
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static T __Helper_DeserializeMessage<T>(grpc::DeserializationContext context, global::Google.Protobuf.MessageParser<T> parser) where T : global::Google.Protobuf.IMessage<T>
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (__Helper_MessageCache<T>.IsBufferMessage)
+      {
+        return parser.ParseFrom(context.PayloadAsReadOnlySequence());
+      }
+      #endif
+      return parser.ParseFrom(context.PayloadAsNewBuffer());
+    }
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Pbx.ClientReq> __Marshaller_pbx_ClientReq = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Pbx.ClientReq.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Pbx.ServerResp> __Marshaller_pbx_ServerResp = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Pbx.ServerResp.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Pbx.SearchQuery> __Marshaller_pbx_SearchQuery = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Pbx.SearchQuery.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Pbx.SearchFound> __Marshaller_pbx_SearchFound = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Pbx.SearchFound.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Pbx.AccountEvent> __Marshaller_pbx_AccountEvent = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Pbx.AccountEvent.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Pbx.Unused> __Marshaller_pbx_Unused = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Pbx.Unused.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Pbx.TopicEvent> __Marshaller_pbx_TopicEvent = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Pbx.TopicEvent.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Pbx.SubscriptionEvent> __Marshaller_pbx_SubscriptionEvent = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Pbx.SubscriptionEvent.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Pbx.MessageEvent> __Marshaller_pbx_MessageEvent = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Pbx.MessageEvent.Parser));
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Pbx.ClientReq, global::Pbx.ServerResp> __Method_FireHose = new grpc::Method<global::Pbx.ClientReq, global::Pbx.ServerResp>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -131,6 +230,7 @@ namespace Pbx {
         __Marshaller_pbx_ClientReq,
         __Marshaller_pbx_ServerResp);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Pbx.SearchQuery, global::Pbx.SearchFound> __Method_Find = new grpc::Method<global::Pbx.SearchQuery, global::Pbx.SearchFound>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -138,6 +238,7 @@ namespace Pbx {
         __Marshaller_pbx_SearchQuery,
         __Marshaller_pbx_SearchFound);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Pbx.AccountEvent, global::Pbx.Unused> __Method_Account = new grpc::Method<global::Pbx.AccountEvent, global::Pbx.Unused>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -145,6 +246,7 @@ namespace Pbx {
         __Marshaller_pbx_AccountEvent,
         __Marshaller_pbx_Unused);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Pbx.TopicEvent, global::Pbx.Unused> __Method_Topic = new grpc::Method<global::Pbx.TopicEvent, global::Pbx.Unused>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -152,6 +254,7 @@ namespace Pbx {
         __Marshaller_pbx_TopicEvent,
         __Marshaller_pbx_Unused);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Pbx.SubscriptionEvent, global::Pbx.Unused> __Method_Subscription = new grpc::Method<global::Pbx.SubscriptionEvent, global::Pbx.Unused>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -159,6 +262,7 @@ namespace Pbx {
         __Marshaller_pbx_SubscriptionEvent,
         __Marshaller_pbx_Unused);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Pbx.MessageEvent, global::Pbx.Unused> __Method_Message = new grpc::Method<global::Pbx.MessageEvent, global::Pbx.Unused>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -173,6 +277,7 @@ namespace Pbx {
     }
 
     /// <summary>Base class for server-side implementations of Plugin</summary>
+    [grpc::BindServiceMethod(typeof(Plugin), "BindService")]
     public abstract partial class PluginBase
     {
       /// <summary>
@@ -185,6 +290,7 @@ namespace Pbx {
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Pbx.ServerResp> FireHose(global::Pbx.ClientReq request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
@@ -197,6 +303,7 @@ namespace Pbx {
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Pbx.SearchFound> Find(global::Pbx.SearchQuery request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
@@ -208,6 +315,7 @@ namespace Pbx {
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Pbx.Unused> Account(global::Pbx.AccountEvent request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
@@ -219,6 +327,7 @@ namespace Pbx {
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Pbx.Unused> Topic(global::Pbx.TopicEvent request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
@@ -230,6 +339,7 @@ namespace Pbx {
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Pbx.Unused> Subscription(global::Pbx.SubscriptionEvent request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
@@ -241,6 +351,7 @@ namespace Pbx {
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Pbx.Unused> Message(global::Pbx.MessageEvent request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
@@ -253,20 +364,24 @@ namespace Pbx {
     {
       /// <summary>Creates a new client for Plugin</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public PluginClient(grpc::Channel channel) : base(channel)
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public PluginClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for Plugin that uses a custom <c>CallInvoker</c>.</summary>
       /// <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public PluginClient(grpc::CallInvoker callInvoker) : base(callInvoker)
       {
       }
       /// <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected PluginClient() : base()
       {
       }
       /// <summary>Protected constructor to allow creation of configured clients.</summary>
       /// <param name="configuration">The client configuration.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected PluginClient(ClientBaseConfiguration configuration) : base(configuration)
       {
       }
@@ -283,6 +398,7 @@ namespace Pbx {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Pbx.ServerResp FireHose(global::Pbx.ClientReq request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return FireHose(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -297,6 +413,7 @@ namespace Pbx {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Pbx.ServerResp FireHose(global::Pbx.ClientReq request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_FireHose, null, options, request);
@@ -313,6 +430,7 @@ namespace Pbx {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Pbx.ServerResp> FireHoseAsync(global::Pbx.ClientReq request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return FireHoseAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -327,6 +445,7 @@ namespace Pbx {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Pbx.ServerResp> FireHoseAsync(global::Pbx.ClientReq request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_FireHose, null, options, request);
@@ -340,6 +459,7 @@ namespace Pbx {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Pbx.SearchFound Find(global::Pbx.SearchQuery request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return Find(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -351,6 +471,7 @@ namespace Pbx {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Pbx.SearchFound Find(global::Pbx.SearchQuery request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_Find, null, options, request);
@@ -364,6 +485,7 @@ namespace Pbx {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Pbx.SearchFound> FindAsync(global::Pbx.SearchQuery request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return FindAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -375,6 +497,7 @@ namespace Pbx {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Pbx.SearchFound> FindAsync(global::Pbx.SearchQuery request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_Find, null, options, request);
@@ -387,6 +510,7 @@ namespace Pbx {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Pbx.Unused Account(global::Pbx.AccountEvent request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return Account(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -397,6 +521,7 @@ namespace Pbx {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Pbx.Unused Account(global::Pbx.AccountEvent request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_Account, null, options, request);
@@ -409,6 +534,7 @@ namespace Pbx {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Pbx.Unused> AccountAsync(global::Pbx.AccountEvent request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return AccountAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -419,6 +545,7 @@ namespace Pbx {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Pbx.Unused> AccountAsync(global::Pbx.AccountEvent request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_Account, null, options, request);
@@ -431,6 +558,7 @@ namespace Pbx {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Pbx.Unused Topic(global::Pbx.TopicEvent request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return Topic(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -441,6 +569,7 @@ namespace Pbx {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Pbx.Unused Topic(global::Pbx.TopicEvent request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_Topic, null, options, request);
@@ -453,6 +582,7 @@ namespace Pbx {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Pbx.Unused> TopicAsync(global::Pbx.TopicEvent request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return TopicAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -463,6 +593,7 @@ namespace Pbx {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Pbx.Unused> TopicAsync(global::Pbx.TopicEvent request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_Topic, null, options, request);
@@ -475,6 +606,7 @@ namespace Pbx {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Pbx.Unused Subscription(global::Pbx.SubscriptionEvent request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return Subscription(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -485,6 +617,7 @@ namespace Pbx {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Pbx.Unused Subscription(global::Pbx.SubscriptionEvent request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_Subscription, null, options, request);
@@ -497,6 +630,7 @@ namespace Pbx {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Pbx.Unused> SubscriptionAsync(global::Pbx.SubscriptionEvent request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return SubscriptionAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -507,6 +641,7 @@ namespace Pbx {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Pbx.Unused> SubscriptionAsync(global::Pbx.SubscriptionEvent request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_Subscription, null, options, request);
@@ -519,6 +654,7 @@ namespace Pbx {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Pbx.Unused Message(global::Pbx.MessageEvent request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return Message(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -529,6 +665,7 @@ namespace Pbx {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Pbx.Unused Message(global::Pbx.MessageEvent request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_Message, null, options, request);
@@ -541,6 +678,7 @@ namespace Pbx {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Pbx.Unused> MessageAsync(global::Pbx.MessageEvent request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return MessageAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -551,11 +689,13 @@ namespace Pbx {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Pbx.Unused> MessageAsync(global::Pbx.MessageEvent request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_Message, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected override PluginClient NewInstance(ClientBaseConfiguration configuration)
       {
         return new PluginClient(configuration);
@@ -564,6 +704,7 @@ namespace Pbx {
 
     /// <summary>Creates service definition that can be registered with a server</summary>
     /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     public static grpc::ServerServiceDefinition BindService(PluginBase serviceImpl)
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
@@ -573,6 +714,21 @@ namespace Pbx {
           .AddMethod(__Method_Topic, serviceImpl.Topic)
           .AddMethod(__Method_Subscription, serviceImpl.Subscription)
           .AddMethod(__Method_Message, serviceImpl.Message).Build();
+    }
+
+    /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
+    /// Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
+    /// <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
+    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public static void BindService(grpc::ServiceBinderBase serviceBinder, PluginBase serviceImpl)
+    {
+      serviceBinder.AddMethod(__Method_FireHose, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Pbx.ClientReq, global::Pbx.ServerResp>(serviceImpl.FireHose));
+      serviceBinder.AddMethod(__Method_Find, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Pbx.SearchQuery, global::Pbx.SearchFound>(serviceImpl.Find));
+      serviceBinder.AddMethod(__Method_Account, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Pbx.AccountEvent, global::Pbx.Unused>(serviceImpl.Account));
+      serviceBinder.AddMethod(__Method_Topic, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Pbx.TopicEvent, global::Pbx.Unused>(serviceImpl.Topic));
+      serviceBinder.AddMethod(__Method_Subscription, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Pbx.SubscriptionEvent, global::Pbx.Unused>(serviceImpl.Subscription));
+      serviceBinder.AddMethod(__Method_Message, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Pbx.MessageEvent, global::Pbx.Unused>(serviceImpl.Message));
     }
 
   }

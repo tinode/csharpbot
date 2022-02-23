@@ -402,11 +402,11 @@ namespace Tinode.ChatBot
         /// <summary>
         /// Chatbot version
         /// </summary>
-        public string AppVersion => "0.16.0";
+        public string AppVersion => "0.18.1";
         /// <summary>
         /// Chatbot library version
         /// </summary>
-        public string LibVersion => "0.16.0";
+        public string LibVersion => "0.18.1";
         /// <summary>
         /// Chatbot current platfrom information
         /// </summary>
@@ -984,11 +984,11 @@ namespace Tinode.ChatBot
                 RestRequest request;
                 if (string.IsNullOrEmpty(redirectUrl))
                 {
-                    request = new RestRequest(UploadEndpoint, Method.PUT);
+                    request = new RestRequest(UploadEndpoint, Method.Put);
                 }
                 else
                 {
-                    request = new RestRequest(redirectUrl, Method.PUT);
+                    request = new RestRequest(redirectUrl, Method.Put);
                 }
                 
                 request.AddHeader("X-Tinode-APIKey", apiKey);
@@ -997,7 +997,7 @@ namespace Tinode.ChatBot
 
                 request.AddFile("file", fullFileName);
                 var cancellationTokenSource = new CancellationTokenSource();
-                var response = await restClient.ExecuteTaskAsync(request,cancellationTokenSource.Token);
+                var response = await restClient.ExecuteAsync(request,cancellationTokenSource.Token);
                 if (response.StatusCode >= HttpStatusCode.OK && response.StatusCode < HttpStatusCode.BadRequest)
                 {
                     if (response.StatusCode == HttpStatusCode.OK)
